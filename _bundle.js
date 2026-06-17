@@ -13,11 +13,11 @@
 
       "insights.kicker": "Insights",
       "insights.title": "AI in HR — what I'm reading.",
-      "insights.sub": "A weekly, automatically curated digest of the most relevant articles on AI across the HR and HRIS landscape, each summarised in a few lines.",
+      "insights.sub": "A selection of the most relevant articles on AI across the HR and HRIS landscape, each summarised in a few lines.",
       "insights.loading": "Loading the latest articles…",
 
       "hero.kicker": "HR Technology Transformation",
-      "hero.title": "Enterprise HR systems, delivered with <em>certainty</em>.",
+      "hero.title": "Enterprise HR systems, built for <em>your reality</em>.",
       "hero.sub": "Tujek Consulting partners with senior leaders to select, deploy and embed the world's leading HCM platforms, on time, on budget, and genuinely adopted across the organisation.",
       "hero.cta1": "Email Franck",
       "hero.cta2": "Explore services",
@@ -100,11 +100,11 @@
 
       "insights.kicker": "Analyses",
       "insights.title": "L'IA dans les RH — mes lectures.",
-      "insights.sub": "Une sélection hebdomadaire et automatisée des articles les plus pertinents sur l'IA dans l'univers des RH et des SIRH, chacun résumé en quelques lignes.",
+      "insights.sub": "Une sélection des articles les plus pertinents sur l'IA dans l'univers des RH et des SIRH, chacun résumé en quelques lignes.",
       "insights.loading": "Chargement des derniers articles…",
 
       "hero.kicker": "Transformation des SIRH",
-      "hero.title": "Des SIRH d'entreprise, déployés avec <em>certitude</em>.",
+      "hero.title": "Des SIRH d'entreprise, conçus pour <em>votre réalité</em>.",
       "hero.sub": "Tujek Consulting accompagne les dirigeants dans la sélection, le déploiement et l'ancrage des principales plateformes HCM du marché : dans les délais, dans le budget et réellement adoptées par l'organisation.",
       "hero.cta1": "Écrire à Franck",
       "hero.cta2": "Voir les services",

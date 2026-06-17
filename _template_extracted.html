@@ -1150,7 +1150,7 @@
     <div class="wrap">
       <div class="hero-inner">
         <span class="kicker reveal" data-i18n="hero.kicker">HR Technology Transformation</span>
-        <h1 class="reveal" data-i18n-html="hero.title">Enterprise HR systems, delivered with <em>certainty</em>.</h1>
+        <h1 class="reveal" data-i18n-html="hero.title">Enterprise HR systems, built for <em>your reality</em>.</h1>
         <p class="hero-sub reveal" data-i18n="hero.sub">Tujek Consulting partners with senior leaders to select, deploy and embed the world's leading HCM platforms, on time, on budget, and genuinely adopted across the organisation.</p>
         <div class="hero-cta reveal">
           <a class="btn btn-primary" href="mailto:Franck@Tujekconsulting.ai" data-i18n="hero.cta1">Email Franck <span class="arr">→</span></a>
@@ -1350,7 +1350,7 @@
         <div class="sec-head" style="margin-bottom:0">
           <span class="kicker" data-i18n="insights.kicker">Insights</span>
           <h2 data-i18n="insights.title">AI in HR — what I'm reading.</h2>
-          <p data-i18n="insights.sub">A weekly, automatically curated digest of the most relevant articles on AI across the HR and HRIS landscape, each summarised in a few lines.</p>
+          <p data-i18n="insights.sub">A selection of the most relevant articles on AI across the HR and HRIS landscape, each summarised in a few lines.</p>
         </div>
         <div class="insights-updated" id="insightsUpdated" aria-live="polite"></div>
       </div>
@@ -1457,41 +1457,58 @@
   // Final failsafe: nothing stays hidden no matter what.
   setTimeout(() => reveals.forEach(settle), 1600);
 
-  // ===== INSIGHTS: fetch + render the weekly article digest =====
+  // ===== INSIGHTS: fetch + render the article digest (EN/FR aware) =====
   (function () {
     const listEl = document.getElementById('articleList');
     const updatedEl = document.getElementById('insightsUpdated');
     if (!listEl) return;
 
+    let data = null;
+
     const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => (
       { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
     ));
-    const fmtDate = (iso) => {
+    function curLang() {
+      const l = (document.documentElement.lang || '').toLowerCase();
+      if (l.indexOf('fr') === 0) return 'fr';
+      if (l.indexOf('en') === 0) return 'en';
+      const active = document.querySelector('.lang-toggle button.active');
+      return (active && active.getAttribute('data-lang') === 'fr') ? 'fr' : 'en';
+    }
+    const fmtDate = (iso, lang) => {
       const d = new Date(iso);
       if (isNaN(d)) return esc(iso || '');
-      return d.toLocaleDateString('en-AU', { day: 'numeric', month: 'short', year: 'numeric' });
+      return d.toLocaleDateString(lang === 'fr' ? 'fr-FR' : 'en-AU', { day: 'numeric', month: 'short', year: 'numeric' });
     };
+    function pickSummary(a, lang) {
+      const s = a.summary;
+      if (Array.isArray(s)) return s;                       // single-language (legacy)
+      if (s && typeof s === 'object') return s[lang] || s.en || s.fr || [];
+      return [];
+    }
 
-    function render(data) {
+    function render() {
+      const lang = curLang();
       const articles = (data && Array.isArray(data.articles)) ? data.articles.slice() : [];
       articles.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
 
       if (updatedEl && data && data.updated) {
-        updatedEl.innerHTML = 'Updated <b>' + fmtDate(data.updated) + '</b>';
+        const label = lang === 'fr' ? 'Mis à jour le' : 'Updated';
+        updatedEl.innerHTML = label + ' <b>' + fmtDate(data.updated, lang) + '</b>';
       }
       if (!articles.length) {
-        listEl.innerHTML = '<div class="insights-empty">No articles yet — check back soon.</div>';
+        listEl.innerHTML = '<div class="insights-empty">' +
+          (lang === 'fr' ? 'Aucun article pour le moment.' : 'No articles yet — check back soon.') + '</div>';
         return;
       }
 
       listEl.innerHTML = articles.map((a) => {
-        const bullets = (Array.isArray(a.summary) ? a.summary : [])
-          .map((b) => '<li>' + esc(b) + '</li>').join('');
+        const bullets = pickSummary(a, lang).map((b) => '<li>' + esc(b) + '</li>').join('');
         const source = a.source ? '<span class="article-source">' + esc(a.source) + '</span>' : '';
         return '' +
           '<a class="article-card reveal" href="' + esc(a.url) + '" target="_blank" rel="noopener">' +
             '<div class="article-meta">' +
-              '<span class="article-date">' + fmtDate(a.date) + '</span>' +
+              '<span class="article-date">' + fmtDate(a.date, lang) + '</span>' +
               source +
             '</div>' +
             '<div class="article-main">' +
@@ -1505,17 +1522,24 @@
       const fresh = Array.from(listEl.querySelectorAll('.reveal'));
       fresh.forEach((el, i) => {
         el.style.transitionDelay = (Math.min(i, 4) * 70) + 'ms';
-        reveals.push(el);
+        if (reveals.indexOf(el) === -1) reveals.push(el);
       });
       revealVisible();
       requestAnimationFrame(revealVisible);
     }
 
+    // Re-render the summaries when the visitor switches language.
+    document.querySelectorAll('.lang-toggle button').forEach((b) => {
+      b.addEventListener('click', () => { if (data) setTimeout(render, 0); });
+    });
+
     fetch('./articles.json', { cache: 'no-store' })
       .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-      .then(render)
+      .then((d) => { data = d; render(); })
       .catch(() => {
-        listEl.innerHTML = '<div class="insights-empty">Articles are updated weekly — they’ll appear here once the site is live.</div>';
+        const lang = curLang();
+        listEl.innerHTML = '<div class="insights-empty">' +
+          (lang === 'fr' ? 'Les articles apparaîtront ici prochainement.' : 'Articles will appear here shortly.') + '</div>';
       });
   })();
 </script>
