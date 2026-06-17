@@ -1,0 +1,71 @@
+{
+  "updated": "2026-06-17",
+  "articles": [
+    {
+      "title": "The Reinvention of Workday: From System of Record to Platform of Agents",
+      "url": "https://joshbersin.com/2026/04/the-reinvention-of-workday-from-system-of-record-to-platform-of-agents/",
+      "source": "Josh Bersin",
+      "date": "2026-04-22",
+      "summary": [
+        "Workday is repositioning its HRIS from a transactional system of record into a platform that hosts AI “transformation agents” across HR and finance workflows.",
+        "Its acquisitions of Paradox and Sana signal a bet on a few large, capable agents rather than hundreds of narrow mini-agents.",
+        "Implication for HR leaders: data quality and platform governance become the deciding factors in whether agentic HRIS delivers value."
+      ]
+    },
+    {
+      "title": "The State of AI in HR 2026 Report",
+      "url": "https://www.shrm.org/topics-tools/research/state-of-ai-hr-2026/full-report",
+      "source": "SHRM",
+      "date": "2026-04-24",
+      "summary": [
+        "57% of organisations still run core HR systems with no AI functionality, exposing a wide gap between ambition and current HRIS capability.",
+        "Only about 1 in 4 HR professionals played a leading role in their organisation's AI implementation.",
+        "Calls for joint HR–IT governance frameworks, shared data standards, and a clear plan for privacy, security and the skills gap."
+      ]
+    },
+    {
+      "title": "Federal court to consider AI in hiring as Workday bias case advances",
+      "url": "https://hrexecutive.com/federal-court-to-consider-ai-in-hiring-as-workday-bias-case-advances/",
+      "source": "HR Executive",
+      "date": "2026-05-06",
+      "summary": [
+        "The Mobley v. Workday case advances after a judge declined to dismiss claims, putting AI-driven hiring tools under direct legal scrutiny.",
+        "Plaintiffs argue Workday's recommendation engine disadvantaged applicants over 40, raising disparate-impact questions for AI screening.",
+        "Takeaway: HR now owns AI bias and trust—deployed tools need to be explainable, auditable and defensible."
+      ]
+    },
+    {
+      "title": "The Great Reinvention of Human Resources Has Begun",
+      "url": "https://joshbersin.com/2026/01/the-great-reinvention-of-human-resources-has-begun/",
+      "source": "Josh Bersin",
+      "date": "2026-01-14",
+      "summary": [
+        "Argues that AI is forcing a structural rethink of the HR operating model, not just an automation of existing tasks.",
+        "HR shifts from process administrator to designer and governor of AI-augmented people systems.",
+        "Skills, data architecture and change management are framed as the real constraints on transformation."
+      ]
+    },
+    {
+      "title": "3 charts on what CHROs think about AI and the future of their departments",
+      "url": "https://www.hrdive.com/news/3-charts-what-chros-think-about-ai-future/815746/",
+      "source": "HR Dive",
+      "date": "2026-03-25",
+      "summary": [
+        "Most HR leaders report low confidence in their organisation's current AI capabilities.",
+        "CHROs expect AI to reshape department structure and roles, but cite skills and data readiness as blockers.",
+        "Reinforces that AI strategy in HR is still maturing—adoption is uneven across functions."
+      ]
+    },
+    {
+      "title": "AI in HR: A Comprehensive Guide [2026 Edition]",
+      "url": "https://www.aihr.com/blog/ai-in-hr/",
+      "source": "AIHR",
+      "date": "2026-02-10",
+      "summary": [
+        "A practical map of where AI lands across the employee lifecycle: sourcing, screening, onboarding, performance and HR support.",
+        "Over 80% of HR departments now use generative AI, typically as a “capable junior colleague” under human judgement.",
+        "Useful framing for leaders scoping which HR tasks to automate first and where to keep a human in the loop."
+      ]
+    }
+  ]
+}

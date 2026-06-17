@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tujek Consulting | HR Technology Transformation</title>
+<meta name="description" content="Tujek Consulting partners with senior leaders to select, deploy and embed the world's leading HCM platforms (Workday, SuccessFactors, Oracle Fusion), on time, on budget, and adopted.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<style>/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("213150d2-4dce-463d-9c0f-3b3cd4bbb761") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("53f280be-3136-49b7-9ac2-7d46231315c7") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fa31cbbc-8734-4dae-a1ca-45992a121b2e") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("49c0b1f0-148b-4ebe-b3fb-45920ef391da") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("1809344c-734f-42a2-a75f-044dee204e45") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("3a150e28-b56b-43a7-b099-821a2a4d4c0f") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("23293b9e-79f0-4e26-b361-a4add17ab0bc") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("dd2a0d43-d626-4318-8265-186961980131") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("589f49ee-ddbb-4db9-8b21-73df4de59906") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("d40c044a-8af8-4eb7-a29e-9281cadde453") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("7169802a-6bf7-47aa-876e-b9111e68c4ed") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("6016913b-f2c9-4bf7-961c-098279e8bdee") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("e1fa2b85-245c-4d33-87f2-7cc0f6a59284") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("e373cb72-a0f1-4a5d-b2c9-c62b421e88f1") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("c941ca0f-3622-4cf4-9493-51793facd08c") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("fa458f57-6a45-418f-9ed8-9f713d4b7c53") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("7169802a-6bf7-47aa-876e-b9111e68c4ed") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("6016913b-f2c9-4bf7-961c-098279e8bdee") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("e1fa2b85-245c-4d33-87f2-7cc0f6a59284") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("e373cb72-a0f1-4a5d-b2c9-c62b421e88f1") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("c941ca0f-3622-4cf4-9493-51793facd08c") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("fa458f57-6a45-418f-9ed8-9f713d4b7c53") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("7169802a-6bf7-47aa-876e-b9111e68c4ed") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("6016913b-f2c9-4bf7-961c-098279e8bdee") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("e1fa2b85-245c-4d33-87f2-7cc0f6a59284") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("e373cb72-a0f1-4a5d-b2c9-c62b421e88f1") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("c941ca0f-3622-4cf4-9493-51793facd08c") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("fa458f57-6a45-418f-9ed8-9f713d4b7c53") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("cfe59df5-1eb7-4338-a2de-f535d2db0c87") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("1f7a5486-ff0b-4178-bde2-685e758fb9e1") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("96dfe133-8ad3-4307-a8f6-a4bfc72dfbc6") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("97a33d1a-1569-4327-8ad4-df1fae063edf") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("f791c596-36c6-4704-b087-4009c0f72875") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("54b999a5-36d1-4ca6-b956-c081509662a5") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("ebb45716-50d1-493e-ac1a-6a414dfa4703") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("a510e0b5-bd37-43ec-9cdc-94818ee7ddbc") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("4f4ef3e3-d1df-4633-89cd-c5ec495acfda") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("6561a676-ee92-42d1-a3ac-f1479e9c4cc6") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("2e412aa8-1b6f-4b50-acf6-0ea697be8db6") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("80fc1821-71c4-4766-8db5-497cb7579d3a") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("103d64a7-fb7c-4b4e-85f1-5f3ba9e85a53") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("ba41c40b-42ba-4573-ab2e-8a23169661c9") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("7df9af33-b0e4-4764-8468-05dc29bb04dc") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<style>
+  :root {
+    --navy: #0f1e3d;
+    --navy-800: #132648;
+    --navy-700: #1b3056;
+    --blue: #3b6fd4;
+    --blue-600: #2f5fc0;
+    --blue-100: #e8edf6;
+    --paper: #f6f7fb;
+    --white: #ffffff;
+    --ink: #0f1e3d;
+    --muted: #5b6477;
+    --muted-light: #9aa3b5;
+    --line: #e2e6ef;
+    --line-dark: rgba(232, 237, 246, 0.14);
+    --serif: "Spectral", Georgia, serif;
+    --sans: "IBM Plex Sans", system-ui, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, monospace;
+    --maxw: 1180px;
+    --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: var(--sans);
+    color: var(--ink);
+    background: var(--paper);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+
+  .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 40px; }
+
+  /* ===== KICKER LABEL ===== */
+  .kicker {
+    font-family: var(--mono);
+    font-size: 12.5px;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--blue);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .kicker::before {
+    content: "";
+    width: 26px;
+    height: 1px;
+    background: var(--blue);
+    display: inline-block;
+  }
+  .on-dark .kicker { color: #7fa6e8; }
+  .on-dark .kicker::before { background: #7fa6e8; }
+
+  h1, h2, h3 { font-family: var(--serif); font-weight: 500; line-height: 1.08; letter-spacing: -0.01em; }
+
+  /* ===== NAV ===== */
+  header.nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: rgba(246, 247, 251, 0.82);
+    backdrop-filter: saturate(160%) blur(14px);
+    -webkit-backdrop-filter: saturate(160%) blur(14px);
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.4s var(--ease), background 0.4s var(--ease);
+  }
+  header.nav.scrolled { border-bottom-color: var(--line); }
+  .nav-inner {
+    max-width: var(--maxw);
+    margin: 0 auto;
+    padding: 0 40px;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .brand-mark {
+    width: 34px; height: 34px;
+    border-radius: 7px;
+    background: var(--navy);
+    color: var(--white);
+    display: grid;
+    place-items: center;
+    font-family: var(--serif);
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    position: relative;
+    transition: transform 0.4s var(--ease), box-shadow 0.4s var(--ease);
+  }
+  .brand:hover .brand-mark {
+    transform: rotate(-6deg) scale(1.06);
+    box-shadow: 0 0 0 3px rgba(59,111,212,0.18), 0 0 26px -4px rgba(59,111,212,0.55);
+  }
+  .brand-name { font-family: var(--serif); font-size: 19px; font-weight: 600; letter-spacing: -0.01em; }
+  .brand-name span { color: var(--blue); display: inline-block; transition: transform 0.3s var(--ease); }
+  .brand:hover .brand-name span { transform: scale(1.5); }
+
+  .nav-right { display: flex; align-items: center; gap: 28px; }
+  .nav-links { display: flex; gap: 8px; }
+  .nav-links a {
+    position: relative;
+    font-size: 14.5px;
+    color: var(--muted);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 9px 14px;
+    border-radius: 999px;
+    transition: color 0.25s var(--ease), transform 0.25s var(--ease);
+  }
+  /* soft halo that blooms behind the link */
+  .nav-links a::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 999px;
+    background: radial-gradient(70% 120% at 50% 50%, rgba(59,111,212,0.16), rgba(59,111,212,0.05) 60%, transparent 80%);
+    box-shadow: 0 0 22px -4px rgba(59,111,212,0.35), inset 0 0 0 1px rgba(59,111,212,0.12);
+    opacity: 0;
+    transform: scale(0.72);
+    transition: opacity 0.3s var(--ease), transform 0.45s var(--ease);
+    z-index: -1;
+  }
+  /* glowing gradient underline that sweeps in */
+  .nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 14px;
+    right: 14px;
+    bottom: 3px;
+    height: 2px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, var(--blue), #8fb0ed);
+    box-shadow: 0 0 10px rgba(59,111,212,0.65);
+    transform: scaleX(0);
+    transform-origin: left center;
+    transition: transform 0.35s var(--ease);
+  }
+  .nav-links a:hover,
+  .nav-links a:focus-visible,
+  .nav-links a.active { color: var(--ink); }
+  .nav-links a:hover { transform: translateY(-1px); }
+  .nav-links a:hover::before,
+  .nav-links a:focus-visible::before,
+  .nav-links a.active::before { opacity: 1; transform: scale(1); }
+  .nav-links a:hover::after,
+  .nav-links a:focus-visible::after,
+  .nav-links a.active::after { transform: scaleX(1); }
+
+  /* hamburger (mobile only) */
+  .nav-burger {
+    display: none;
+    width: 42px; height: 42px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--white);
+    cursor: pointer;
+    position: relative;
+    transition: border-color 0.3s var(--ease), box-shadow 0.3s var(--ease);
+  }
+  .nav-burger:hover { border-color: var(--blue); box-shadow: 0 0 18px -4px rgba(59,111,212,0.45); }
+  .nav-burger span {
+    position: absolute;
+    left: 11px; right: 11px;
+    height: 2px;
+    border-radius: 2px;
+    background: var(--ink);
+    transition: transform 0.35s var(--ease), opacity 0.25s;
+  }
+  .nav-burger span:nth-child(1) { top: 14px; }
+  .nav-burger span:nth-child(2) { top: 20px; }
+  .nav-burger span:nth-child(3) { top: 26px; }
+  header.nav.open .nav-burger span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+  header.nav.open .nav-burger span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+  header.nav.open .nav-burger span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+  .lang-toggle {
+    display: inline-flex;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 3px;
+    background: var(--white);
+  }
+  .lang-toggle button {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    border: none;
+    background: none;
+    color: var(--muted);
+    padding: 5px 11px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 0.25s var(--ease);
+  }
+  .lang-toggle button.active { background: var(--navy); color: var(--white); }
+
+  .btn {
+    font-family: var(--sans);
+    font-size: 14.5px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 11px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all 0.25s var(--ease);
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    white-space: nowrap;
+  }
+  .btn-primary { background: var(--blue); color: var(--white); position: relative; }
+  .btn-primary::after {
+    content: "";
+    position: absolute;
+    inset: -5px;
+    border-radius: 12px;
+    background: radial-gradient(closest-side, rgba(59,111,212,0.45), transparent);
+    filter: blur(10px);
+    opacity: 0;
+    transition: opacity 0.35s var(--ease);
+    z-index: -1;
+  }
+  .btn-primary:hover { background: var(--blue-600); transform: translateY(-1px); box-shadow: 0 8px 22px -10px rgba(59,111,212,0.7); }
+  .btn-primary:hover::after { opacity: 1; }
+  .btn-ghost { background: transparent; color: var(--ink); border-color: var(--line); }
+  .btn-ghost:hover { border-color: var(--navy); }
+  .on-dark .btn-ghost { color: var(--white); border-color: var(--line-dark); }
+  .on-dark .btn-ghost:hover { border-color: rgba(232,237,246,0.5); }
+  .btn .arr { transition: transform 0.25s var(--ease); }
+  .btn:hover .arr { transform: translateX(3px); }
+
+  /* ===== HERO ===== */
+  .hero {
+    background: var(--navy);
+    color: var(--blue-100);
+    padding: 168px 0 96px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(900px 480px at 78% 12%, rgba(59,111,212,0.22), transparent 60%),
+      linear-gradient(180deg, #0c1830 0%, var(--navy) 100%);
+    pointer-events: none;
+  }
+  .hero-grid-lines {
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(var(--line-dark) 1px, transparent 1px), linear-gradient(90deg, var(--line-dark) 1px, transparent 1px);
+    background-size: 64px 64px;
+    -webkit-mask-image: radial-gradient(720px 520px at 80% 0%, #000 0%, transparent 72%);
+    mask-image: radial-gradient(720px 520px at 80% 0%, #000 0%, transparent 72%);
+    opacity: 0.6;
+  }
+  .hero .wrap { position: relative; z-index: 2; }
+  .hero-inner { max-width: 880px; }
+  .hero h1 {
+    color: var(--white);
+    font-size: clamp(40px, 6vw, 72px);
+    margin: 26px 0 0;
+  }
+  .hero h1 em { font-style: italic; color: #8fb0ed; }
+  .hero-sub {
+    font-size: clamp(17px, 1.8vw, 20px);
+    color: #bcc6da;
+    max-width: 640px;
+    margin: 26px 0 0;
+    line-height: 1.55;
+  }
+  .hero-cta { display: flex; gap: 14px; margin-top: 38px; flex-wrap: wrap; }
+
+  /* ===== STATS ===== */
+  .stats {
+    background: var(--navy-800);
+    border-top: 1px solid var(--line-dark);
+    color: var(--blue-100);
+    padding: 0;
+  }
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: var(--maxw);
+    margin: 0 auto;
+  }
+  .stat {
+    padding: 44px 40px;
+    border-right: 1px solid var(--line-dark);
+  }
+  .stat:last-child { border-right: none; }
+  .stat-num {
+    font-family: var(--serif);
+    font-size: clamp(34px, 4vw, 46px);
+    color: var(--white);
+    line-height: 1;
+    font-weight: 500;
+  }
+  .stat-num span { color: #8fb0ed; }
+  .stat-label {
+    font-size: 13.5px;
+    color: #9aa8c4;
+    margin-top: 12px;
+    line-height: 1.4;
+  }
+
+  /* ===== SECTION SHELL ===== */
+  section.block { padding: 110px 0; }
+  .sec-head { max-width: 720px; margin-bottom: 56px; }
+  .sec-head h2 { font-size: clamp(30px, 3.6vw, 46px); margin-top: 20px; color: var(--ink); }
+  .sec-head p { font-size: 18px; color: var(--muted); margin-top: 20px; }
+
+  /* ===== SERVICES ===== */
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  .svc-card {
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 36px 32px 38px;
+    transition: transform 0.4s var(--ease), box-shadow 0.4s var(--ease), border-color 0.4s var(--ease);
+    display: flex;
+    flex-direction: column;
+  }
+  .svc-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 26px 50px -28px rgba(15,30,61,0.32);
+    border-color: #cdd5e6;
+  }
+  .svc-no {
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--blue);
+    letter-spacing: 0.08em;
+  }
+  .svc-card h3 { font-size: 24px; margin: 18px 0 0; color: var(--ink); }
+  .svc-card p { color: var(--muted); font-size: 15.5px; margin-top: 14px; }
+  .svc-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+  .svc-tag {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    color: var(--navy);
+    background: var(--blue-100);
+    padding: 5px 10px;
+    border-radius: 6px;
+    letter-spacing: 0.02em;
+  }
+
+  /* ===== PLATFORMS ===== */
+  .platforms { background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .plat-inner { padding: 64px 0; }
+  .plat-label { font-family: var(--mono); font-size: 12.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); text-align: center; }
+  .plat-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 18px 48px;
+    margin-top: 34px;
+  }
+  .plat-row span {
+    font-family: var(--serif);
+    font-size: clamp(20px, 2.4vw, 28px);
+    color: var(--navy);
+    font-weight: 500;
+    opacity: 0.62;
+    transition: opacity 0.3s;
+    white-space: nowrap;
+  }
+  .plat-row span:hover { opacity: 1; }
+
+  /* ===== ABOUT ===== */
+  .about { background: var(--paper); }
+  .about-grid {
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr;
+    gap: 64px;
+    align-items: start;
+  }
+  .portrait {
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    aspect-ratio: 4 / 5;
+    background:
+      repeating-linear-gradient(135deg, #eef1f7 0 12px, #e6eaf3 12px 24px);
+    display: grid;
+    place-items: center;
+    position: relative;
+  }
+  .portrait .ph-label {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--muted-light);
+    background: rgba(255,255,255,0.8);
+    padding: 6px 12px;
+    border-radius: 6px;
+    letter-spacing: 0.04em;
+  }
+  .about-body h2 { font-size: clamp(28px, 3.2vw, 40px); margin: 18px 0 0; color: var(--ink); }
+  .about-body p { color: var(--muted); font-size: 16.5px; margin-top: 20px; }
+  .creds {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+    margin-top: 34px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .cred {
+    background: var(--white);
+    padding: 20px 22px;
+  }
+  .cred dt { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--blue); }
+  .cred dd { font-size: 15px; color: var(--ink); margin-top: 7px; font-weight: 500; }
+
+  /* ===== ENGAGEMENTS ===== */
+  .engagements { background: var(--navy); color: var(--blue-100); }
+  .eng-list { display: flex; flex-direction: column; margin-top: 8px; }
+  .eng {
+    display: grid;
+    grid-template-columns: 0.34fr 0.66fr;
+    gap: 40px;
+    padding: 38px 0;
+    border-top: 1px solid var(--line-dark);
+  }
+  .eng:last-child { border-bottom: 1px solid var(--line-dark); }
+  .eng-client { font-family: var(--serif); font-size: 21px; color: var(--white); }
+  .eng-sector { font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; color: #7fa6e8; margin-top: 10px; text-transform: uppercase; }
+  .eng-body p { color: #bcc6da; font-size: 16px; }
+  .eng-metric { font-family: var(--serif); font-size: 17px; color: var(--white); margin-top: 14px; display: flex; gap: 10px; align-items: baseline; }
+  .eng-metric b { color: #8fb0ed; font-weight: 500; }
+
+  /* ===== AI ===== */
+  .ai { background: var(--white); }
+  .ai-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 64px; align-items: center; }
+  .ai-body h2 { font-size: clamp(28px, 3.2vw, 42px); margin: 20px 0 0; color: var(--ink); }
+  .ai-body p { color: var(--muted); font-size: 17px; margin-top: 20px; }
+  .ai-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 18px;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: var(--blue);
+    background: var(--blue-100);
+    padding: 7px 14px;
+    border-radius: 999px;
+  }
+  .ai-pillars { display: flex; flex-direction: column; gap: 14px; }
+  .ai-pill {
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 22px 24px;
+    background: var(--paper);
+    transition: border-color 0.3s, transform 0.3s var(--ease);
+  }
+  .ai-pill:hover { border-color: #cdd5e6; transform: translateX(4px); }
+  .ai-pill h4 { font-family: var(--sans); font-size: 15.5px; font-weight: 600; color: var(--ink); }
+  .ai-pill p { font-size: 14px; color: var(--muted); margin-top: 6px; line-height: 1.5; }
+
+  /* ===== INSIGHTS / ARTICLES ===== */
+  .insights { background: var(--paper); }
+  .insights-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; flex-wrap: wrap; margin-bottom: 48px; }
+  .insights-head .sec-head { margin-bottom: 0; }
+  .insights-updated {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    color: var(--muted-light);
+    white-space: nowrap;
+  }
+  .insights-updated b { color: var(--blue); font-weight: 500; }
+  .article-list { display: flex; flex-direction: column; gap: 18px; }
+  .article-card {
+    position: relative;
+    display: grid;
+    grid-template-columns: 132px 1fr;
+    gap: 30px;
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 28px 30px;
+    text-decoration: none;
+    color: inherit;
+    overflow: hidden;
+    transition: transform 0.4s var(--ease), box-shadow 0.4s var(--ease), border-color 0.4s var(--ease);
+  }
+  /* halo wash that follows the card on hover */
+  .article-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(420px 200px at 100% 0%, rgba(59,111,212,0.10), transparent 60%);
+    opacity: 0;
+    transition: opacity 0.45s var(--ease);
+    pointer-events: none;
+  }
+  .article-card:hover {
+    transform: translateY(-4px);
+    border-color: #cdd5e6;
+    box-shadow: 0 26px 50px -30px rgba(15,30,61,0.34);
+  }
+  .article-card:hover::before { opacity: 1; }
+  .article-meta { display: flex; flex-direction: column; gap: 8px; padding-top: 3px; }
+  .article-date { font-family: var(--mono); font-size: 12.5px; color: var(--blue); letter-spacing: 0.03em; }
+  .article-source {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted-light);
+  }
+  .article-main h3 {
+    font-size: 21px;
+    color: var(--ink);
+    margin: 0 0 14px;
+    display: inline-flex;
+    align-items: baseline;
+    gap: 10px;
+    transition: color 0.25s var(--ease);
+  }
+  .article-card:hover .article-main h3 { color: var(--blue-600); }
+  .article-main h3 .arr {
+    font-family: var(--sans);
+    font-size: 16px;
+    color: var(--blue);
+    transition: transform 0.3s var(--ease);
+  }
+  .article-card:hover .article-main h3 .arr { transform: translate(3px, 0); }
+  .article-sum { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; }
+  .article-sum li {
+    position: relative;
+    padding-left: 20px;
+    font-size: 15px;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .article-sum li::before {
+    content: "";
+    position: absolute;
+    left: 2px; top: 9px;
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--blue);
+    opacity: 0.65;
+  }
+  .insights-empty {
+    text-align: center;
+    color: var(--muted);
+    font-size: 15px;
+    padding: 30px 0;
+    font-family: var(--mono);
+  }
+
+  /* ===== CONTACT ===== */
+  .contact { background: var(--navy); color: var(--blue-100); text-align: center; padding: 120px 0; position: relative; overflow: hidden; }
+  .contact::before {
+    content: "";
+    position: absolute; inset: 0;
+    background: radial-gradient(700px 380px at 50% 0%, rgba(59,111,212,0.26), transparent 65%);
+  }
+  .contact .wrap { position: relative; z-index: 2; }
+  .contact h2 { font-size: clamp(34px, 5vw, 58px); color: var(--white); margin: 22px auto 0; max-width: 760px; }
+  .contact p { color: #bcc6da; font-size: 19px; margin: 22px auto 0; max-width: 540px; }
+  .contact-email {
+    display: inline-block;
+    font-family: var(--serif);
+    font-size: clamp(22px, 3vw, 32px);
+    color: var(--white);
+    text-decoration: none;
+    margin-top: 38px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(143,176,237,0.5);
+    transition: border-color 0.3s, color 0.3s;
+  }
+  .contact-email:hover { border-color: #8fb0ed; color: #8fb0ed; }
+  .contact-alt { display: flex; gap: 28px; justify-content: center; margin-top: 40px; flex-wrap: wrap; }
+  .contact-alt a {
+    font-size: 14.5px; color: #bcc6da; text-decoration: none;
+    display: inline-flex; align-items: center; gap: 8px;
+    transition: color 0.25s;
+  }
+  .contact-alt a:hover { color: var(--white); }
+  .contact-alt svg { width: 17px; height: 17px; }
+
+  /* ===== FOOTER ===== */
+  footer {
+    background: #0a1426;
+    color: var(--muted-light);
+    padding: 40px 0;
+  }
+  .foot-inner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+  .foot-inner .brand-name { color: var(--white); font-size: 17px; }
+  .foot-inner .brand-name span { color: var(--blue); }
+  .foot-meta { font-size: 13px; color: #6b7690; }
+
+  /* ===== REVEAL ANIMATION ===== */
+  .reveal { opacity: 0; transform: translateY(22px); transition: opacity 0.8s var(--ease), transform 0.8s var(--ease); }
+  .reveal.in-view { opacity: 1; transform: none; }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { opacity: 1; transform: none; transition: none; }
+    html { scroll-behavior: auto; }
+    .nav-links a, .nav-links a::before, .nav-links a::after,
+    .nav-links, .nav-burger span, .brand-mark, .brand-name span,
+    .btn, .btn-primary::after { transition: none !important; }
+  }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 900px) {
+    .nav-burger { display: block; }
+    .nav-links {
+      position: fixed;
+      top: 74px; left: 0; right: 0;
+      flex-direction: column;
+      gap: 4px;
+      padding: 18px 22px 26px;
+      background: rgba(246, 247, 251, 0.97);
+      backdrop-filter: saturate(160%) blur(18px);
+      -webkit-backdrop-filter: saturate(160%) blur(18px);
+      border-bottom: 1px solid var(--line);
+      box-shadow: 0 30px 50px -30px rgba(15,30,61,0.35);
+      opacity: 0;
+      transform: translateY(-14px);
+      pointer-events: none;
+      visibility: hidden;
+      transition: opacity 0.35s var(--ease), transform 0.45s var(--ease), visibility 0s linear 0.45s;
+    }
+    header.nav.open .nav-links {
+      opacity: 1;
+      transform: none;
+      pointer-events: auto;
+      visibility: visible;
+      transition: opacity 0.35s var(--ease), transform 0.45s var(--ease), visibility 0s;
+    }
+    .nav-links a {
+      font-size: 17px;
+      padding: 13px 16px;
+      border-radius: 12px;
+      opacity: 0;
+      transform: translateX(-12px);
+      transition: opacity 0.4s var(--ease), transform 0.4s var(--ease), color 0.25s var(--ease);
+    }
+    .nav-links a::before { border-radius: 12px; }
+    .nav-links a::after { bottom: 7px; }
+    header.nav.open .nav-links a { opacity: 1; transform: none; }
+    header.nav.open .nav-links a:nth-child(1) { transition-delay: 0.06s; }
+    header.nav.open .nav-links a:nth-child(2) { transition-delay: 0.12s; }
+    header.nav.open .nav-links a:nth-child(3) { transition-delay: 0.18s; }
+    header.nav.open .nav-links a:nth-child(4) { transition-delay: 0.24s; }
+    header.nav.open .nav-links a:nth-child(5) { transition-delay: 0.30s; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .stat:nth-child(2) { border-right: none; }
+    .stat:nth-child(1), .stat:nth-child(2) { border-bottom: 1px solid var(--line-dark); }
+    .services-grid { grid-template-columns: 1fr; }
+    .about-grid, .ai-grid { grid-template-columns: 1fr; gap: 40px; }
+    .portrait { max-width: 360px; }
+    .eng { grid-template-columns: 1fr; gap: 14px; }
+    .article-card { grid-template-columns: 1fr; gap: 14px; padding: 24px 24px; }
+    .article-meta { flex-direction: row; align-items: baseline; gap: 12px; }
+  }
+  @media (max-width: 560px) {
+    .wrap, .nav-inner { padding-left: 22px; padding-right: 22px; }
+    .nav-right { gap: 14px; }
+    .nav-inner > nav > .btn { display: none; }
+    .stats-grid { grid-template-columns: 1fr; }
+    .stat { border-right: none !important; border-bottom: 1px solid var(--line-dark); }
+    .creds { grid-template-columns: 1fr; }
+    section.block { padding: 76px 0; }
+    .hero { padding: 134px 0 72px; }
+  }
+</style>
+</head>
+<body>
+
+
+
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top" aria-label="Tujek Consulting home">
+      <span class="brand-mark">T</span>
+      <span class="brand-name">Tujek<span>.</span></span>
+    </a>
+    <nav class="nav-right">
+      <div class="nav-links" id="navLinks">
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#work" data-i18n="nav.work">Engagements</a>
+        <a href="#insights" data-i18n="nav.insights">Insights</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </div>
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button data-lang="en" class="active">EN</button>
+        <button data-lang="fr">FR</button>
+      </div>
+      <a class="btn btn-primary" href="mailto:Franck@Tujekconsulting.ai" data-i18n="nav.cta">Get in touch</a>
+      <button class="nav-burger" id="navBurger" aria-label="Menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero on-dark" data-screen-label="Hero">
+    <div class="hero-grid-lines"></div>
+    <div class="wrap">
+      <div class="hero-inner">
+        <span class="kicker reveal" data-i18n="hero.kicker">HR Technology Transformation</span>
+        <h1 class="reveal" data-i18n-html="hero.title">Enterprise HR systems, delivered with <em>certainty</em>.</h1>
+        <p class="hero-sub reveal" data-i18n="hero.sub">Tujek Consulting partners with senior leaders to select, deploy and embed the world's leading HCM platforms, on time, on budget, and genuinely adopted across the organisation.</p>
+        <div class="hero-cta reveal">
+          <a class="btn btn-primary" href="mailto:Franck@Tujekconsulting.ai" data-i18n="hero.cta1">Email Franck <span class="arr">→</span></a>
+          <a class="btn btn-ghost" href="#services" data-i18n="hero.cta2">Explore services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS ===== -->
+  <section class="stats on-dark" aria-label="Track record">
+    <div class="stats-grid">
+      <div class="stat reveal">
+        <div class="stat-num">20<span>+</span></div>
+        <div class="stat-label" data-i18n="stats.years">years leading HR transformation across sectors</div>
+      </div>
+      <div class="stat reveal">
+        <div class="stat-num"><span>$</span>21M</div>
+        <div class="stat-label" data-i18n="stats.program">flagship workforce-management program delivered</div>
+      </div>
+      <div class="stat reveal">
+        <div class="stat-num">28<span>k</span></div>
+        <div class="stat-label" data-i18n="stats.employees">employees migrated in a single national rollout</div>
+      </div>
+      <div class="stat reveal">
+        <div class="stat-num">60</div>
+        <div class="stat-label" data-i18n="stats.countries">countries within a global Workday rollout plan</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="block" id="services">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="kicker" data-i18n="services.kicker">What I do</span>
+        <h2 data-i18n="services.title">Three disciplines that decide whether a transformation succeeds.</h2>
+        <p data-i18n="services.sub">From the first business case to the day people genuinely use the system, I lead the work that keeps complex HR programs on course.</p>
+      </div>
+      <div class="services-grid">
+        <article class="svc-card reveal">
+          <span class="svc-no">01</span>
+          <h3 data-i18n="svc1.title">Cloud HCM Implementation</h3>
+          <p data-i18n="svc1.body">End-to-end delivery of cloud HR suites, from design and build through testing, data migration and go-live, with the governance and rigour large programs demand.</p>
+          <div class="svc-tags">
+            <span class="svc-tag">Workday</span>
+            <span class="svc-tag">SuccessFactors</span>
+            <span class="svc-tag">Oracle Fusion</span>
+          </div>
+        </article>
+        <article class="svc-card reveal">
+          <span class="svc-no">02</span>
+          <h3 data-i18n="svc2.title">HRIS Selection &amp; Vendor Management</h3>
+          <p data-i18n="svc2.body">Independent, structured selection covering RFP, due diligence and contract negotiation, so you commit to the right platform and partner with full confidence and a defensible business case.</p>
+          <div class="svc-tags">
+            <span class="svc-tag">RFP &amp; PoC</span>
+            <span class="svc-tag">Due diligence</span>
+            <span class="svc-tag">Negotiation</span>
+          </div>
+        </article>
+        <article class="svc-card reveal">
+          <span class="svc-no">03</span>
+          <h3 data-i18n="svc3.title">Change Management &amp; Adoption</h3>
+          <p data-i18n="svc3.body">Stakeholder alignment, communication and training that turn a technical go-live into lasting behaviour change. Technology your people actually use and trust.</p>
+          <div class="svc-tags">
+            <span class="svc-tag">Stakeholders</span>
+            <span class="svc-tag">Comms</span>
+            <span class="svc-tag">Enablement</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PLATFORMS ===== -->
+  <section class="platforms">
+    <div class="wrap plat-inner reveal">
+      <div class="plat-label" data-i18n="platforms.label">Platforms delivered in production environments</div>
+      <div class="plat-row">
+        <span>Workday</span>
+        <span>SAP SuccessFactors</span>
+        <span>Oracle Fusion</span>
+        <span>UKG</span>
+        <span>ServiceNow</span>
+        <span>PeopleSoft</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="block about" id="about">
+    <div class="wrap">
+      <div class="about-grid">
+        <div class="portrait reveal" aria-hidden="true">
+          <span class="ph-label">portrait of Franck Tujek</span>
+        </div>
+        <div class="about-body reveal">
+          <span class="kicker" data-i18n="about.kicker">The principal</span>
+          <h2 data-i18n="about.title">Franck Tujek</h2>
+          <p data-i18n="about.p1">A transformational project and program manager with two decades of multi-sector, multi-country experience delivering change through HR technology. I have led global cloud-HCM rollouts and recovered stalled, high-stakes programs, building rapport with everyone from technical teams to the C-suite.</p>
+          <p data-i18n="about.p2">I tailor my approach to each organisation, with a preference for PRINCE2 and agile methodologies, and a particular passion for building delivery teams from scratch and creating value at every stage of a program. Based in Melbourne, working globally.</p>
+          <dl class="creds">
+            <div class="cred"><dt data-i18n="cred.exp.k">Experience</dt><dd data-i18n="cred.exp.v">20 years · global rollouts</dd></div>
+            <div class="cred"><dt data-i18n="cred.method.k">Method</dt><dd>PRINCE2 Agile Practitioner</dd></div>
+            <div class="cred"><dt data-i18n="cred.edu.k">Education</dt><dd data-i18n="cred.edu.v">MBA · BA (Hons) HRM</dd></div>
+            <div class="cred"><dt data-i18n="cred.lang.k">Languages</dt><dd data-i18n="cred.lang.v">French · English · Spanish</dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ENGAGEMENTS ===== -->
+  <section class="block engagements on-dark" id="work">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="kicker" data-i18n="work.kicker">Selected engagements</span>
+        <h2 style="color:#fff" data-i18n="work.title">Programs that could not afford to fail.</h2>
+      </div>
+      <div class="eng-list">
+        <div class="eng reveal">
+          <div>
+            <div class="eng-client" data-i18n="work1.client">National postal &amp; logistics operator</div>
+            <div class="eng-sector" data-i18n="work1.sector">Public sector · Australia</div>
+          </div>
+          <div class="eng-body">
+            <p data-i18n="work1.body">Engaged to manage a ServiceNow upgrade and quickly entrusted with the organisation's largest People &amp; Culture transformation. With the program heavily impacted by the COVID crisis, I rebuilt the rollout approach, secured executive approval, and led a cross-functional team of 20+ through build, test and deployment.</p>
+            <div class="eng-metric"><b>$21M</b> <span data-i18n="work1.metric">Workforce Dimensions rollout · 28,000 employees · 450 sites</span></div>
+          </div>
+        </div>
+        <div class="eng reveal">
+          <div>
+            <div class="eng-client" data-i18n="work2.client">Global media &amp; advertising network</div>
+            <div class="eng-sector" data-i18n="work2.sector">Media · APAC &amp; global</div>
+          </div>
+          <div class="eng-body">
+            <p data-i18n="work2.body">Delivered a time-critical global Workday rollout plan in partnership with a Big Four firm, then led the first wave across three regions before focusing on the 13 APAC markets in scope, alongside a China payroll transformation and several M&amp;A integrations.</p>
+            <div class="eng-metric"><b>60</b> <span data-i18n="work2.metric">countries in scope · 13 APAC markets led personally</span></div>
+          </div>
+        </div>
+        <div class="eng reveal">
+          <div>
+            <div class="eng-client" data-i18n="work3.client">Luxury outlet retail group</div>
+            <div class="eng-sector" data-i18n="work3.sector">Retail · EMEA</div>
+          </div>
+          <div class="eng-body">
+            <p data-i18n="work3.body">Ran an HR/HRIS audit and full SaaS selection across leading vendors, then managed a full-suite SuccessFactors rollout across EMEA for a group operating nine destinations in seven countries and six languages.</p>
+            <div class="eng-metric"><b>9</b> <span data-i18n="work3.metric">destinations · 7 countries · 6 languages</span></div>
+          </div>
+        </div>
+        <div class="eng reveal">
+          <div>
+            <div class="eng-client" data-i18n="work4.client">Global financial services group</div>
+            <div class="eng-sector" data-i18n="work4.sector">Financial services · Global</div>
+          </div>
+          <div class="eng-body">
+            <p data-i18n="work4.body">Led a technology-driven HR transformation: a comprehensive process and systems analysis, a global RFP, and vendor due diligence across IT security, legal and procurement, while chairing steering committees and advising senior leadership on the path forward.</p>
+            <div class="eng-metric"><b>RFP</b> <span data-i18n="work4.metric">global selection · due diligence · board-level advisory</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AI ===== -->
+  <section class="block ai" id="ai">
+    <div class="wrap">
+      <div class="ai-grid">
+        <div class="ai-body reveal">
+          <span class="kicker" data-i18n="ai.kicker">Looking ahead</span>
+          <h2 data-i18n="ai.title">A growing focus on AI in the HR function.</h2>
+          <p data-i18n="ai.body">Alongside core delivery, I'm actively building expertise in how artificial intelligence will reshape HR operations and decision-making, with a view to offering dedicated AI advisory services. If AI on your people agenda is a question you're starting to ask, it's a conversation I'm keen to have.</p>
+          <span class="ai-badge" data-i18n="ai.badge">● Hands-on, curious, and learning in public</span>
+        </div>
+        <div class="ai-pillars reveal">
+          <div class="ai-pill">
+            <h4 data-i18n="ai.p1.t">"Artificially Intelligent-ish"</h4>
+            <p data-i18n="ai.p1.b">Host of an ongoing podcast exploring practical, plain-language AI, on air since 2024.</p>
+          </div>
+          <div class="ai-pill">
+            <h4 data-i18n="ai.p2.t">AI Programming with Python (RMIT)</h4>
+            <p data-i18n="ai.p2.b">Formal, hands-on technical training in the fundamentals of building with AI.</p>
+          </div>
+          <div class="ai-pill">
+            <h4 data-i18n="ai.p3.t">Leadership Program (Monash)</h4>
+            <p data-i18n="ai.p3.b">Continuing executive development to lead change at the intersection of people and technology.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INSIGHTS / ARTICLES ===== -->
+  <section class="block insights" id="insights">
+    <div class="wrap">
+      <div class="insights-head reveal">
+        <div class="sec-head" style="margin-bottom:0">
+          <span class="kicker" data-i18n="insights.kicker">Insights</span>
+          <h2 data-i18n="insights.title">AI in HR — what I'm reading.</h2>
+          <p data-i18n="insights.sub">A weekly, automatically curated digest of the most relevant articles on AI across the HR and HRIS landscape, each summarised in a few lines.</p>
+        </div>
+        <div class="insights-updated" id="insightsUpdated" aria-live="polite"></div>
+      </div>
+      <div class="article-list reveal" id="articleList">
+        <div class="insights-empty" id="insightsLoading" data-i18n="insights.loading">Loading the latest articles…</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="block contact on-dark" id="contact">
+    <div class="wrap">
+      <span class="kicker" style="justify-content:center" data-i18n="contact.kicker">Let's talk</span>
+      <h2 data-i18n="contact.title">Planning, recovering, or selecting an HR platform? Let's talk.</h2>
+      <p data-i18n="contact.sub">Tell me about the program and where it stands. I read every message personally.</p>
+      <a class="contact-email" href="mailto:Franck@Tujekconsulting.ai">Franck@Tujekconsulting.ai</a>
+      <div class="contact-alt">
+        <a href="https://au.linkedin.com/in/franck-tujek-45b623" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5.001A2.5 2.5 0 014.98 3.5zM3 9h4v12H3zM9 9h3.8v1.64h.05c.53-1 1.83-2.05 3.76-2.05C20.4 8.59 21 11.09 21 14.34V21h-4v-5.86c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1V21H9z"></path></svg>
+          <span data-i18n="contact.linkedin">LinkedIn</span>
+        </a>
+        <a href="https://open.spotify.com/show/1Knm5UV4JIqK1EMPKHYs6C" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm4.6 14.43a.62.62 0 01-.86.21c-2.35-1.44-5.3-1.76-8.79-.96a.62.62 0 11-.28-1.21c3.8-.87 7.07-.5 9.71 1.11.3.18.39.57.22.85zm1.23-2.74a.78.78 0 01-1.07.26c-2.69-1.65-6.79-2.13-9.97-1.17a.78.78 0 11-.45-1.49c3.63-1.1 8.15-.56 11.23 1.33.36.22.48.69.26 1.07zm.11-2.85C14.83 8.96 9.4 8.78 6.3 9.72a.93.93 0 11-.54-1.78c3.56-1.08 9.56-.87 13.33 1.37a.93.93 0 11-.95 1.6z"></path></svg>
+          <span data-i18n="contact.podcast">Podcast</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="wrap foot-inner">
+    <span class="brand-name">Tujek Consulting<span>.</span></span>
+    <span class="foot-meta" data-i18n="footer.meta">Melbourne · Working globally · © 2026 Tujek Consulting</span>
+  </div>
+</footer>
+
+<script src="c84bd0ca-f797-4a6e-9197-1fdcc5c6399b"></script>
+<script>
+  // Nav border on scroll
+  const nav = document.getElementById('nav');
+  const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 12);
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  // Mobile menu toggle
+  const burger = document.getElementById('navBurger');
+  const navLinks = document.getElementById('navLinks');
+  function setMenu(open) {
+    nav.classList.toggle('open', open);
+    burger.setAttribute('aria-expanded', String(open));
+  }
+  burger.addEventListener('click', () => setMenu(!nav.classList.contains('open')));
+  navLinks.addEventListener('click', (e) => { if (e.target.closest('a')) setMenu(false); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setMenu(false); });
+  window.addEventListener('resize', () => { if (window.innerWidth > 900) setMenu(false); });
+
+  // Scrollspy: highlight the nav link of the section in view
+  const spyLinks = Array.from(navLinks.querySelectorAll('a[href^="#"]'));
+  const spySections = spyLinks
+    .map(a => document.getElementById(a.getAttribute('href').slice(1)))
+    .filter(Boolean);
+  function scrollSpy() {
+    const probe = window.scrollY + window.innerHeight * 0.34;
+    let current = null;
+    for (const sec of spySections) {
+      if (sec.offsetTop <= probe) current = sec.id;
+    }
+    spyLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + current));
+  }
+  scrollSpy();
+  window.addEventListener('scroll', scrollSpy, { passive: true });
+  window.addEventListener('resize', scrollSpy);
+
+  // Reveal on scroll: rect-based (robust across iframe/preview contexts).
+  // Transition gives a nice fade/rise in real browsers; an inline "settle" after
+  // the transition guarantees content is never left hidden (some embedded/preview
+  // renderers freeze CSS transitions mid-flight).
+  const reveals = Array.from(document.querySelectorAll('.reveal'));
+  reveals.forEach((el, i) => { el.style.transitionDelay = (Math.min(i % 4, 3) * 70) + 'ms'; });
+  function settle(el) {
+    el.style.transition = 'none';
+    el.style.opacity = '1';
+    el.style.transform = 'none';
+  }
+  function revealVisible() {
+    const vh = window.innerHeight || document.documentElement.clientHeight;
+    for (const el of reveals) {
+      if (el.classList.contains('in-view')) continue;
+      const r = el.getBoundingClientRect();
+      if (r.top < vh * 0.92 && r.bottom > 0) {
+        el.classList.add('in-view');
+        setTimeout(() => settle(el), 950);
+      }
+    }
+  }
+  window.addEventListener('scroll', revealVisible, { passive: true });
+  window.addEventListener('resize', revealVisible);
+  window.addEventListener('load', revealVisible);
+  revealVisible();
+  requestAnimationFrame(revealVisible);
+  setTimeout(revealVisible, 250);
+  // Final failsafe: nothing stays hidden no matter what.
+  setTimeout(() => reveals.forEach(settle), 1600);
+
+  // ===== INSIGHTS: fetch + render the weekly article digest =====
+  (function () {
+    const listEl = document.getElementById('articleList');
+    const updatedEl = document.getElementById('insightsUpdated');
+    if (!listEl) return;
+
+    const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => (
+      { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+    ));
+    const fmtDate = (iso) => {
+      const d = new Date(iso);
+      if (isNaN(d)) return esc(iso || '');
+      return d.toLocaleDateString('en-AU', { day: 'numeric', month: 'short', year: 'numeric' });
+    };
+
+    function render(data) {
+      const articles = (data && Array.isArray(data.articles)) ? data.articles.slice() : [];
+      articles.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
+
+      if (updatedEl && data && data.updated) {
+        updatedEl.innerHTML = 'Updated <b>' + fmtDate(data.updated) + '</b>';
+      }
+      if (!articles.length) {
+        listEl.innerHTML = '<div class="insights-empty">No articles yet — check back soon.</div>';
+        return;
+      }
+
+      listEl.innerHTML = articles.map((a) => {
+        const bullets = (Array.isArray(a.summary) ? a.summary : [])
+          .map((b) => '<li>' + esc(b) + '</li>').join('');
+        const source = a.source ? '<span class="article-source">' + esc(a.source) + '</span>' : '';
+        return '' +
+          '<a class="article-card reveal" href="' + esc(a.url) + '" target="_blank" rel="noopener">' +
+            '<div class="article-meta">' +
+              '<span class="article-date">' + fmtDate(a.date) + '</span>' +
+              source +
+            '</div>' +
+            '<div class="article-main">' +
+              '<h3>' + esc(a.title) + ' <span class="arr">↗</span></h3>' +
+              '<ul class="article-sum">' + bullets + '</ul>' +
+            '</div>' +
+          '</a>';
+      }).join('');
+
+      // Newly injected cards are .reveal — register and show them.
+      const fresh = Array.from(listEl.querySelectorAll('.reveal'));
+      fresh.forEach((el, i) => {
+        el.style.transitionDelay = (Math.min(i, 4) * 70) + 'ms';
+        reveals.push(el);
+      });
+      revealVisible();
+      requestAnimationFrame(revealVisible);
+    }
+
+    fetch('./articles.json', { cache: 'no-store' })
+      .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(render)
+      .catch(() => {
+        listEl.innerHTML = '<div class="insights-empty">Articles are updated weekly — they’ll appear here once the site is live.</div>';
+      });
+  })();
+</script>
+
+
+</body></html>
