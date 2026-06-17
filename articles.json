@@ -2,110 +2,110 @@
   "updated": "2026-06-17",
   "articles": [
     {
-      "title": "Federal court to consider AI in hiring as Workday bias case advances",
-      "url": "https://hrexecutive.com/federal-court-to-consider-ai-in-hiring-as-workday-bias-case-advances/",
-      "source": "HR Executive",
+      "title": "HR Tech 2026 Announces Initial Agenda: Focuses on Real-World AI Implementation, Skills, and Workforce Transformations",
+      "url": "https://www.globenewswire.com/news-release/2026/06/09/3308677/0/en/hr-tech-2026-announces-initial-agenda-focuses-on-real-world-ai-implementation-skills-and-workforce-transformations.html",
+      "source": "GlobeNewswire (HR Tech Conference)",
+      "date": "2026-06-09",
+      "summary": {
+        "en": [
+          "The flagship HR Tech conference (Las Vegas, Oct 20-22) frames its 2026 theme as \"From Change to Transformation,\" signalling the field has moved past pilots to scaled, production AI.",
+          "Sessions tackle why AI pilots stall and how to sequence ecosystem simplification, data remediation and governance modernization before chasing use cases.",
+          "A major track pushes skills-forward operating models — moving from static job descriptions to dynamic, AI-powered talent insights across acquisition, learning and workforce planning."
+        ],
+        "fr": [
+          "La conférence de référence HR Tech (Las Vegas, 20-22 oct.) adopte pour 2026 le thème « Du changement à la transformation », signe que le secteur a dépassé les pilotes pour passer à une IA déployée à grande échelle.",
+          "Les sessions analysent pourquoi les pilotes d'IA s'enlisent et comment ordonner la simplification de l'écosystème, l'assainissement des données et la modernisation de la gouvernance avant de multiplier les cas d'usage.",
+          "Un axe majeur défend des modèles opérationnels centrés sur les compétences — passer de fiches de poste statiques à des analyses talents dynamiques pilotées par l'IA, du recrutement à la formation et à la planification des effectifs."
+        ]
+      }
+    },
+    {
+      "title": "The Josh Bersin Institute, HR 2030, And The Global HR Excellence Certification",
+      "url": "https://joshbersin.com/2026/06/the-josh-bersin-institute-hr-2030-and-the-global-hr-excellence-certification/",
+      "source": "Josh Bersin",
+      "date": "2026-06-08",
+      "summary": {
+        "en": [
+          "Bersin launches \"HR 2030: The Journey to Agentic HR,\" a reference architecture and vendor analysis for building HR around AI agents and coordinating \"superagents.\"",
+          "The blueprint urges leaders to take an architectural approach now to avoid fragmented \"agent sprawl,\" with HR projected to shrink 30-50% in headcount by 2030 while gaining a higher-value role.",
+          "Companion launches — the Global HR Excellence Certification and expanded Galileo integrations with Microsoft Copilot, SAP SuccessFactors and Workday — embed agentic HR in existing tech stacks."
+        ],
+        "fr": [
+          "Bersin lance « HR 2030 : le parcours vers des RH agentiques », une architecture de référence et une analyse des fournisseurs pour bâtir les RH autour d'agents IA et de « superagents » coordonnés.",
+          "Le plan invite les dirigeants à adopter dès maintenant une approche architecturale pour éviter une « prolifération d'agents » fragmentée, les effectifs RH devant diminuer de 30 à 50 % d'ici 2030 tout en gagnant un rôle à plus forte valeur.",
+          "Les lancements associés — la Global HR Excellence Certification et l'élargissement des intégrations de Galileo avec Microsoft Copilot, SAP SuccessFactors et Workday — ancrent les RH agentiques dans les systèmes existants."
+        ]
+      }
+    },
+    {
+      "title": "AI is coming for the workplace — and HR is in the driver's seat",
+      "url": "https://www.hrdive.com/news/ai-is-coming-for-the-workplace-hr-is-in-the-drivers-seat/821770/",
+      "source": "HR Dive",
+      "date": "2026-06-03",
+      "summary": {
+        "en": [
+          "HR Dive's Identity of HR survey finds technology and AI-driven change now dominate the function, with 91% of CHROs naming AI and workplace digitization their most immediate concern.",
+          "Leaders must simultaneously deploy new tools, upskill the existing workforce, and hire for skills they cannot build internally — a skills-based strategy that downplays traditional credentials.",
+          "The pace of AI-driven change is intensifying employee wellbeing pressures, yet many managers remain underprepared to address them."
+        ],
+        "fr": [
+          "L'enquête « Identity of HR » de HR Dive montre que la technologie et le changement induit par l'IA dominent désormais la fonction : 91 % des DRH citent l'IA et la numérisation du travail comme leur préoccupation la plus immédiate.",
+          "Les dirigeants doivent à la fois déployer de nouveaux outils, faire monter en compétences les équipes en place et recruter des compétences impossibles à développer en interne — une stratégie axée sur les compétences qui relègue les diplômes classiques.",
+          "Le rythme du changement piloté par l'IA accentue les pressions sur le bien-être des salariés, alors que de nombreux managers restent mal préparés pour y répondre."
+        ]
+      }
+    },
+    {
+      "title": "In 2026, more HR leaders are focused on training — and not just for AI skills",
+      "url": "https://www.hrdive.com/news/2026-more-hr-leaders-are-focused-on-training/821117/",
+      "source": "HR Dive",
+      "date": "2026-05-26",
+      "summary": {
+        "en": [
+          "The share of HR professionals naming employee training a top priority jumped from 5% to 9% year over year, reflecting real pressure to build capability internally.",
+          "An adoption-versus-capability gap is the driver: 70% of professionals use AI weekly, but only 14% consider themselves advanced users.",
+          "Investment is broadening beyond technical AI skills to human-centred competencies — emotional intelligence, communication and collaboration."
+        ],
+        "fr": [
+          "La part des professionnels RH qui font de la formation une priorité majeure est passée de 5 % à 9 % en un an, traduisant une réelle pression pour développer les compétences en interne.",
+          "Le moteur est un écart entre adoption et maîtrise : 70 % des professionnels utilisent l'IA chaque semaine, mais seuls 14 % se jugent utilisateurs avancés.",
+          "Les investissements dépassent les seules compétences techniques en IA pour viser des compétences humaines — intelligence émotionnelle, communication et collaboration."
+        ]
+      }
+    },
+    {
+      "title": "The agentic workforce arrives: AI and the HR transformation",
+      "url": "https://www.financierworldwide.com/the-agentic-workforce-arrives-ai-and-the-hr-transformation",
+      "source": "Financier Worldwide",
+      "date": "2026-05-15",
+      "summary": {
+        "en": [
+          "Agentic AI completes HR workflows with minimal supervision, coordinating across platforms — pushing workforce planning from role-based to activity-based and blending human and digital labour.",
+          "Governance is the make-or-break factor: the piece warns of \"humans validating algorithmic outputs rather than making decisions\" and calls for audit trails and named accountability.",
+          "From 2 August 2026 the EU AI Act treats HR algorithms as high-risk, with fines up to €34m and liability extending beyond discrimination to unlawful AI-generated decisions."
+        ],
+        "fr": [
+          "L'IA agentique exécute les processus RH avec une supervision minimale et se coordonne entre plateformes — faisant passer la planification des effectifs d'une logique de postes à une logique d'activités et mêlant travail humain et numérique.",
+          "La gouvernance est déterminante : l'article met en garde contre des « humains qui valident des sorties algorithmiques plutôt que de décider » et réclame des pistes d'audit et des responsabilités nommément attribuées.",
+          "À compter du 2 août 2026, le règlement européen sur l'IA classe les algorithmes RH comme à haut risque, avec des amendes jusqu'à 34 M€ et une responsabilité étendue au-delà de la discrimination aux décisions illégales générées par l'IA."
+        ]
+      }
+    },
+    {
+      "title": "Employers 'still playing catch-up' on AI risk management, Littler report finds",
+      "url": "https://www.hrdive.com/news/employers-still-playing-catch-up-ai-risk-management/819504/",
+      "source": "HR Dive",
       "date": "2026-05-06",
       "summary": {
         "en": [
-          "The Mobley v. Workday case advances after a judge declined to dismiss claims, putting AI-driven hiring tools under direct legal scrutiny.",
-          "Plaintiffs argue Workday's recommendation engine disadvantaged applicants over 40, raising disparate-impact questions for AI screening.",
-          "Takeaway: HR now owns AI bias and trust — deployed tools need to be explainable, auditable and defensible."
+          "AI is now the top workplace policy and regulatory concern for US employers in 2026, surpassing immigration and DEI, with 54% reporting AI use in HR functions.",
+          "Formal AI governance policies nearly doubled to 68% (from 38% in 2025), but fewer than half have vendor-vetting, AI-specific training, or oversight committees in place.",
+          "Data privacy tops litigation worries ahead of discrimination; 15% of employers have cut or plan to cut roles due to AI, while 63% report no such plans."
         ],
         "fr": [
-          "L'affaire Mobley c. Workday progresse après le refus d'un juge de rejeter les plaintes, plaçant les outils de recrutement pilotés par l'IA sous surveillance judiciaire directe.",
-          "Les plaignants soutiennent que le moteur de recommandation de Workday a désavantagé les candidats de plus de 40 ans, soulevant des questions d'impact disproportionné pour le tri par IA.",
-          "À retenir : les RH sont désormais responsables des biais et de la confiance liés à l'IA — les outils déployés doivent être explicables, auditables et défendables."
-        ]
-      }
-    },
-    {
-      "title": "The State of AI in HR 2026 Report",
-      "url": "https://www.shrm.org/topics-tools/research/state-of-ai-hr-2026/full-report",
-      "source": "SHRM",
-      "date": "2026-04-24",
-      "summary": {
-        "en": [
-          "57% of organisations still run core HR systems with no AI functionality, exposing a wide gap between ambition and current HRIS capability.",
-          "Only about 1 in 4 HR professionals played a leading role in their organisation's AI implementation.",
-          "Calls for joint HR-IT governance frameworks, shared data standards, and a clear plan for privacy, security and the skills gap."
-        ],
-        "fr": [
-          "57 % des organisations exploitent encore des systèmes RH dépourvus de fonctionnalités IA, révélant un écart important entre les ambitions et les capacités réelles du SIRH.",
-          "Seul environ 1 professionnel RH sur 4 a joué un rôle moteur dans le déploiement de l'IA de son organisation.",
-          "L'étude plaide pour une gouvernance conjointe RH-DSI, des standards de données partagés et un plan clair sur la confidentialité, la sécurité et le déficit de compétences."
-        ]
-      }
-    },
-    {
-      "title": "The Reinvention of Workday: From System of Record to Platform of Agents",
-      "url": "https://joshbersin.com/2026/04/the-reinvention-of-workday-from-system-of-record-to-platform-of-agents/",
-      "source": "Josh Bersin",
-      "date": "2026-04-22",
-      "summary": {
-        "en": [
-          "Workday is repositioning its HRIS from a transactional system of record into a platform that hosts AI \"transformation agents\" across HR and finance workflows.",
-          "Its acquisitions of Paradox and Sana signal a bet on a few large, capable agents rather than hundreds of narrow mini-agents.",
-          "Implication for HR leaders: data quality and platform governance become the deciding factors in whether an agentic HRIS delivers value."
-        ],
-        "fr": [
-          "Workday fait évoluer son SIRH d'un simple système d'enregistrement transactionnel vers une plateforme hébergeant des « agents de transformation » IA dans les processus RH et finance.",
-          "Ses acquisitions de Paradox et Sana traduisent un pari sur quelques agents puissants plutôt que sur des centaines de mini-agents spécialisés.",
-          "Enjeu pour les responsables RH : la qualité des données et la gouvernance de la plateforme deviennent déterminantes pour la valeur d'un SIRH agentique."
-        ]
-      }
-    },
-    {
-      "title": "The Great Reinvention of Human Resources Has Begun",
-      "url": "https://joshbersin.com/2026/01/the-great-reinvention-of-human-resources-has-begun/",
-      "source": "Josh Bersin",
-      "date": "2026-01-14",
-      "summary": {
-        "en": [
-          "Argues that AI is forcing a structural rethink of the HR operating model, not just an automation of existing tasks.",
-          "HR shifts from process administrator to designer and governor of AI-augmented people systems.",
-          "Skills, data architecture and change management are framed as the real constraints on transformation."
-        ],
-        "fr": [
-          "L'auteur soutient que l'IA impose de repenser en profondeur le modèle opérationnel des RH, au-delà d'une simple automatisation des tâches existantes.",
-          "Les RH passent d'administrateur de processus à concepteur et garant de systèmes de gestion des personnes augmentés par l'IA.",
-          "Les compétences, l'architecture des données et la conduite du changement sont présentées comme les véritables freins à la transformation."
-        ]
-      }
-    },
-    {
-      "title": "3 charts on what CHROs think about AI and the future of their departments",
-      "url": "https://www.hrdive.com/news/3-charts-what-chros-think-about-ai-future/815746/",
-      "source": "HR Dive",
-      "date": "2026-03-25",
-      "summary": {
-        "en": [
-          "Most HR leaders report low confidence in their organisation's current AI capabilities.",
-          "CHROs expect AI to reshape department structure and roles, but cite skills and data readiness as blockers.",
-          "Reinforces that AI strategy in HR is still maturing — adoption is uneven across functions."
-        ],
-        "fr": [
-          "La plupart des dirigeants RH déclarent peu de confiance dans les capacités IA actuelles de leur organisation.",
-          "Les DRH s'attendent à ce que l'IA redéfinisse la structure et les rôles de la fonction, mais citent les compétences et la maturité des données comme obstacles.",
-          "Confirme que la stratégie IA dans les RH reste à maturité inégale selon les fonctions."
-        ]
-      }
-    },
-    {
-      "title": "AI in HR: A Comprehensive Guide [2026 Edition]",
-      "url": "https://www.aihr.com/blog/ai-in-hr/",
-      "source": "AIHR",
-      "date": "2026-02-10",
-      "summary": {
-        "en": [
-          "A practical map of where AI lands across the employee lifecycle: sourcing, screening, onboarding, performance and HR support.",
-          "Over 80% of HR departments now use generative AI, typically as a \"capable junior colleague\" under human judgement.",
-          "Useful framing for leaders scoping which HR tasks to automate first and where to keep a human in the loop."
-        ],
-        "fr": [
-          "Une cartographie pratique de la place de l'IA tout au long du cycle de vie du collaborateur : sourcing, présélection, intégration, performance et support RH.",
-          "Plus de 80 % des départements RH utilisent désormais l'IA générative, le plus souvent comme un « collègue junior compétent » encadré par le jugement humain.",
-          "Un cadre utile pour les dirigeants qui cherchent à prioriser les tâches RH à automatiser et à déterminer où maintenir l'humain dans la boucle."
+          "L'IA est désormais la première préoccupation réglementaire et de politique du travail des employeurs américains en 2026, devant l'immigration et la diversité, 54 % déclarant l'utiliser dans les fonctions RH.",
+          "Les politiques formelles de gouvernance de l'IA ont presque doublé pour atteindre 68 % (contre 38 % en 2025), mais moins de la moitié disposent d'une évaluation des fournisseurs, d'une formation dédiée ou de comités de supervision.",
+          "La confidentialité des données arrive en tête des craintes de contentieux, devant la discrimination ; 15 % des employeurs ont supprimé ou prévoient de supprimer des postes en raison de l'IA, contre 63 % qui n'ont aucun projet en ce sens."
         ]
       }
     }
