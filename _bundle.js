@@ -16,6 +16,12 @@
       "insights.sub": "A selection of the most relevant articles on AI across the HR and HRIS landscape, each summarised in a few lines.",
       "insights.loading": "Loading the latest articles…",
 
+      "hero.insightscta": "New — weekly AI-in-HR insights. Read & subscribe",
+      "subscribe.title": "Get the brief in your inbox",
+      "subscribe.sub": "A short, curated digest of what matters in AI for HR & HRIS. No noise — unsubscribe anytime.",
+      "subscribe.placeholder": "you@company.com",
+      "subscribe.button": "Subscribe",
+
       "hero.kicker": "HR Technology Transformation",
       "hero.title": "Enterprise HR systems, built for <em>your reality</em>.",
       "hero.sub": "Tujek Consulting partners with senior leaders to select, deploy and embed the world's leading HCM platforms, on time, on budget, and genuinely adopted across the organisation.",
@@ -102,6 +108,12 @@
       "insights.title": "L'IA dans les RH — mes lectures.",
       "insights.sub": "Une sélection des articles les plus pertinents sur l'IA dans l'univers des RH et des SIRH, chacun résumé en quelques lignes.",
       "insights.loading": "Chargement des derniers articles…",
+
+      "hero.insightscta": "Nouveau — l'essentiel hebdo de l'IA pour les RH. Lire & s'abonner",
+      "subscribe.title": "Recevez l'essentiel dans votre boîte mail",
+      "subscribe.sub": "Une synthèse courte et sélectionnée de l'actualité de l'IA pour les RH et les SIRH. Sans bruit — désabonnement à tout moment.",
+      "subscribe.placeholder": "vous@entreprise.com",
+      "subscribe.button": "S'abonner",
 
       "hero.kicker": "Transformation des SIRH",
       "hero.title": "Des SIRH d'entreprise, conçus pour <em>votre réalité</em>.",
@@ -191,6 +203,10 @@
     document.querySelectorAll("[data-i18n-html]").forEach((el) => {
       const key = el.getAttribute("data-i18n-html");
       if (dict[key] != null) el.innerHTML = dict[key];
+    });
+    document.querySelectorAll("[data-i18n-ph]").forEach((el) => {
+      const key = el.getAttribute("data-i18n-ph");
+      if (dict[key] != null) el.setAttribute("placeholder", dict[key]);
     });
 
     document.querySelectorAll(".lang-toggle button").forEach((b) => {

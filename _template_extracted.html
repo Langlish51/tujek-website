@@ -992,6 +992,72 @@
     font-family: var(--mono);
   }
 
+  /* ===== SUBSCRIBE ===== */
+  .subscribe {
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 26px 44px;
+    background: linear-gradient(120deg, var(--navy) 0%, var(--navy-700) 100%);
+    border-radius: 16px;
+    padding: 32px 38px;
+    margin-bottom: 28px;
+  }
+  .subscribe::before {
+    content: "";
+    position: absolute; inset: 0;
+    background: radial-gradient(520px 220px at 88% 0%, rgba(59,111,212,0.38), transparent 62%);
+    pointer-events: none;
+  }
+  .subscribe > * { position: relative; z-index: 1; }
+  .subscribe-text h3 { font-family: var(--serif); font-weight: 500; font-size: 25px; color: #fff; line-height: 1.15; }
+  .subscribe-text p { color: #bcc6da; font-size: 14.5px; margin-top: 9px; max-width: 470px; }
+  .subscribe-form { min-width: 340px; }
+  .subscribe-row { display: flex; gap: 10px; }
+  .subscribe-input {
+    flex: 1; min-width: 0;
+    font-family: var(--sans); font-size: 14.5px;
+    color: #fff; background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(143,176,237,0.3);
+    border-radius: 9px; padding: 12px 15px;
+    transition: border-color 0.25s var(--ease), background 0.25s var(--ease);
+  }
+  .subscribe-input::placeholder { color: #8b97b3; }
+  .subscribe-input:focus { outline: none; border-color: var(--blue); background: rgba(255,255,255,0.14); }
+  .subscribe-btn { flex: none; }
+  .subscribe-msg { font-size: 13.5px; margin-top: 11px; min-height: 18px; color: #bcc6da; transition: color 0.2s; }
+  .subscribe-msg.ok { color: #7fe0a3; }
+  .subscribe-msg.bad { color: #ff9b9b; }
+  .subscribe-hp { position: absolute !important; left: -9999px; top: -9999px; height: 0; width: 0; overflow: hidden; }
+
+  /* ===== HERO INSIGHTS PILL ===== */
+  .hero-pill {
+    display: inline-flex; align-items: center; gap: 9px;
+    margin-top: 24px;
+    font-size: 13.5px; font-weight: 500;
+    color: #c7d6f2; text-decoration: none;
+    padding: 9px 17px;
+    border: 1px solid rgba(143,176,237,0.32);
+    border-radius: 999px;
+    background: rgba(59,111,212,0.12);
+    transition: background 0.3s var(--ease), border-color 0.3s var(--ease), transform 0.3s var(--ease), color 0.3s var(--ease);
+  }
+  .hero-pill:hover { background: rgba(59,111,212,0.22); border-color: rgba(143,176,237,0.62); transform: translateY(-1px); color: #fff; }
+  .hero-pill .arr { transition: transform 0.25s var(--ease); }
+  .hero-pill:hover .arr { transform: translateX(3px); }
+  .hero-pill-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: #7fe0a3; flex: none;
+    animation: pulseDot 2.4s infinite;
+  }
+  @keyframes pulseDot {
+    0% { box-shadow: 0 0 0 0 rgba(127,224,163,0.55); }
+    70% { box-shadow: 0 0 0 8px rgba(127,224,163,0); }
+    100% { box-shadow: 0 0 0 0 rgba(127,224,163,0); }
+  }
+
   /* ===== CONTACT ===== */
   .contact { background: var(--navy); color: var(--blue-100); text-align: center; padding: 120px 0; position: relative; overflow: hidden; }
   .contact::before {
@@ -1097,6 +1163,8 @@
     .eng { grid-template-columns: 1fr; gap: 14px; }
     .article-card { grid-template-columns: 1fr; gap: 14px; padding: 24px 24px; }
     .article-meta { flex-direction: row; align-items: baseline; gap: 12px; }
+    .subscribe { grid-template-columns: 1fr; gap: 18px; padding: 28px 26px; }
+    .subscribe-form { min-width: 0; width: 100%; }
   }
   @media (max-width: 560px) {
     .wrap, .nav-inner { padding-left: 22px; padding-right: 22px; }
@@ -1107,6 +1175,8 @@
     .creds { grid-template-columns: 1fr; }
     section.block { padding: 76px 0; }
     .hero { padding: 134px 0 72px; }
+    .subscribe-row { flex-direction: column; }
+    .subscribe-btn { justify-content: center; }
   }
 </style>
 </head>
@@ -1156,6 +1226,11 @@
           <a class="btn btn-primary" href="mailto:Franck@Tujekconsulting.ai" data-i18n="hero.cta1">Email Franck <span class="arr">→</span></a>
           <a class="btn btn-ghost" href="#services" data-i18n="hero.cta2">Explore services</a>
         </div>
+        <a class="hero-pill reveal" href="#insights">
+          <span class="hero-pill-dot"></span>
+          <span data-i18n="hero.insightscta">New — weekly AI-in-HR insights. Read &amp; subscribe</span>
+          <span class="arr">→</span>
+        </a>
       </div>
     </div>
   </section>
@@ -1221,6 +1296,45 @@
             <span class="svc-tag">Enablement</span>
           </div>
         </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INSIGHTS / ARTICLES ===== -->
+  <section class="block insights" id="insights">
+    <div class="wrap">
+      <div class="insights-head reveal">
+        <div class="sec-head" style="margin-bottom:0">
+          <span class="kicker" data-i18n="insights.kicker">Insights</span>
+          <h2 data-i18n="insights.title">AI in HR — what I'm reading.</h2>
+          <p data-i18n="insights.sub">A selection of the most relevant articles on AI across the HR and HRIS landscape, each summarised in a few lines.</p>
+        </div>
+        <div class="insights-updated" id="insightsUpdated" aria-live="polite"></div>
+      </div>
+
+      <!-- subscribe card -->
+      <div class="subscribe reveal">
+        <div class="subscribe-text">
+          <h3 data-i18n="subscribe.title">Get the brief in your inbox</h3>
+          <p data-i18n="subscribe.sub">A short, curated digest of what matters in AI for HR &amp; HRIS. No noise — unsubscribe anytime.</p>
+        </div>
+        <form class="subscribe-form" id="subscribeForm" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="newsletter">
+          <input type="hidden" name="lang" id="subscribeLang" value="en">
+          <p class="subscribe-hp"><label>Leave this empty: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+          <div class="subscribe-row">
+            <input class="subscribe-input" type="email" name="email" id="subscribeEmail" required
+                   data-i18n-ph="subscribe.placeholder" placeholder="you@company.com" aria-label="Email address">
+            <button class="btn btn-primary subscribe-btn" type="submit">
+              <span data-i18n="subscribe.button">Subscribe</span> <span class="arr">→</span>
+            </button>
+          </div>
+          <div class="subscribe-msg" id="subscribeMsg" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+
+      <div class="article-list reveal" id="articleList">
+        <div class="insights-empty" id="insightsLoading" data-i18n="insights.loading">Loading the latest articles…</div>
       </div>
     </div>
   </section>
@@ -1339,23 +1453,6 @@
             <p data-i18n="ai.p3.b">Continuing executive development to lead change at the intersection of people and technology.</p>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== INSIGHTS / ARTICLES ===== -->
-  <section class="block insights" id="insights">
-    <div class="wrap">
-      <div class="insights-head reveal">
-        <div class="sec-head" style="margin-bottom:0">
-          <span class="kicker" data-i18n="insights.kicker">Insights</span>
-          <h2 data-i18n="insights.title">AI in HR — what I'm reading.</h2>
-          <p data-i18n="insights.sub">A selection of the most relevant articles on AI across the HR and HRIS landscape, each summarised in a few lines.</p>
-        </div>
-        <div class="insights-updated" id="insightsUpdated" aria-live="polite"></div>
-      </div>
-      <div class="article-list reveal" id="articleList">
-        <div class="insights-empty" id="insightsLoading" data-i18n="insights.loading">Loading the latest articles…</div>
       </div>
     </div>
   </section>
@@ -1541,6 +1638,58 @@
         listEl.innerHTML = '<div class="insights-empty">' +
           (lang === 'fr' ? 'Les articles apparaîtront ici prochainement.' : 'Articles will appear here shortly.') + '</div>';
       });
+  })();
+
+  // ===== SUBSCRIBE: Netlify Forms via AJAX (no page reload) =====
+  (function () {
+    const form = document.getElementById('subscribeForm');
+    if (!form) return;
+    const msg = document.getElementById('subscribeMsg');
+    const langField = document.getElementById('subscribeLang');
+    const emailEl = document.getElementById('subscribeEmail');
+
+    function lang() {
+      const l = (document.documentElement.lang || '').toLowerCase();
+      if (l.indexOf('fr') === 0) return 'fr';
+      const a = document.querySelector('.lang-toggle button.active');
+      return (a && a.getAttribute('data-lang') === 'fr') ? 'fr' : 'en';
+    }
+    function syncLang() { if (langField) langField.value = lang(); }
+    syncLang();
+    document.querySelectorAll('.lang-toggle button').forEach((b) =>
+      b.addEventListener('click', () => setTimeout(syncLang, 0)));
+
+    const T = {
+      en: { ok: "Thanks — you're on the list. Watch your inbox.", err: "Something went wrong. Please try again, or email Franck directly." },
+      fr: { ok: "Merci — vous êtes inscrit·e. Surveillez votre boîte mail.", err: "Une erreur est survenue. Réessayez, ou écrivez directement à Franck." }
+    };
+    const encode = (data) => Object.keys(data)
+      .map((k) => encodeURIComponent(k) + '=' + encodeURIComponent(data[k])).join('&');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      const L = lang();
+      const email = (emailEl.value || '').trim();
+      if (!email) return;
+      const btn = form.querySelector('button[type="submit"]');
+      if (btn) btn.disabled = true;
+      msg.className = 'subscribe-msg';
+      msg.textContent = '';
+      const body = {
+        'form-name': 'newsletter',
+        email: email,
+        lang: L,
+        'bot-field': (form.querySelector('[name="bot-field"]') || {}).value || ''
+      };
+      fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: encode(body)
+      })
+        .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); form.reset(); msg.textContent = T[L].ok; msg.classList.add('ok'); })
+        .catch(() => { msg.textContent = T[L].err; msg.classList.add('bad'); })
+        .finally(() => { if (btn) btn.disabled = false; });
+    });
   })();
 </script>
 
