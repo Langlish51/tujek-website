@@ -1,111 +1,93 @@
 {
-  "updated": "2026-06-17",
+  "updated": "2026-08-01",
   "articles": [
     {
-      "title": "HR Tech 2026 Announces Initial Agenda: Focuses on Real-World AI Implementation, Skills, and Workforce Transformations",
-      "url": "https://www.globenewswire.com/news-release/2026/06/09/3308677/0/en/hr-tech-2026-announces-initial-agenda-focuses-on-real-world-ai-implementation-skills-and-workforce-transformations.html",
-      "source": "GlobeNewswire (HR Tech Conference)",
-      "date": "2026-06-09",
+      "title": "HR often uses ChatGPT to complete non-HR tasks, according to OpenAI report",
+      "url": "https://www.hrdive.com/news/hr-uses-chatgpt-complete-non-hr-tasks/826459/",
+      "source": "HR Dive",
+      "date": "2026-07-29",
       "summary": {
         "en": [
-          "The flagship HR Tech conference (Las Vegas, Oct 20-22) frames its 2026 theme as \"From Change to Transformation,\" signalling the field has moved past pilots to scaled, production AI.",
-          "Sessions tackle why AI pilots stall and how to sequence ecosystem simplification, data remediation and governance modernization before chasing use cases.",
-          "A major track pushes skills-forward operating models — moving from static job descriptions to dynamic, AI-powered talent insights across acquisition, learning and workforce planning."
+          "An OpenAI usage report finds HR professionals among the most likely to use ChatGPT outside their function: 69% of their work messages fall outside typical HR duties, the third-highest rate of any profession studied.",
+          "The overflow skews toward marketing (23%), engineering (18%) and finance (16%) tasks, evidence that AI lets people do work themselves rather than handing it off to specialists.",
+          "For HR leaders the signal cuts both ways: broadened capability and efficiency, but also potential role creep that can dilute core strategic HR work."
         ],
         "fr": [
-          "La conférence de référence HR Tech (Las Vegas, 20-22 oct.) adopte pour 2026 le thème « Du changement à la transformation », signe que le secteur a dépassé les pilotes pour passer à une IA déployée à grande échelle.",
-          "Les sessions analysent pourquoi les pilotes d'IA s'enlisent et comment ordonner la simplification de l'écosystème, l'assainissement des données et la modernisation de la gouvernance avant de multiplier les cas d'usage.",
-          "Un axe majeur défend des modèles opérationnels centrés sur les compétences — passer de fiches de poste statiques à des analyses talents dynamiques pilotées par l'IA, du recrutement à la formation et à la planification des effectifs."
+          "Un rapport d'usage d'OpenAI montre que les professionnels RH figurent parmi les plus enclins a utiliser ChatGPT hors de leur fonction : 69 % de leurs messages de travail portent sur des taches non RH, troisieme rang le plus eleve de toutes les professions etudiees.",
+          "Ce debordement penche vers le marketing (23 %), l'ingenierie (18 %) et la finance (16 %), preuve que l'IA permet de faire soi-meme le travail plutot que de le deleguer a des specialistes.",
+          "Pour les DRH, le signal est ambivalent : competences elargies et gains d'efficacite, mais aussi possible glissement de role qui peut diluer le travail RH strategique."
         ]
       }
     },
     {
-      "title": "The Josh Bersin Institute, HR 2030, And The Global HR Excellence Certification",
-      "url": "https://joshbersin.com/2026/06/the-josh-bersin-institute-hr-2030-and-the-global-hr-excellence-certification/",
+      "title": "New grads have to compete with AI for entry-level roles, hiring managers say",
+      "url": "https://www.hrdive.com/news/new-grads-have-to-compete-with-ai-for-entry-level-roles-hiring/825810/",
+      "source": "HR Dive",
+      "date": "2026-07-22",
+      "summary": {
+        "en": [
+          "In a ResumeTemplates.com survey, 48% of hiring managers say they would rather invest in AI tools than hire and train a recent graduate, and 55% have redirected some entry-level budget toward AI.",
+          "45% of organizations now expect one senior employee plus AI to do work previously handled by several entry-level grads, reshaping the traditional talent pipeline and its future leadership bench.",
+          "Yet 65% still plan to hire as many or more 2026 graduates as last year, though expectations for baseline workplace skills have risen sharply."
+        ],
+        "fr": [
+          "Dans une enquete de ResumeTemplates.com, 48 % des recruteurs preferent investir dans des outils d'IA plutot que d'embaucher et former un jeune diplome, et 55 % ont reaffecte une partie du budget « debutants » vers l'IA.",
+          "45 % des organisations attendent desormais qu'un employe senior epaule par l'IA accomplisse le travail auparavant confie a plusieurs jeunes diplomes, reconfigurant le vivier de talents et la releve managériale.",
+          "Pourtant, 65 % prevoient toujours de recruter autant voire plus de diplomes 2026 que l'an dernier, mais les attentes en competences de base ont nettement augmente."
+        ]
+      }
+    },
+    {
+      "title": "AI on the Layoff List: Meta Lawsuit and Workday Rulings Raise the Stakes for Algorithmic Employment Decisions",
+      "url": "https://www.butzel.com/alert-ai-on-the-layoff-list-meta-lawsuit-and-workday-rulings-raise-the-stakes-for-algorithmic-employment-decisions",
+      "source": "Butzel Long",
+      "date": "2026-07-16",
+      "summary": {
+        "en": [
+          "26 Meta workers allege AI-driven \"behavioral telemetry\" scoring flagged employees on medical, disability or family leave for layoffs, the first major US suit challenging AI in a layoff process; separate Workday rulings let a vendor's tools trigger employer liability.",
+          "Legal takeaway: AI can create disparate-impact exposure even without intent, and third-party HR platforms increase rather than shift the employer's risk.",
+          "HR actions: audit AI hiring and performance tools for bias, secure vendor audit rights and indemnification, and document genuine human judgment over algorithmic recommendations."
+        ],
+        "fr": [
+          "26 salaries de Meta allèguent qu'un score d'IA de « telemetrie comportementale » a designe pour le licenciement des employes en conge medical, en situation de handicap ou en conge familial, premiere grande action americaine contestant l'usage de l'IA dans un plan social ; par ailleurs, des decisions visant Workday admettent que les outils d'un fournisseur peuvent engager la responsabilite de l'employeur.",
+          "Enseignement juridique : l'IA peut creer un risque d'impact discriminatoire meme sans intention, et les plateformes RH tierces accroissent le risque de l'employeur au lieu de le transferer.",
+          "Actions RH : auditer les outils d'IA de recrutement et d'evaluation pour detecter les biais, obtenir des droits d'audit et une indemnisation des fournisseurs, et documenter un veritable jugement humain au-dela des recommandations algorithmiques."
+        ]
+      }
+    },
+    {
+      "title": "Multi-Agent AI For Talent Acquisition Arrives: Eightfold, Paradox, Maki, Radancy, And More",
+      "url": "https://joshbersin.com/2026/07/multi-agent-ai-for-talent-acquisition-arrives-eightfold-paradox-maki-radancy-and-more/",
       "source": "Josh Bersin",
-      "date": "2026-06-08",
+      "date": "2026-07-15",
       "summary": {
         "en": [
-          "Bersin launches \"HR 2030: The Journey to Agentic HR,\" a reference architecture and vendor analysis for building HR around AI agents and coordinating \"superagents.\"",
-          "The blueprint urges leaders to take an architectural approach now to avoid fragmented \"agent sprawl,\" with HR projected to shrink 30-50% in headcount by 2030 while gaining a higher-value role.",
-          "Companion launches — the Global HR Excellence Certification and expanded Galileo integrations with Microsoft Copilot, SAP SuccessFactors and Workday — embed agentic HR in existing tech stacks."
+          "Recruiting vendors (Eightfold, Paradox, Maki, Radancy) are shipping multi-agent systems, such as Eightfold's Candidate Agent working alongside its Interview agent across mobile, web and Slack, that autonomously source, qualify and inform candidates at scale.",
+          "This marks the shift from single copilots to coordinated agents handling end-to-end talent-acquisition workflows, especially valuable for high-volume hiring.",
+          "Bersin frames it as the leading edge of his \"HR 2030\" agentic vision and urges an architectural approach rather than piecemeal agent adoption."
         ],
         "fr": [
-          "Bersin lance « HR 2030 : le parcours vers des RH agentiques », une architecture de référence et une analyse des fournisseurs pour bâtir les RH autour d'agents IA et de « superagents » coordonnés.",
-          "Le plan invite les dirigeants à adopter dès maintenant une approche architecturale pour éviter une « prolifération d'agents » fragmentée, les effectifs RH devant diminuer de 30 à 50 % d'ici 2030 tout en gagnant un rôle à plus forte valeur.",
-          "Les lancements associés — la Global HR Excellence Certification et l'élargissement des intégrations de Galileo avec Microsoft Copilot, SAP SuccessFactors et Workday — ancrent les RH agentiques dans les systèmes existants."
+          "Les fournisseurs de recrutement (Eightfold, Paradox, Maki, Radancy) deploient des systemes multi-agents, comme le Candidate Agent d'Eightfold aux cotes de son agent d'entretien, sur mobile, web et Slack, qui sourcent, qualifient et informent les candidats de facon autonome et a grande echelle.",
+          "C'est le passage de simples copilotes a des agents coordonnes couvrant des processus de recrutement de bout en bout, particulierement utiles pour les embauches en volume.",
+          "Bersin y voit la pointe de sa vision « HR 2030 » d'RH agentiques et plaide pour une approche architecturale plutot qu'une adoption fragmentee des agents."
         ]
       }
     },
     {
-      "title": "AI is coming for the workplace — and HR is in the driver's seat",
-      "url": "https://www.hrdive.com/news/ai-is-coming-for-the-workplace-hr-is-in-the-drivers-seat/821770/",
-      "source": "HR Dive",
-      "date": "2026-06-03",
+      "title": "Traliant Research Reveals AI Adoption in HR Is Outpacing Governance, Creating Increased Risk",
+      "url": "https://www.traliant.com/news/traliant-research-reveals-ai-adoption-in-hr-is-outpacing-governance-creating-increased-risk/",
+      "source": "Traliant",
+      "date": "2026-07-09",
       "summary": {
         "en": [
-          "HR Dive's Identity of HR survey finds technology and AI-driven change now dominate the function, with 91% of CHROs naming AI and workplace digitization their most immediate concern.",
-          "Leaders must simultaneously deploy new tools, upskill the existing workforce, and hire for skills they cannot build internally — a skills-based strategy that downplays traditional credentials.",
-          "The pace of AI-driven change is intensifying employee wellbeing pressures, yet many managers remain underprepared to address them."
+          "A survey of 500+ US HR professionals finds AI now embedded in core HR operations, but governance, training and compliance are not keeping pace, widening organizational risk.",
+          "The gap is structural, not technical: firms optimized for speed-to-adoption without matching oversight, controls or workforce readiness.",
+          "Recommendation: shift the mandate from \"adopt fast\" to \"adopt ready\", with formal AI governance, role-based training and compliance guardrails."
         ],
         "fr": [
-          "L'enquête « Identity of HR » de HR Dive montre que la technologie et le changement induit par l'IA dominent désormais la fonction : 91 % des DRH citent l'IA et la numérisation du travail comme leur préoccupation la plus immédiate.",
-          "Les dirigeants doivent à la fois déployer de nouveaux outils, faire monter en compétences les équipes en place et recruter des compétences impossibles à développer en interne — une stratégie axée sur les compétences qui relègue les diplômes classiques.",
-          "Le rythme du changement piloté par l'IA accentue les pressions sur le bien-être des salariés, alors que de nombreux managers restent mal préparés pour y répondre."
-        ]
-      }
-    },
-    {
-      "title": "In 2026, more HR leaders are focused on training — and not just for AI skills",
-      "url": "https://www.hrdive.com/news/2026-more-hr-leaders-are-focused-on-training/821117/",
-      "source": "HR Dive",
-      "date": "2026-05-26",
-      "summary": {
-        "en": [
-          "The share of HR professionals naming employee training a top priority jumped from 5% to 9% year over year, reflecting real pressure to build capability internally.",
-          "An adoption-versus-capability gap is the driver: 70% of professionals use AI weekly, but only 14% consider themselves advanced users.",
-          "Investment is broadening beyond technical AI skills to human-centred competencies — emotional intelligence, communication and collaboration."
-        ],
-        "fr": [
-          "La part des professionnels RH qui font de la formation une priorité majeure est passée de 5 % à 9 % en un an, traduisant une réelle pression pour développer les compétences en interne.",
-          "Le moteur est un écart entre adoption et maîtrise : 70 % des professionnels utilisent l'IA chaque semaine, mais seuls 14 % se jugent utilisateurs avancés.",
-          "Les investissements dépassent les seules compétences techniques en IA pour viser des compétences humaines — intelligence émotionnelle, communication et collaboration."
-        ]
-      }
-    },
-    {
-      "title": "The agentic workforce arrives: AI and the HR transformation",
-      "url": "https://www.financierworldwide.com/the-agentic-workforce-arrives-ai-and-the-hr-transformation",
-      "source": "Financier Worldwide",
-      "date": "2026-05-15",
-      "summary": {
-        "en": [
-          "Agentic AI completes HR workflows with minimal supervision, coordinating across platforms — pushing workforce planning from role-based to activity-based and blending human and digital labour.",
-          "Governance is the make-or-break factor: the piece warns of \"humans validating algorithmic outputs rather than making decisions\" and calls for audit trails and named accountability.",
-          "From 2 August 2026 the EU AI Act treats HR algorithms as high-risk, with fines up to €34m and liability extending beyond discrimination to unlawful AI-generated decisions."
-        ],
-        "fr": [
-          "L'IA agentique exécute les processus RH avec une supervision minimale et se coordonne entre plateformes — faisant passer la planification des effectifs d'une logique de postes à une logique d'activités et mêlant travail humain et numérique.",
-          "La gouvernance est déterminante : l'article met en garde contre des « humains qui valident des sorties algorithmiques plutôt que de décider » et réclame des pistes d'audit et des responsabilités nommément attribuées.",
-          "À compter du 2 août 2026, le règlement européen sur l'IA classe les algorithmes RH comme à haut risque, avec des amendes jusqu'à 34 M€ et une responsabilité étendue au-delà de la discrimination aux décisions illégales générées par l'IA."
-        ]
-      }
-    },
-    {
-      "title": "Employers 'still playing catch-up' on AI risk management, Littler report finds",
-      "url": "https://www.hrdive.com/news/employers-still-playing-catch-up-ai-risk-management/819504/",
-      "source": "HR Dive",
-      "date": "2026-05-06",
-      "summary": {
-        "en": [
-          "AI is now the top workplace policy and regulatory concern for US employers in 2026, surpassing immigration and DEI, with 54% reporting AI use in HR functions.",
-          "Formal AI governance policies nearly doubled to 68% (from 38% in 2025), but fewer than half have vendor-vetting, AI-specific training, or oversight committees in place.",
-          "Data privacy tops litigation worries ahead of discrimination; 15% of employers have cut or plan to cut roles due to AI, while 63% report no such plans."
-        ],
-        "fr": [
-          "L'IA est désormais la première préoccupation réglementaire et de politique du travail des employeurs américains en 2026, devant l'immigration et la diversité, 54 % déclarant l'utiliser dans les fonctions RH.",
-          "Les politiques formelles de gouvernance de l'IA ont presque doublé pour atteindre 68 % (contre 38 % en 2025), mais moins de la moitié disposent d'une évaluation des fournisseurs, d'une formation dédiée ou de comités de supervision.",
-          "La confidentialité des données arrive en tête des craintes de contentieux, devant la discrimination ; 15 % des employeurs ont supprimé ou prévoient de supprimer des postes en raison de l'IA, contre 63 % qui n'ont aucun projet en ce sens."
+          "Une enquete menee aupres de plus de 500 professionnels RH americains revele que l'IA est desormais ancree dans les operations RH cles, mais que la gouvernance, la formation et la conformite ne suivent pas, accentuant le risque pour l'organisation.",
+          "L'ecart est structurel, pas technique : les entreprises ont privilegie la rapidite d'adoption sans supervision, controles ni preparation des equipes a la hauteur.",
+          "Recommandation : passer d'un imperatif « adopter vite » a « adopter pret », avec une gouvernance formelle de l'IA, une formation par role et des garde-fous de conformite."
         ]
       }
     }
