@@ -1,93 +1,93 @@
 {
-  "updated": "2026-08-01",
+  "updated": "2026-08-03",
   "articles": [
     {
-      "title": "HR often uses ChatGPT to complete non-HR tasks, according to OpenAI report",
-      "url": "https://www.hrdive.com/news/hr-uses-chatgpt-complete-non-hr-tasks/826459/",
+      "title": "An upcoming deadline turns HR's AI shortcuts into legal risk",
+      "url": "https://hrexecutive.com/an-upcoming-deadline-turns-hrs-ai-shortcuts-into-legal-risk/",
+      "source": "HR Executive",
+      "date": "2026-08-02",
+      "summary": {
+        "en": [
+          "The EU AI Act's August 2, 2026 deadline brings mandatory transparency duties into force immediately, even though the broader high-risk obligations for hiring and performance tools have been pushed to December 2027 under the Digital Omnibus.",
+          "Employers deploying a vendor's AI for recruitment, screening, promotion, or performance monitoring must follow the vendor's legally mandated instructions for use, and high-risk systems now explicitly cover targeted job ads, application filtering, and worker monitoring.",
+          "HR leaders should treat this as a real compliance checkpoint, not a false alarm: transparency and disclosure duties are live now, and full high-risk documentation requirements are still coming, just later than expected."
+        ],
+        "fr": [
+          "L'échéance du 2 août 2026 de l'AI Act européen fait entrer en vigueur des obligations de transparence immédiates, même si les obligations plus larges pour les outils de recrutement et d'évaluation ont été reportées à décembre 2027 dans le cadre du « Digital Omnibus ».",
+          "Les employeurs utilisant l'IA d'un éditeur pour le recrutement, la présélection, la promotion ou le suivi de la performance doivent respecter les instructions d'usage légalement fournies par ce fournisseur ; les systèmes à haut risque couvrent désormais explicitement les annonces d'emploi ciblées, le filtrage des candidatures et la surveillance des salariés.",
+          "Les DRH doivent traiter cette échéance comme un véritable point de conformité, non comme une fausse alerte : les obligations de transparence s'appliquent dès maintenant, et les exigences documentaires complètes pour le haut risque arrivent toujours, mais plus tard que prévu."
+        ]
+      }
+    },
+    {
+      "title": "Managers say they are using AI to make layoff decisions",
+      "url": "https://www.hrdive.com/news/managers-are-using-ai-to-make-layoff-decisions/826697/",
       "source": "HR Dive",
-      "date": "2026-07-29",
+      "date": "2026-07-31",
       "summary": {
         "en": [
-          "An OpenAI usage report finds HR professionals among the most likely to use ChatGPT outside their function: 69% of their work messages fall outside typical HR duties, the third-highest rate of any profession studied.",
-          "The overflow skews toward marketing (23%), engineering (18%) and finance (16%) tasks, evidence that AI lets people do work themselves rather than handing it off to specialists.",
-          "For HR leaders the signal cuts both ways: broadened capability and efficiency, but also potential role creep that can dilute core strategic HR work."
+          "A survey of 1,000 U.S. managers who use AI at work found 59% use it to help decide who gets laid off and 58% use it to decide who gets fired.",
+          "When AI informs these calls, 80% of managers have it weigh performance and productivity scores, 57% factor in attendance, and 42% weigh salary or cost.",
+          "The findings raise governance questions for HR: without clear guardrails, AI-assisted layoff and termination decisions risk embedding bias and eroding trust, even when human managers remain formally accountable."
         ],
         "fr": [
-          "Un rapport d'usage d'OpenAI montre que les professionnels RH figurent parmi les plus enclins a utiliser ChatGPT hors de leur fonction : 69 % de leurs messages de travail portent sur des taches non RH, troisieme rang le plus eleve de toutes les professions etudiees.",
-          "Ce debordement penche vers le marketing (23 %), l'ingenierie (18 %) et la finance (16 %), preuve que l'IA permet de faire soi-meme le travail plutot que de le deleguer a des specialistes.",
-          "Pour les DRH, le signal est ambivalent : competences elargies et gains d'efficacite, mais aussi possible glissement de role qui peut diluer le travail RH strategique."
+          "Une enquête menée auprès de 1 000 managers américains utilisateurs de l'IA au travail montre que 59 % s'appuient sur elle pour décider des licenciements et 58 % pour décider des départs contraints.",
+          "Lorsque l'IA intervient dans ces décisions, 80 % des managers lui font pondérer les scores de performance et de productivité, 57 % prennent en compte l'assiduité, et 42 % le salaire ou le coût.",
+          "Ces résultats posent des questions de gouvernance pour la RH : sans garde-fous clairs, les décisions de licenciement assistées par IA risquent d'ancrer des biais et d'éroder la confiance, même si la responsabilité formelle reste aux managers humains."
         ]
       }
     },
     {
-      "title": "New grads have to compete with AI for entry-level roles, hiring managers say",
-      "url": "https://www.hrdive.com/news/new-grads-have-to-compete-with-ai-for-entry-level-roles-hiring/825810/",
+      "title": "Employers may not be training workers well enough for widespread AI disruption",
+      "url": "https://www.hrdive.com/news/employers-may-not-be-training-workers-well-enough-for-widespread-ai-disrupt/826672/",
       "source": "HR Dive",
-      "date": "2026-07-22",
+      "date": "2026-07-31",
       "summary": {
         "en": [
-          "In a ResumeTemplates.com survey, 48% of hiring managers say they would rather invest in AI tools than hire and train a recent graduate, and 55% have redirected some entry-level budget toward AI.",
-          "45% of organizations now expect one senior employee plus AI to do work previously handled by several entry-level grads, reshaping the traditional talent pipeline and its future leadership bench.",
-          "Yet 65% still plan to hire as many or more 2026 graduates as last year, though expectations for baseline workplace skills have risen sharply."
+          "Conference Board research finds that although 55% of nearly 1,300 workers surveyed regularly use AI, only 1 in 3 have received employer-provided AI training in the past six months, and most of that training stays foundational.",
+          "Advanced skills such as directing and managing AI agents are rarely the focus of training, despite evidence that employees who can direct agents outperform those who simply prompt tools.",
+          "Leaders warn that effective AI training needs dedicated time, hands-on practice, and managerial support, and organizations that delay building these capabilities risk struggling to adapt as disruption accelerates."
         ],
         "fr": [
-          "Dans une enquete de ResumeTemplates.com, 48 % des recruteurs preferent investir dans des outils d'IA plutot que d'embaucher et former un jeune diplome, et 55 % ont reaffecte une partie du budget « debutants » vers l'IA.",
-          "45 % des organisations attendent desormais qu'un employe senior epaule par l'IA accomplisse le travail auparavant confie a plusieurs jeunes diplomes, reconfigurant le vivier de talents et la releve managériale.",
-          "Pourtant, 65 % prevoient toujours de recruter autant voire plus de diplomes 2026 que l'an dernier, mais les attentes en competences de base ont nettement augmente."
+          "Une étude du Conference Board montre que si 55 % des quelque 1 300 salariés interrogés utilisent l'IA régulièrement, seul un tiers a reçu une formation à l'IA financée par l'employeur au cours des six derniers mois, et cette formation reste le plus souvent basique.",
+          "Les compétences avancées, comme piloter et superviser des agents IA, sont rarement au cœur des formations, alors que les salariés capables de diriger des agents surperforment ceux qui se contentent de les solliciter ponctuellement.",
+          "Les dirigeants avertissent qu'une formation IA efficace exige du temps dédié, de la pratique concrète et un soutien managérial, et que les organisations qui tardent à développer ces compétences risquent de peiner à s'adapter face à une disruption qui s'accélère."
         ]
       }
     },
     {
-      "title": "AI on the Layoff List: Meta Lawsuit and Workday Rulings Raise the Stakes for Algorithmic Employment Decisions",
-      "url": "https://www.butzel.com/alert-ai-on-the-layoff-list-meta-lawsuit-and-workday-rulings-raise-the-stakes-for-algorithmic-employment-decisions",
-      "source": "Butzel Long",
-      "date": "2026-07-16",
+      "title": "Managers say they don't feel ready to lead an AI-fluent workforce",
+      "url": "https://www.hrdive.com/news/managers-say-they-dont-feel-ready-to-lead-an-ai-fluent-workforce/826354/",
+      "source": "HR Dive",
+      "date": "2026-07-28",
       "summary": {
         "en": [
-          "26 Meta workers allege AI-driven \"behavioral telemetry\" scoring flagged employees on medical, disability or family leave for layoffs, the first major US suit challenging AI in a layoff process; separate Workday rulings let a vendor's tools trigger employer liability.",
-          "Legal takeaway: AI can create disparate-impact exposure even without intent, and third-party HR platforms increase rather than shift the employer's risk.",
-          "HR actions: audit AI hiring and performance tools for bias, secure vendor audit rights and indemnification, and document genuine human judgment over algorithmic recommendations."
+          "An Indeed/YouGov survey finds 43% of managers feel poorly equipped or not equipped at all to lead employees who are highly fluent in AI.",
+          "Managers who already lead AI-native talent report far higher confidence, with almost 9 in 10 saying they feel able to manage this group effectively.",
+          "Employer expectations for advanced AI use are running two to three times ahead of worker comfort levels, signaling that leadership readiness, not just employee upskilling, is the next gap HR needs to close."
         ],
         "fr": [
-          "26 salaries de Meta allèguent qu'un score d'IA de « telemetrie comportementale » a designe pour le licenciement des employes en conge medical, en situation de handicap ou en conge familial, premiere grande action americaine contestant l'usage de l'IA dans un plan social ; par ailleurs, des decisions visant Workday admettent que les outils d'un fournisseur peuvent engager la responsabilite de l'employeur.",
-          "Enseignement juridique : l'IA peut creer un risque d'impact discriminatoire meme sans intention, et les plateformes RH tierces accroissent le risque de l'employeur au lieu de le transferer.",
-          "Actions RH : auditer les outils d'IA de recrutement et d'evaluation pour detecter les biais, obtenir des droits d'audit et une indemnisation des fournisseurs, et documenter un veritable jugement humain au-dela des recommandations algorithmiques."
+          "Une enquête Indeed/YouGov révèle que 43 % des managers se sentent mal équipés, voire pas du tout, pour encadrer des collaborateurs très à l'aise avec l'IA.",
+          "Les managers qui encadrent déjà des talents « natifs de l'IA » affichent une confiance nettement supérieure : près de 9 sur 10 se disent capables de bien gérer ce type d'équipe.",
+          "Les attentes des employeurs en matière d'usages avancés de l'IA dépassent de deux à trois fois le niveau de confort des salariés, signe que la préparation des managers, et pas seulement la montée en compétences des équipes, est le prochain chantier pour la RH."
         ]
       }
     },
     {
-      "title": "Multi-Agent AI For Talent Acquisition Arrives: Eightfold, Paradox, Maki, Radancy, And More",
-      "url": "https://joshbersin.com/2026/07/multi-agent-ai-for-talent-acquisition-arrives-eightfold-paradox-maki-radancy-and-more/",
-      "source": "Josh Bersin",
-      "date": "2026-07-15",
+      "title": "This week in 5 numbers: Why some workers aren't AI upskilling",
+      "url": "https://www.hrdive.com/news/why-some-workers-arent-ai-upskilling/826634/",
+      "source": "HR Dive",
+      "date": "2026-07-30",
       "summary": {
         "en": [
-          "Recruiting vendors (Eightfold, Paradox, Maki, Radancy) are shipping multi-agent systems, such as Eightfold's Candidate Agent working alongside its Interview agent across mobile, web and Slack, that autonomously source, qualify and inform candidates at scale.",
-          "This marks the shift from single copilots to coordinated agents handling end-to-end talent-acquisition workflows, especially valuable for high-volume hiring.",
-          "Bersin frames it as the leading edge of his \"HR 2030\" agentic vision and urges an architectural approach rather than piecemeal agent adoption."
+          "Indeed and YouGov research finds 25% of workers cite concerns about AI accuracy, ethics, and data privacy as the main reason they aren't upskilling on the technology.",
+          "52% of surveyed workers say they aren't receiving the AI training they need, even as employers accelerate AI rollout across the organization.",
+          "For HR leaders, the gap suggests upskilling programs must address trust and ethical concerns directly, not just technical skills, to get adoption to stick."
         ],
         "fr": [
-          "Les fournisseurs de recrutement (Eightfold, Paradox, Maki, Radancy) deploient des systemes multi-agents, comme le Candidate Agent d'Eightfold aux cotes de son agent d'entretien, sur mobile, web et Slack, qui sourcent, qualifient et informent les candidats de facon autonome et a grande echelle.",
-          "C'est le passage de simples copilotes a des agents coordonnes couvrant des processus de recrutement de bout en bout, particulierement utiles pour les embauches en volume.",
-          "Bersin y voit la pointe de sa vision « HR 2030 » d'RH agentiques et plaide pour une approche architecturale plutot qu'une adoption fragmentee des agents."
-        ]
-      }
-    },
-    {
-      "title": "Traliant Research Reveals AI Adoption in HR Is Outpacing Governance, Creating Increased Risk",
-      "url": "https://www.traliant.com/news/traliant-research-reveals-ai-adoption-in-hr-is-outpacing-governance-creating-increased-risk/",
-      "source": "Traliant",
-      "date": "2026-07-09",
-      "summary": {
-        "en": [
-          "A survey of 500+ US HR professionals finds AI now embedded in core HR operations, but governance, training and compliance are not keeping pace, widening organizational risk.",
-          "The gap is structural, not technical: firms optimized for speed-to-adoption without matching oversight, controls or workforce readiness.",
-          "Recommendation: shift the mandate from \"adopt fast\" to \"adopt ready\", with formal AI governance, role-based training and compliance guardrails."
-        ],
-        "fr": [
-          "Une enquete menee aupres de plus de 500 professionnels RH americains revele que l'IA est desormais ancree dans les operations RH cles, mais que la gouvernance, la formation et la conformite ne suivent pas, accentuant le risque pour l'organisation.",
-          "L'ecart est structurel, pas technique : les entreprises ont privilegie la rapidite d'adoption sans supervision, controles ni preparation des equipes a la hauteur.",
-          "Recommandation : passer d'un imperatif « adopter vite » a « adopter pret », avec une gouvernance formelle de l'IA, une formation par role et des garde-fous de conformite."
+          "Une étude Indeed et YouGov montre que 25 % des salariés citent des inquiétudes liées à la fiabilité de l'IA, à l'éthique et à la protection des données comme principal frein à leur montée en compétences sur la technologie.",
+          "52 % des salariés interrogés déclarent ne pas recevoir la formation à l'IA dont ils ont besoin, alors même que les employeurs accélèrent le déploiement de l'IA dans l'organisation.",
+          "Pour les DRH, cet écart montre que les programmes de montée en compétences doivent traiter directement les questions de confiance et d'éthique, et pas seulement les compétences techniques, pour que l'adoption s'installe durablement."
         ]
       }
     }
