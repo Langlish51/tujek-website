@@ -1,93 +1,111 @@
 {
-  "updated": "2026-08-03",
+  "updated": "2026-08-06",
   "articles": [
     {
-      "title": "An upcoming deadline turns HR's AI shortcuts into legal risk",
-      "url": "https://hrexecutive.com/an-upcoming-deadline-turns-hrs-ai-shortcuts-into-legal-risk/",
+      "title": "What HR leaders can take from Visa's 2,600 role layoffs",
+      "url": "https://hrexecutive.com/visa-cuts-2600-jobs-as-ai-reshapes-how-work-gets-done/",
       "source": "HR Executive",
-      "date": "2026-08-02",
+      "date": "2026-08-06",
       "summary": {
         "en": [
-          "The EU AI Act's August 2, 2026 deadline brings mandatory transparency duties into force immediately, even though the broader high-risk obligations for hiring and performance tools have been pushed to December 2027 under the Digital Omnibus.",
-          "Employers deploying a vendor's AI for recruitment, screening, promotion, or performance monitoring must follow the vendor's legally mandated instructions for use, and high-risk systems now explicitly cover targeted job ads, application filtering, and worker monitoring.",
-          "HR leaders should treat this as a real compliance checkpoint, not a false alarm: transparency and disclosure duties are live now, and full high-risk documentation requirements are still coming, just later than expected."
+          "Visa is cutting about 2,600 jobs (7% of its workforce), with CEO Ryan McInerney tying the restructuring directly to AI easing repetitive work and speeding product development, mainly in technology and product roles.",
+          "Analysts caution the picture is more nuanced: people close to the company say AI played a significant but not sole role, and Evercore ISI framed the move as routine cost reallocation rather than distress.",
+          "For HR leaders, Visa's case previews how AI-linked restructuring announcements will be scrutinized: clear, credible communication about what AI actually changed matters as much as the numbers."
         ],
         "fr": [
-          "L'échéance du 2 août 2026 de l'AI Act européen fait entrer en vigueur des obligations de transparence immédiates, même si les obligations plus larges pour les outils de recrutement et d'évaluation ont été reportées à décembre 2027 dans le cadre du « Digital Omnibus ».",
-          "Les employeurs utilisant l'IA d'un éditeur pour le recrutement, la présélection, la promotion ou le suivi de la performance doivent respecter les instructions d'usage légalement fournies par ce fournisseur ; les systèmes à haut risque couvrent désormais explicitement les annonces d'emploi ciblées, le filtrage des candidatures et la surveillance des salariés.",
-          "Les DRH doivent traiter cette échéance comme un véritable point de conformité, non comme une fausse alerte : les obligations de transparence s'appliquent dès maintenant, et les exigences documentaires complètes pour le haut risque arrivent toujours, mais plus tard que prévu."
+          "Visa supprime environ 2 600 postes (7 % de ses effectifs) ; son PDG Ryan McInerney relie directement cette restructuration à l'IA, qui allège les tâches répétitives et accélère le développement produit, principalement dans la technologie et les produits.",
+          "Les analystes nuancent le tableau : des proches du dossier indiquent que l'IA a joué un rôle significatif mais non exclusif, et Evercore ISI y voit une réallocation de coûts habituelle plutôt qu'un signe de difficulté.",
+          "Pour les DRH, le cas Visa illustre l'attention que suscitent désormais les annonces de restructuration liées à l'IA : une communication claire et crédible sur ce que l'IA change réellement compte autant que les chiffres."
         ]
       }
     },
     {
-      "title": "Managers say they are using AI to make layoff decisions",
-      "url": "https://www.hrdive.com/news/managers-are-using-ai-to-make-layoff-decisions/826697/",
-      "source": "HR Dive",
-      "date": "2026-07-31",
+      "title": "AI Is Replacing HR Tasks Across Corporate America",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-04/ai-is-replacing-hr-tasks-across-corporate-america",
+      "source": "Bloomberg",
+      "date": "2026-08-04",
       "summary": {
         "en": [
-          "A survey of 1,000 U.S. managers who use AI at work found 59% use it to help decide who gets laid off and 58% use it to decide who gets fired.",
-          "When AI informs these calls, 80% of managers have it weigh performance and productivity scores, 57% factor in attendance, and 42% weigh salary or cost.",
-          "The findings raise governance questions for HR: without clear guardrails, AI-assisted layoff and termination decisions risk embedding bias and eroding trust, even when human managers remain formally accountable."
+          "At SHRM's flagship conference in Orlando (20,000 attendees), president Johnny Taylor warned AI now threatens the field's own survival, telling the room that the livelihoods of 1.6 million U.S. and 6.7 million global HR professionals are at risk.",
+          "Employers are increasingly replacing core HR-generalist work -- policy Q&A, onboarding paperwork, scheduling, first-pass resume screening -- with always-on AI systems that cost a fraction of a human team.",
+          "The piece captures a shift in mood: AI in HR is no longer just a tool HR deploys elsewhere in the business, it's now automating HR's own function."
         ],
         "fr": [
-          "Une enquête menée auprès de 1 000 managers américains utilisateurs de l'IA au travail montre que 59 % s'appuient sur elle pour décider des licenciements et 58 % pour décider des départs contraints.",
-          "Lorsque l'IA intervient dans ces décisions, 80 % des managers lui font pondérer les scores de performance et de productivité, 57 % prennent en compte l'assiduité, et 42 % le salaire ou le coût.",
-          "Ces résultats posent des questions de gouvernance pour la RH : sans garde-fous clairs, les décisions de licenciement assistées par IA risquent d'ancrer des biais et d'éroder la confiance, même si la responsabilité formelle reste aux managers humains."
+          "Lors de la conférence phare de la SHRM à Orlando (20 000 participants), son président Johnny Taylor a averti que l'IA menace désormais la survie de la profession elle-même, évoquant les moyens de subsistance de 1,6 million de professionnels RH aux États-Unis et 6,7 millions dans le monde.",
+          "Les employeurs remplacent de plus en plus les tâches RH généralistes de base -- réponses aux questions de politique interne, paperasse d'intégration, planification, premier tri des CV -- par des systèmes d'IA disponibles en continu et bien moins coûteux qu'une équipe humaine.",
+          "L'article illustre un changement de climat : l'IA en RH n'est plus seulement un outil que la RH déploie pour le reste de l'entreprise, elle automatise désormais la fonction RH elle-même."
         ]
       }
     },
     {
-      "title": "Employers may not be training workers well enough for widespread AI disruption",
-      "url": "https://www.hrdive.com/news/employers-may-not-be-training-workers-well-enough-for-widespread-ai-disrupt/826672/",
-      "source": "HR Dive",
-      "date": "2026-07-31",
+      "title": "Latest AI notetaker lawsuit raises fresh HR questions",
+      "url": "https://hrexecutive.com/latest-ai-notetaker-lawsuit-raises-fresh-hr-questions/",
+      "source": "HR Executive",
+      "date": "2026-08-05",
       "summary": {
         "en": [
-          "Conference Board research finds that although 55% of nearly 1,300 workers surveyed regularly use AI, only 1 in 3 have received employer-provided AI training in the past six months, and most of that training stays foundational.",
-          "Advanced skills such as directing and managing AI agents are rarely the focus of training, despite evidence that employees who can direct agents outperform those who simply prompt tools.",
-          "Leaders warn that effective AI training needs dedicated time, hands-on practice, and managerial support, and organizations that delay building these capabilities risk struggling to adapt as disruption accelerates."
+          "A proposed class action filed July 30 accuses AI meeting notetaker Granola of recording conversations without telling most participants and feeding those recordings into its own model training by default.",
+          "The suit lands squarely on HR's desk: many organizations have adopted AI notetakers without formal vetting of consent notices, recording defaults, or data-training practices.",
+          "HR leaders should treat this as a prompt to audit which AI meeting tools are in use across the business and confirm consent and data-handling settings meet legal and policy requirements."
         ],
         "fr": [
-          "Une étude du Conference Board montre que si 55 % des quelque 1 300 salariés interrogés utilisent l'IA régulièrement, seul un tiers a reçu une formation à l'IA financée par l'employeur au cours des six derniers mois, et cette formation reste le plus souvent basique.",
-          "Les compétences avancées, comme piloter et superviser des agents IA, sont rarement au cœur des formations, alors que les salariés capables de diriger des agents surperforment ceux qui se contentent de les solliciter ponctuellement.",
-          "Les dirigeants avertissent qu'une formation IA efficace exige du temps dédié, de la pratique concrète et un soutien managérial, et que les organisations qui tardent à développer ces compétences risquent de peiner à s'adapter face à une disruption qui s'accélère."
+          "Une class action déposée le 30 juillet accuse l'outil de prise de notes IA Granola d'enregistrer les conversations sans en informer la plupart des participants, et d'utiliser ces enregistrements par défaut pour entraîner son propre modèle.",
+          "Cette action tombe directement dans le champ de la RH : de nombreuses organisations ont adopté des preneurs de notes IA sans validation formelle des mentions de consentement, des paramètres d'enregistrement par défaut ni des pratiques d'entraînement sur les données.",
+          "Les DRH devraient saisir l'occasion pour auditer les outils de prise de notes IA utilisés dans l'entreprise et vérifier que le consentement et le traitement des données respectent les exigences légales et internes."
         ]
       }
     },
     {
-      "title": "Managers say they don't feel ready to lead an AI-fluent workforce",
-      "url": "https://www.hrdive.com/news/managers-say-they-dont-feel-ready-to-lead-an-ai-fluent-workforce/826354/",
+      "title": "HR often uses ChatGPT to complete non-HR tasks, according to OpenAI report",
+      "url": "https://www.hrdive.com/news/hr-uses-chatgpt-complete-non-hr-tasks/826459/",
       "source": "HR Dive",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "summary": {
         "en": [
-          "An Indeed/YouGov survey finds 43% of managers feel poorly equipped or not equipped at all to lead employees who are highly fluent in AI.",
-          "Managers who already lead AI-native talent report far higher confidence, with almost 9 in 10 saying they feel able to manage this group effectively.",
-          "Employer expectations for advanced AI use are running two to three times ahead of worker comfort levels, signaling that leadership readiness, not just employee upskilling, is the next gap HR needs to close."
+          "A new OpenAI analysis of workplace ChatGPT use finds HR professionals are the job function most likely to use the tool for tasks outside their formal role, ahead of every other profession studied.",
+          "The finding suggests AI is quietly blurring functional boundaries, with HR practitioners picking up adjacent finance, IT, or communications tasks via chatbot rather than through formal cross-training.",
+          "For HR leaders, it's a signal to formally recognize and support this informal skill-broadening rather than leave it as an unmanaged, ad hoc practice."
         ],
         "fr": [
-          "Une enquête Indeed/YouGov révèle que 43 % des managers se sentent mal équipés, voire pas du tout, pour encadrer des collaborateurs très à l'aise avec l'IA.",
-          "Les managers qui encadrent déjà des talents « natifs de l'IA » affichent une confiance nettement supérieure : près de 9 sur 10 se disent capables de bien gérer ce type d'équipe.",
-          "Les attentes des employeurs en matière d'usages avancés de l'IA dépassent de deux à trois fois le niveau de confort des salariés, signe que la préparation des managers, et pas seulement la montée en compétences des équipes, est le prochain chantier pour la RH."
+          "Une nouvelle analyse d'OpenAI sur l'usage de ChatGPT au travail montre que les professionnels RH sont la fonction la plus susceptible d'utiliser l'outil pour des tâches sortant de leur rôle formel, devant toutes les autres professions étudiées.",
+          "Ce constat suggère que l'IA brouille discrètement les frontières fonctionnelles, les praticiens RH s'appropriant via un chatbot des tâches adjacentes de finance, d'IT ou de communication, sans passage par une formation croisée formelle.",
+          "Pour les DRH, c'est un signal à reconnaître et soutenir formellement cet élargissement informel des compétences plutôt que de le laisser comme une pratique ad hoc non pilotée."
         ]
       }
     },
     {
-      "title": "This week in 5 numbers: Why some workers aren't AI upskilling",
-      "url": "https://www.hrdive.com/news/why-some-workers-arent-ai-upskilling/826634/",
-      "source": "HR Dive",
+      "title": "1 in 3 employees are learning AI skills from YouTube",
+      "url": "https://hrexecutive.com/1-in-3-employees-are-learning-ai-skills-from-youtube/",
+      "source": "HR Executive",
       "date": "2026-07-30",
       "summary": {
         "en": [
-          "Indeed and YouGov research finds 25% of workers cite concerns about AI accuracy, ethics, and data privacy as the main reason they aren't upskilling on the technology.",
-          "52% of surveyed workers say they aren't receiving the AI training they need, even as employers accelerate AI rollout across the organization.",
-          "For HR leaders, the gap suggests upskilling programs must address trust and ethical concerns directly, not just technical skills, to get adoption to stick."
+          "An Adobe for Business survey of 1,000 U.S. workers finds 54% are learning agentic AI by trial and error, and about 36% are turning to YouTube for help; only around a third have received formal employer training.",
+          "Employees are also relying on peers and platforms like Reddit to build AI skills, filling a gap that employer-led programs haven't closed.",
+          "The training gap is a retention and risk issue: workers self-teaching from unvetted sources may pick up inconsistent, ungoverned practices that HR then has to manage after the fact."
         ],
         "fr": [
-          "Une étude Indeed et YouGov montre que 25 % des salariés citent des inquiétudes liées à la fiabilité de l'IA, à l'éthique et à la protection des données comme principal frein à leur montée en compétences sur la technologie.",
-          "52 % des salariés interrogés déclarent ne pas recevoir la formation à l'IA dont ils ont besoin, alors même que les employeurs accélèrent le déploiement de l'IA dans l'organisation.",
-          "Pour les DRH, cet écart montre que les programmes de montée en compétences doivent traiter directement les questions de confiance et d'éthique, et pas seulement les compétences techniques, pour que l'adoption s'installe durablement."
+          "Une enquête Adobe for Business auprès de 1 000 salariés américains montre que 54 % apprennent l'IA agentique par essais-erreurs et qu'environ 36 % se tournent vers YouTube ; seul un tiers environ a reçu une formation formelle de son employeur.",
+          "Les salariés s'appuient aussi sur leurs pairs et des plateformes comme Reddit pour développer leurs compétences en IA, comblant un vide que les programmes pilotés par l'employeur n'ont pas comblé.",
+          "Cet écart de formation est aussi un enjeu de rétention et de risque : des salariés autodidactes à partir de sources non validées peuvent adopter des pratiques incohérentes et non gouvernées, que la RH devra ensuite gérer a posteriori."
+        ]
+      }
+    },
+    {
+      "title": "AI works better when HR helps lead it, new research finds",
+      "url": "https://hrexecutive.com/ai-divide-works-better-when-hr-helps-lead-it-new-research-finds/",
+      "source": "HR Executive",
+      "date": "2026-07-30",
+      "summary": {
+        "en": [
+          "An i4cp survey of 1,338 business and HR leaders finds that when HR co-leads enterprise AI implementation, 58% report AI has meaningfully increased HR's strategic impact, versus 39% when IT leads alone and just 20% when a cross-functional team leads without HR.",
+          "Organizations where HR leads AI implementation are roughly four times more likely to describe their workforce as AI-ready than those where a cross-functional team manages it without HR (56% vs. 14%).",
+          "83% of HR leaders say AI is already reshaping what the business expects of them, making a formal seat at the AI governance table a practical necessity, not just an aspiration."
+        ],
+        "fr": [
+          "Une enquête i4cp menée auprès de 1 338 dirigeants d'entreprise et RH montre que lorsque la RH copilote la mise en œuvre de l'IA, 58 % constatent une hausse significative de l'impact stratégique de la RH, contre 39 % quand l'IT pilote seule et seulement 20 % quand une équipe transverse pilote sans la RH.",
+          "Les organisations où la RH pilote la mise en œuvre de l'IA sont environ quatre fois plus susceptibles de décrire leurs effectifs comme prêts pour l'IA que celles où une équipe transverse gère le sujet sans la RH (56 % contre 14 %).",
+          "83 % des DRH affirment que l'IA redéfinit déjà les attentes de l'entreprise à leur égard, faisant d'une place formelle à la table de gouvernance de l'IA une nécessité pratique, pas seulement une aspiration."
         ]
       }
     }
