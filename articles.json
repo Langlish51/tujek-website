@@ -1,111 +1,111 @@
 {
-  "updated": "2026-08-13",
+  "updated": "2026-08-20",
   "articles": [
     {
-      "title": "Oracle Adds New Fusion Agentic Applications and AI Agents to Help Organizations Improve Talent Management",
-      "url": "https://www.oracle.com/news/announcement/oracle-adds-new-fusion-agentic-applications-and-ai-agents-to-help-improve-talent-management-2026-08-11/",
-      "source": "Oracle Newsroom",
-      "date": "2026-08-11",
-      "summary": {
-        "en": [
-          "Oracle added new Fusion Agentic Applications and AI agents to its cloud HCM suite, spanning five areas: role architecture, learning and development, manager coaching, employee growth and mobility, and workforce planning.",
-          "Named agents include a Job Architect Agent for role design, an Intelligent Talent Profiles Agent that keeps skill profiles current, a Manager Coaching Workspace, a Grow Coach for career development, and a Workforce Skills Supply vs. Demand Agent for planning.",
-          "The agents operate within existing security, workflow, and approval structures, and customers can extend them via Oracle's AI Agent Studio -- a sign major HRIS vendors are moving from point AI features to coordinated 'teams' of enterprise agents."
-        ],
-        "fr": [
-          "Oracle a ajouté de nouvelles applications agentiques Fusion et des agents IA à sa suite HCM cloud, couvrant cinq domaines : architecture des postes, formation et développement, coaching managérial, évolution et mobilité des collaborateurs, et planification des effectifs.",
-          "Parmi les agents nommés figurent un Job Architect Agent pour la conception des rôles, un Intelligent Talent Profiles Agent qui met à jour les profils de compétences, un Manager Coaching Workspace, un Grow Coach pour le développement de carrière, et un Workforce Skills Supply vs. Demand Agent pour la planification.",
-          "Ces agents s'intègrent aux workflows, approbations et règles de sécurité existants, et les clients peuvent les étendre via l'AI Agent Studio d'Oracle -- signe que les grands éditeurs de SIRH passent de fonctionnalités IA ponctuelles à des « équipes » coordonnées d'agents d'entreprise."
-        ]
-      }
-    },
-    {
-      "title": "CHROs more cautious about AI readiness and adoption than C-suite peers, survey finds",
-      "url": "https://www.hr-brew.com/stories/chro-most-cautious-ai-readiness-adoption",
-      "source": "HR Brew",
-      "date": "2026-08-11",
-      "summary": {
-        "en": [
-          "A Protiviti survey of over 800 global executives finds CHROs are the most cautious C-suite members on AI readiness: only 13% strongly agree their organization's jobs are ready for an AI redesign, versus 28% of all C-suite executives and 88% of IT leaders.",
-          "HR also shows the lowest AI adoption rate among functions surveyed: just 11% of CHROs say at least a quarter of their function has adopted AI tools.",
-          "The gap suggests CHROs see execution risk that other executives may be underestimating, reinforcing the case for HR to set its own AI pace rather than wait for direction from IT or the wider C-suite."
-        ],
-        "fr": [
-          "Une enquête Protiviti menée auprès de plus de 800 dirigeants dans le monde montre que les DRH sont les membres du comité de direction les plus prudents sur la préparation à l'IA : seuls 13 % jugent fermement que les postes de leur organisation sont prêts pour une refonte par l'IA, contre 28 % de l'ensemble des dirigeants et 88 % des responsables IT.",
-          "La fonction RH affiche aussi le taux d'adoption de l'IA le plus faible parmi les fonctions étudiées : seulement 11 % des DRH indiquent qu'au moins un quart de leur fonction a adopté des outils d'IA.",
-          "Cet écart suggère que les DRH perçoivent des risques d'exécution que d'autres dirigeants sous-estiment peut-être, renforçant l'intérêt pour la RH de fixer elle-même son rythme d'adoption de l'IA plutôt que d'attendre les directives de l'IT ou du reste du comité de direction."
-        ]
-      }
-    },
-    {
-      "title": "The majority of business leaders have not achieved their top AI goals",
-      "url": "https://www.hr-brew.com/stories/the-majority-of-leaders-have-not-achieved-their-top-ai-goals",
-      "source": "HR Brew",
-      "date": "2026-08-12",
-      "summary": {
-        "en": [
-          "A Kyndryl survey of 1,100 senior business and technology leaders across eight countries finds only 32% have accomplished one of their top two AI goals, and just 11% have achieved both.",
-          "Kyndryl's CHRO Mark Paulek said confidence in organizational readiness is dropping as leaders get closer to execution and see the real scale of the challenge.",
-          "BambooHR's CEO argues top-down AI mandates alone aren't moving the needle, suggesting HR needs to shift from 'use AI' messaging toward practical enablement and workflow redesign."
-        ],
-        "fr": [
-          "Une enquête Kyndryl menée auprès de 1 100 dirigeants d'entreprise et de la technologie dans huit pays montre que seuls 32 % ont atteint l'un de leurs deux principaux objectifs IA, et seulement 11 % les deux.",
-          "Mark Paulek, DRH de Kyndryl, indique que la confiance dans la préparation des organisations recule à mesure que les dirigeants se rapprochent de l'exécution et mesurent l'ampleur réelle du défi.",
-          "Le PDG de BambooHR estime que les injonctions descendantes à « utiliser l'IA » ne suffisent plus, suggérant que la RH doit passer d'un discours incitatif à un accompagnement concret et à une refonte des processus de travail."
-        ]
-      }
-    },
-    {
-      "title": "9 stories on the growing pains of AI at work",
-      "url": "https://www.hrdive.com/news/9-stories-on-the-growing-pains-of-ai-at-work/827450/",
+      "title": "Which skills can AI not replace?",
+      "url": "https://www.hrdive.com/news/which-skills-can-ai-not-replace/826951/",
       "source": "HR Dive",
+      "date": "2026-08-06",
+      "summary": {
+        "en": [
+          "A Resume Now analysis of O*NET data identifies 10 \"durable\" cognitive skills -- led by oral comprehension, oral expression, problem sensitivity, and deductive reasoning -- that carry high importance scores across virtually all occupations and that AI still cannot replicate.",
+          "These durable skills consistently signal high-performing workers and remain in demand across industries, even as AI reshapes task-level work.",
+          "Separate research shows employees who treat AI as a collaborator needing direction and oversight outperform those who simply delegate tasks to it, reinforcing the value of judgment-oriented human skills."
+        ],
+        "fr": [
+          "Une analyse de Resume Now portant sur les données O*NET identifie 10 compétences cognitives « durables » -- en tête desquelles la compréhension orale, l'expression orale, la sensibilité aux problèmes et le raisonnement déductif -- jugées essentielles dans presque tous les métiers et que l'IA ne peut toujours pas reproduire.",
+          "Ces compétences durables restent un signal fiable de performance élevée et demeurent recherchées dans tous les secteurs, même si l'IA transforme le travail au niveau des tâches.",
+          "D'autres études montrent que les salariés qui traitent l'IA comme une collaboratrice nécessitant orientation et supervision obtiennent de meilleurs résultats que ceux qui lui délèguent simplement des tâches, ce qui renforce la valeur des compétences humaines liées au jugement."
+        ]
+      }
+    },
+    {
+      "title": "The Download: HR Technology Trends, August 2026",
+      "url": "https://www.shrm.org/topics-tools/news/download-hr-technology-trends-august-2026",
+      "source": "SHRM",
       "date": "2026-08-11",
       "summary": {
         "en": [
-          "HR Dive rounds up nine recent stories showing AI adoption is creating new HR headaches: religious-accommodation requests to opt out of AI tools, lawsuits over AI-assisted hiring and layoff decisions, and employees submitting AI-generated work they don't fully understand.",
-          "The roundup frames these as the practical, day-to-day consequences of AI rollout that HR teams are now absorbing across compliance, employee relations, and performance management.",
-          "For HR leaders, it's a reminder that AI governance needs to cover not just tool selection but the downstream people-process issues -- accommodation requests, documentation standards, manager training -- that surface once AI is actually in use."
+          "SHRM's August technology roundup highlights that many managers are struggling to lead AI-enabled teams, pointing to a widening gap between tool rollout and manager readiness.",
+          "The briefing flags new governance challenges tied to rising AI spending, as organizations scale deployments faster than they build oversight structures.",
+          "It also notes AI's potential to improve workplace accessibility, offering a more balanced narrative beyond productivity and cost framing."
         ],
         "fr": [
-          "HR Dive rassemble neuf actualités récentes montrant que l'adoption de l'IA crée de nouveaux casse-têtes RH : demandes d'aménagement religieux pour refuser d'utiliser des outils d'IA, litiges liés à des décisions d'embauche ou de licenciement assistées par IA, et salariés soumettant des travaux générés par IA qu'ils ne maîtrisent pas pleinement.",
-          "Cette synthèse présente ces cas comme les conséquences concrètes et quotidiennes du déploiement de l'IA que les équipes RH doivent désormais gérer, entre conformité, relations sociales et gestion de la performance.",
-          "Pour les DRH, c'est un rappel que la gouvernance de l'IA doit couvrir non seulement le choix des outils, mais aussi les répercussions RH en aval -- demandes d'aménagement, normes de documentation, formation des managers -- qui apparaissent une fois l'IA réellement en usage."
+          "La synthèse technologique mensuelle de la SHRM pour le mois d'août souligne que de nombreux managers peinent à encadrer des équipes appuyées par l'IA, révélant un écart croissant entre le déploiement des outils et la préparation des managers.",
+          "Le bulletin signale de nouveaux enjeux de gouvernance liés à la hausse des dépenses en IA, les organisations déployant plus vite qu'elles ne construisent leurs dispositifs de contrôle.",
+          "Il souligne également le potentiel de l'IA pour améliorer l'accessibilité au travail, apportant un éclairage plus équilibré au-delà des seuls enjeux de productivité et de coûts."
         ]
       }
     },
     {
-      "title": "5 stories from DMEC26",
-      "url": "https://www.hrdive.com/news/5-stories-from-dmec26/827430/",
-      "source": "HR Dive",
-      "date": "2026-08-05",
+      "title": "Despite Massive AI Investments, HR Jobs Are Booming. Why?",
+      "url": "https://joshbersin.com/2026/08/despite-massive-ai-investments-hr-jobs-are-booming-why/",
+      "source": "Josh Bersin",
+      "date": "2026-08-13",
       "summary": {
         "en": [
-          "At the 2026 DMEC Annual Conference in Nashville (800+ attendees), speakers said AI is starting to reshape leave management, helping professionals without a third-party administrator keep pace with changing state and federal leave laws.",
-          "Julie Hocker, U.S. assistant secretary of labor for disability employment policy, told attendees AI is 'busting down barriers' for workers with disabilities rather than displacing them, pointing to gains in workplace accessibility.",
-          "Speakers stressed AI should make human-to-human interactions more effective, not replace them -- a useful frame for HR leaders piloting AI in leave, accommodation, and disability management workflows."
+          "Despite heavy corporate AI spending, Bersin finds HR hiring and headcount continuing to grow rather than shrink, countering predictions of AI-driven HR job losses.",
+          "He argues AI is increasing the volume and complexity of HR work -- governance, change management, agent oversight -- rather than eliminating it, creating new demand for HR talent.",
+          "The piece reframes the CHRO's role as a driver of AI adoption across the business, not merely a function absorbing AI internally."
         ],
         "fr": [
-          "Lors de la conférence annuelle DMEC 2026 à Nashville (plus de 800 participants), plusieurs intervenants ont indiqué que l'IA commence à transformer la gestion des congés, aidant les professionnels sans administrateur tiers à suivre l'évolution des législations sur les congés au niveau des États et fédéral.",
-          "Julie Hocker, secrétaire adjointe au Travail chargée de la politique d'emploi des personnes en situation de handicap, a déclaré que l'IA « fait tomber des barrières » pour les travailleurs handicapés plutôt que de les remplacer, citant des progrès en matière d'accessibilité au travail.",
-          "Les intervenants ont souligné que l'IA doit rendre les interactions humaines plus efficaces, non les remplacer -- un repère utile pour les DRH qui pilotent l'IA dans la gestion des congés, des aménagements et du handicap."
+          "Malgré des investissements massifs des entreprises dans l'IA, Bersin constate que le recrutement et les effectifs RH continuent de croître plutôt que de diminuer, contredisant les prévisions de suppressions de postes RH liées à l'IA.",
+          "Il soutient que l'IA augmente le volume et la complexité du travail RH -- gouvernance, conduite du changement, supervision des agents -- plutôt que de le supprimer, créant une nouvelle demande de talents RH.",
+          "L'article repositionne le rôle du DRH comme moteur de l'adoption de l'IA dans l'ensemble de l'entreprise, et non comme une fonction qui se contente d'absorber l'IA en interne."
         ]
       }
     },
     {
-      "title": "Beyond automation: What HR must get right in the AI Era",
-      "url": "https://www.peoplematters.in/article/ai-and-emerging-tech/beyond-automation-what-hr-must-get-right-in-the-ai-era-51389",
+      "title": "SHRPA 2026 HR Tech and Transformation Research: India Executive Insights",
+      "url": "https://www.peoplematters.in/article/strategic-hr/shrpa-hr-tech-and-transformation-research-2026-india-executive-insights-51362",
       "source": "People Matters",
-      "date": "2026-08-11",
+      "date": "2026-08-13",
       "summary": {
         "en": [
-          "The article warns HR leaders against conflating automation with transformation: removing repetitive tasks is only a starting point, and several HR processes can be automated without changing how talent decisions actually get made.",
-          "It distinguishes AI-augmented roles (employees using AI tools to do existing work better) from emerging AI-native roles built around AI governance, model oversight, prompt engineering, and responsible deployment.",
-          "For HR, the real task isn't predicting which job titles disappear but tracking which tasks and capabilities are changing, so reskilling and role redesign keep pace with how AI is actually reshaping work."
+          "The third edition of People Matters' SHRPA research, drawing on 1,200+ India-based respondents, finds only 22% of organizations have scaled AI across HR or the wider enterprise, while 46% remain at the pilot or no-implementation stage.",
+          "The report argues AI adoption alone is no longer a differentiator; the organizations that outperform are those redesigning work to strengthen human judgment and collaboration alongside AI.",
+          "For HR leaders, it's a reminder that maturity gaps in AI-led transformation are as much about capability-building and work redesign as about technology rollout."
         ],
         "fr": [
-          "L'article met en garde les DRH contre la confusion entre automatisation et transformation : supprimer des tâches répétitives n'est qu'un point de départ, et plusieurs processus RH peuvent être automatisés sans changer la façon dont les décisions relatives aux talents sont réellement prises.",
-          "Il distingue les rôles « augmentés par l'IA » (des salariés utilisant des outils d'IA pour mieux réaliser leur travail actuel) des rôles émergents « natifs de l'IA », construits autour de la gouvernance de l'IA, du contrôle des modèles, du prompt engineering et du déploiement responsable.",
-          "Pour la RH, l'enjeu réel n'est pas de prédire quels intitulés de poste vont disparaître, mais de suivre quelles tâches et compétences évoluent, afin que la requalification et la refonte des rôles suivent le rythme réel des transformations induites par l'IA."
+          "La troisième édition de l'étude SHRPA de People Matters, menée auprès de plus de 1 200 répondants en Inde, montre que seules 22 % des organisations ont déployé l'IA à grande échelle au sein de la fonction RH ou de l'entreprise, tandis que 46 % en restent au stade des pilotes ou n'ont encore rien mis en œuvre.",
+          "Le rapport souligne que l'adoption de l'IA seule n'est plus un facteur de différenciation : les organisations les plus performantes sont celles qui repensent le travail pour renforcer le jugement humain et la collaboration aux côtés de l'IA.",
+          "Pour les DRH, ce constat rappelle que les écarts de maturité dans la transformation portée par l'IA relèvent autant du développement des capacités et de la refonte du travail que du seul déploiement technologique."
+        ]
+      }
+    },
+    {
+      "title": "Guidance from SHRM's annual conference keeps HR's focus on AI and well-being",
+      "url": "https://www.hr-brew.com/stories/guidance-from-shrms-annual-conference-keeps-hrs-focus-on-ai-and-well-being",
+      "source": "HR Brew",
+      "date": "2026-08-17",
+      "summary": {
+        "en": [
+          "Recapping SHRM's annual conference, HR Brew reports SHRM CEO Johnny C. Taylor Jr. urging CHROs to become \"chief work officers\" overseeing work performed by both people and technology.",
+          "A companion Headspace survey found many employees sacrificing sleep, disengaging emotionally, or resenting leadership amid AI-driven change, underscoring a well-being cost to rapid rollout.",
+          "The combination signals that HR leaders are expected to pair AI adoption with active management of workforce well-being, not treat the two as separate agendas."
+        ],
+        "fr": [
+          "Revenant sur la conférence annuelle de la SHRM, HR Brew rapporte que son président-directeur général, Johnny C. Taylor Jr., appelle les DRH à devenir des « chief work officers » supervisant le travail effectué à la fois par les personnes et par la technologie.",
+          "Une enquête associée de Headspace révèle que de nombreux salariés sacrifient leur sommeil, se désengagent émotionnellement ou éprouvent du ressentiment envers leur direction face aux changements portés par l'IA, soulignant le coût humain d'un déploiement rapide.",
+          "Ce constat indique que les DRH sont désormais attendus sur deux fronts à la fois : accélérer l'adoption de l'IA tout en gérant activement le bien-être des équipes, plutôt que de traiter ces sujets séparément."
+        ]
+      }
+    },
+    {
+      "title": "NTT DATA Inc. Drives AI-Driven People Transformation",
+      "url": "https://news.sap.com/2026/08/ntt-data-inc-accelerates-ai-driven-people-transformation/",
+      "source": "SAP News",
+      "date": "2026-08-19",
+      "summary": {
+        "en": [
+          "NTT DATA selected SAP SuccessFactors and SAP Business Data Cloud, integrated with SAP's Joule AI orchestrator, to replace multiple legacy HR systems with a single unified platform.",
+          "The move is aimed at strengthening workforce planning, decision-making, and employee experience across NTT DATA's global operations.",
+          "It illustrates a broader pattern among large enterprises consolidating fragmented HR technology stacks around a single AI-orchestrated core rather than adding point solutions."
+        ],
+        "fr": [
+          "NTT DATA a choisi les solutions SAP SuccessFactors et SAP Business Data Cloud, intégrées à l'orchestrateur d'IA Joule de SAP, pour remplacer plusieurs systèmes RH historiques par une plateforme unique et unifiée.",
+          "Cette initiative vise à renforcer la planification des effectifs, la prise de décision et l'expérience collaborateur au sein des opérations mondiales de NTT DATA.",
+          "Elle illustre une tendance plus large chez les grandes entreprises : consolider des piles technologiques RH fragmentées autour d'un socle unique orchestré par l'IA, plutôt que d'ajouter des solutions ponctuelles."
         ]
       }
     }
