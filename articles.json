@@ -1,93 +1,93 @@
 {
-  "updated": "2026-08-27",
+  "updated": "2026-09-03",
   "articles": [
     {
-      "title": "AI is evolving faster than humans can assess how best to use it",
-      "url": "https://www.hrdive.com/news/ai-is-evolving-faster-than-humans-can-assess-how-best-to-use-it/828761/",
+      "title": "Why HR departments run with AI agents will still require humans",
+      "url": "https://www.hrdive.com/news/why-hr-departments-run-with-ai-agents-will-still-require-humans/829048/",
       "source": "HR Dive",
-      "date": "2026-08-25",
+      "date": "2026-08-28",
       "summary": {
         "en": [
-          "New HR Dive reporting warns that AI capability is advancing faster than organizations' ability to define or measure what \"good\" AI-augmented performance actually looks like.",
-          "The piece argues this gap is outstripping human readiness, with workers struggling to judge where AI is genuinely adding long-term value versus just producing more output.",
-          "For HR leaders, the takeaway is that performance frameworks and AI governance need to catch up before further scaling deployment, not after."
+          "Despite headlines predicting HR's disappearance, HR Dive reports companies are not eliminating HR departments even as they roll out AI agents -- The Josh Bersin Co. projects headcount could still shrink 30-50% by 2030, but strategy and oversight remain human-led.",
+          "Someone still has to instruct, train, and manage the AI agents for them to be effective, meaning HR's role is shifting toward orchestration rather than disappearing.",
+          "Employee trust in AI-driven decisions hinges on transparency; the piece flags unease over models that weigh factors like sick days, age, and tenure in workforce-reduction decisions -- a governance issue HR leaders should get ahead of."
         ],
         "fr": [
-          "Un nouvel article de HR Dive alerte sur le fait que les capacités de l'IA progressent plus vite que la capacité des organisations à définir ou mesurer ce à quoi ressemble réellement une « bonne » performance augmentée par l'IA.",
-          "L'article soutient que cet écart dépasse la préparation des collaborateurs, ceux-ci peinant à évaluer où l'IA apporte une véritable valeur durable plutôt que simplement plus de production.",
-          "Pour les DRH, le message est clair : les référentiels de performance et la gouvernance de l'IA doivent rattraper leur retard avant de poursuivre le déploiement, et non après."
+          "Malgré les titres annonçant la disparition de la RH, HR Dive rapporte que les entreprises ne suppriment pas leurs services RH en déployant des agents IA -- The Josh Bersin Co. prévoit que les effectifs pourraient tout de même se réduire de 30 à 50 % d'ici 2030, mais la stratégie et la supervision restent pilotées par des humains.",
+          "Quelqu'un doit encore instruire, former et gérer les agents IA pour qu'ils soient efficaces, ce qui signifie que le rôle de la RH évolue vers l'orchestration plutôt que vers la disparition.",
+          "La confiance des salariés dans les décisions pilotées par l'IA dépend de la transparence ; l'article pointe un malaise face à des modèles qui pondèrent des facteurs comme les arrêts maladie, l'âge ou l'ancienneté dans les décisions de réduction d'effectifs -- un enjeu de gouvernance que les DRH devraient anticiper."
         ]
       }
     },
     {
-      "title": "Why AI Productivity Is Corporate America's Biggest Self-Deception",
-      "url": "https://www.forbes.com/sites/karadennison/2026/08/24/why-ai-productivity-is-corporate-americas-biggest-self-deception/",
-      "source": "Forbes",
-      "date": "2026-08-24",
+      "title": "The Great Decoupling: How Workers Became Disconnected From Companies And AI Will Accelerate This Trend",
+      "url": "https://joshbersin.com/2026/08/the-great-decoupling-how-workers-became-disconnected-from-companies-and-ai-will-accelerate-this-trend/",
+      "source": "Josh Bersin",
+      "date": "2026-08-27",
       "summary": {
         "en": [
-          "Forbes reports that nearly 40% of workers say they receive AI-generated \"workslop\" -- polished-looking output that lacks real substance and someone still has to fix, costing an estimated $9 million a year in lost productivity for a 10,000-person organization.",
-          "Controlled studies show a roughly 40-point gap between how productive people believe AI made them and their actual measured output, casting doubt on self-reported productivity gains in corporate AI surveys.",
-          "With AI investment projected near $1 trillion globally in 2026, the piece argues companies are scaling spend faster than their ability to measure real returns -- a governance and measurement gap HR and finance leaders should treat as a red flag, not a footnote."
+          "Josh Bersin argues employers now feel far less obligated to invest in workers' long-term financial health, and employees respond by changing jobs 3-4 times more often than in the 1970s.",
+          "Layoffs frequently boost stock prices because financial markets still treat labor as a cost rather than an investment, while wage stagnation -- the federal minimum wage has lost 49% of its purchasing power since 2009 -- deepens the divide.",
+          "Bersin warns that AI-driven restructuring will accelerate this employer-employee 'decoupling' unless HR leaders actively counter it with genuine investment in people."
         ],
         "fr": [
-          "Forbes rapporte que près de 40 % des salariés déclarent recevoir du « workslop » généré par l'IA -- des contenus d'apparence soignée mais dépourvus de substance réelle, que quelqu'un doit ensuite corriger, pour un coût estimé à 9 millions de dollars par an de perte de productivité pour une organisation de 10 000 personnes.",
-          "Des études contrôlées révèlent un écart d'environ 40 points entre la productivité que les personnes pensent avoir gagnée grâce à l'IA et leur production réellement mesurée, ce qui jette un doute sur les gains de productivité autodéclarés dans les enquêtes d'entreprise.",
-          "Avec des investissements en IA proches de 1 000 milliards de dollars dans le monde en 2026, l'article estime que les entreprises augmentent leurs dépenses plus vite que leur capacité à en mesurer le retour réel -- un écart de gouvernance et de mesure que les dirigeants RH et finance devraient considérer comme un signal d'alerte, et non un détail."
+          "Josh Bersin soutient que les employeurs se sentent aujourd'hui beaucoup moins tenus d'investir dans la santé financière à long terme de leurs salariés, qui réagissent en changeant d'emploi 3 à 4 fois plus souvent que dans les années 1970.",
+          "Les plans de licenciement font souvent grimper le cours de l'action car les marchés financiers continuent de considérer le travail comme un coût plutôt qu'un investissement, tandis que la stagnation des salaires -- le salaire minimum fédéral a perdu 49 % de son pouvoir d'achat depuis 2009 -- creuse encore l'écart.",
+          "Bersin avertit que les restructurations pilotées par l'IA vont accélérer ce « découplage » entre employeurs et salariés, à moins que les DRH n'y répondent activement par un investissement réel dans les personnes."
         ]
       }
     },
     {
-      "title": "Nearly one-third of companies haven't deployed any AI tech in HR yet, study finds",
-      "url": "https://www.hr-brew.com/stories/nearly-one-third-of-companies-havent-deployed-any-ai-tech-in-hr-yet-study-finds",
+      "title": "SAP Brings SAP SuccessFactors and Joule to NTT DATA's Global People and Culture Transformation",
+      "url": "https://news.sap.com/2026/08/ntt-data-inc-accelerates-ai-driven-people-transformation/",
+      "source": "SAP News Center",
+      "date": "2026-08-19",
+      "summary": {
+        "en": [
+          "NTT DATA has selected SAP SuccessFactors together with SAP Business Data Cloud, integrated with Joule as its AI orchestrator, to power its global people and culture transformation.",
+          "SuccessFactors remains the system of record for people and talent data, while Business Data Cloud connects that data with insights from finance and other business functions, letting Joule agents act across domains rather than in silos.",
+          "The deal is a concrete, large-scale example of agentic AI moving from HRIS-vendor roadmap slides into a live enterprise deployment -- worth watching as a template for how HR data platforms and AI agents get stitched together in practice."
+        ],
+        "fr": [
+          "NTT DATA a choisi SAP SuccessFactors associé à SAP Business Data Cloud, intégré à Joule comme orchestrateur IA, pour porter sa transformation RH et culture d'entreprise à l'échelle mondiale.",
+          "SuccessFactors reste le référentiel des données RH et talents, tandis que Business Data Cloud relie ces données aux informations issues de la finance et d'autres fonctions de l'entreprise, permettant aux agents Joule d'agir de façon transversale plutôt qu'en silos.",
+          "Cet accord illustre concrètement, à grande échelle, le passage de l'IA agentique des feuilles de route des éditeurs SIRH à un déploiement réel en entreprise -- un exemple à suivre pour comprendre comment plateformes de données RH et agents IA s'articulent en pratique."
+        ]
+      }
+    },
+    {
+      "title": "PwC: Agentic AI lies at the center of the future of work and HR leaders need to be in the driving seat",
+      "url": "https://www.unleash.ai/artificial-intelligence/interview/pwc-agentic-ai-lies-at-the-center-of-the-future-of-work-and-hr-leaders-need-to-be-in-the-driving-seat",
+      "source": "UNLEASH",
+      "date": "2026-08-18",
+      "summary": {
+        "en": [
+          "In this UNLEASH interview, PwC argues agentic AI is becoming the central force reshaping how work gets done, not a peripheral tool bolted onto existing processes.",
+          "The interview pushes HR leaders to actively own the redesign of workflows and governance around AI agents rather than ceding that ground to IT or individual business units.",
+          "The core message for senior HR audiences: waiting for agentic AI strategy to be handed down risks losing control over decisions that directly reshape jobs, skills, and organizational structure."
+        ],
+        "fr": [
+          "Dans cet entretien accordé à UNLEASH, PwC soutient que l'IA agentique devient la force centrale qui redessine la manière dont le travail s'effectue, et non un simple outil périphérique greffé aux processus existants.",
+          "L'entretien appelle les DRH à s'approprier activement la refonte des flux de travail et de la gouvernance autour des agents IA, plutôt que de laisser ce terrain à l'IT ou aux directions métiers.",
+          "Le message clé pour les dirigeants RH : attendre qu'une stratégie d'IA agentique leur soit imposée risque de leur faire perdre la main sur des décisions qui redéfinissent directement les postes, les compétences et la structure organisationnelle."
+        ]
+      }
+    },
+    {
+      "title": "CHRO leaders most cautious C-suite execs about AI readiness",
+      "url": "https://www.hr-brew.com/stories/chro-most-cautious-ai-readiness-adoption",
       "source": "HR Brew",
-      "date": "2026-08-20",
+      "date": "2026-08-17",
       "summary": {
         "en": [
-          "A new Surface by Paradigm \"2026 State of Workforce Transformation\" study finds 31% of organizations still haven't deployed any AI technology inside their own HR function.",
-          "The research highlights an irony: HR is expected to build AI-ready workforces and culture across the business, yet is lagging in applying that same transformation to itself.",
-          "Budget isn't the main obstacle -- roughly half of organizations are actively increasing HR technology spend -- pointing instead to readiness, skills, and change-management gaps within HR teams themselves."
+          "A Protiviti survey cited by HR Brew finds CHROs are the most cautious C-suite executives on AI readiness: only 13% strongly agree their organization's jobs are ready for an AI redesign, versus 28% of the broader C-suite and 88% of IT leaders.",
+          "Just 14% of CHROs believe their organization's learning capabilities are AI-ready, compared with 36% of the C-suite and 96% of IT leaders -- a wide confidence gap between technology and people functions.",
+          "The survey's framing explains the caution: roughly 70% of AI transformation's value comes from how employees are retrained and how jobs are redesigned, not from the technology itself, putting HR squarely on the hook for outcomes it isn't yet confident in delivering."
         ],
         "fr": [
-          "Une nouvelle étude « 2026 State of Workforce Transformation » de Surface by Paradigm révèle que 31 % des organisations n'ont encore déployé aucune technologie d'IA au sein même de leur fonction RH.",
-          "L'étude souligne un paradoxe : la RH est censée bâtir des effectifs et une culture prêts pour l'IA dans toute l'entreprise, alors qu'elle accuse elle-même un retard dans l'application de cette transformation en interne.",
-          "Le budget n'est pas le principal frein -- environ la moitié des organisations augmentent activement leurs dépenses en technologies RH -- ce qui pointe plutôt vers des lacunes de préparation, de compétences et de conduite du changement au sein même des équipes RH."
-        ]
-      }
-    },
-    {
-      "title": "Beyond automation: What HR must get right in the AI Era",
-      "url": "https://www.peoplematters.in/article/ai-and-emerging-tech/beyond-automation-what-hr-must-get-right-in-the-ai-era-51389",
-      "source": "People Matters",
-      "date": "2026-08-13",
-      "summary": {
-        "en": [
-          "A HONO x People Matters roundtable in Bengaluru pushed back on equating automation with transformation, arguing the real value of AI lies in how organizations reinvest the capacity it frees up.",
-          "Participants flagged rising employee anxiety about AI-driven role changes, arguing that AI training must go beyond tool usage to clarify which skills stay valuable and how performance expectations are shifting.",
-          "As more firms move to outcome-based commercial models, the discussion argued learning and development must be tied explicitly to business outcomes, not just automation adoption metrics."
-        ],
-        "fr": [
-          "Lors d'une table ronde HONO x People Matters à Bangalore, les participants ont contesté l'idée d'assimiler automatisation et transformation, soulignant que la vraie valeur de l'IA réside dans la manière dont les organisations réinvestissent la capacité ainsi libérée.",
-          "Les intervenants ont souligné une anxiété croissante des salariés face aux changements de postes liés à l'IA, plaidant pour une formation à l'IA qui aille au-delà du simple usage des outils, en clarifiant les compétences qui restent précieuses et l'évolution des attentes de performance.",
-          "Alors que de plus en plus d'entreprises adoptent des modèles commerciaux fondés sur les résultats, les échanges ont défendu l'idée que la formation doit être explicitement liée aux résultats business, et non aux seuls indicateurs d'adoption de l'automatisation."
-        ]
-      }
-    },
-    {
-      "title": "Oracle Adds New Fusion Agentic Applications and AI Agents to Help Organizations Improve Talent Management",
-      "url": "https://www.oracle.com/news/announcement/oracle-adds-new-fusion-agentic-applications-and-ai-agents-to-help-improve-talent-management-2026-08-11/",
-      "source": "Oracle",
-      "date": "2026-08-11",
-      "summary": {
-        "en": [
-          "Oracle unveiled a suite of 12 new AI agents for its Fusion Cloud HCM platform, covering job architecture, skills profiles, manager coaching, employee growth, and workforce planning.",
-          "The agents are designed to work as coordinated teams rather than standalone tools, aiming to continuously connect work design, skills data, learning, and workforce planning.",
-          "It signals a broader HRIS-vendor shift toward \"talent agility\" -- using agentic AI to let organizations reshape roles and skills profiles in near real time rather than through periodic reviews."
-        ],
-        "fr": [
-          "Oracle a dévoilé une suite de 12 nouveaux agents IA pour sa plateforme Fusion Cloud HCM, couvrant l'architecture des postes, les profils de compétences, le coaching managérial, le développement des employés et la planification des effectifs.",
-          "Ces agents sont conçus pour fonctionner en équipes coordonnées plutôt que comme des outils isolés, avec l'ambition de relier en continu la conception du travail, les données de compétences, la formation et la planification des effectifs.",
-          "Cette annonce illustre une tendance plus large chez les éditeurs de SIRH vers « l'agilité des talents » : utiliser l'IA agentique pour faire évoluer rôles et compétences quasiment en temps réel plutôt que lors de revues périodiques."
+          "Une enquête Protiviti citée par HR Brew montre que les DRH sont les dirigeants les plus prudents du comité exécutif quant à la préparation à l'IA : seuls 13 % estiment fermement que les postes de leur organisation sont prêts pour une refonte par l'IA, contre 28 % pour l'ensemble du comité exécutif et 88 % pour les responsables IT.",
+          "Seulement 14 % des DRH jugent que les capacités de formation de leur organisation sont prêtes pour l'IA, contre 36 % pour le comité exécutif et 96 % pour l'IT -- un écart de confiance important entre les fonctions technologiques et les fonctions RH.",
+          "Cette prudence s'explique par le constat de l'étude : environ 70 % de la valeur de la transformation par l'IA provient de la manière dont les salariés sont reformés et dont les postes sont repensés, et non de la technologie elle-même, plaçant la RH en première ligne sur des résultats qu'elle ne se sent pas encore capable de garantir."
         ]
       }
     }
