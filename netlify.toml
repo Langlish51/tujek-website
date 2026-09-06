@@ -1,0 +1,11 @@
+# Netlify configuration. The site is static (publish dir = repo root, no build step);
+# the two serverless functions under netlify/functions power the Insights mailing list.
+# Secrets (RESEND_API_KEY, RESEND_AUDIENCE_EN, RESEND_AUDIENCE_FR, UNSUBSCRIBE_SECRET)
+# are set in the Netlify UI: Site configuration -> Environment variables.
+
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"

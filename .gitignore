@@ -1,2 +1,5 @@
 # Local backup — not for publishing
 index.backup.html
+
+# Local email previews from: node scripts/send-digest.mjs --dry-run
+scripts/preview/

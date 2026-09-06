@@ -1640,7 +1640,8 @@
       });
   })();
 
-  // ===== SUBSCRIBE: Netlify Forms via AJAX (no page reload) =====
+  // ===== SUBSCRIBE: Resend mailing list via the Netlify function (welcome email + weekly brief).
+  // Falls back to a plain Netlify Forms submission if the function is unavailable, so no address is lost.
   (function () {
     const form = document.getElementById('subscribeForm');
     if (!form) return;
@@ -1660,8 +1661,8 @@
       b.addEventListener('click', () => setTimeout(syncLang, 0)));
 
     const T = {
-      en: { ok: "Thanks — you're on the list. Watch your inbox.", err: "Something went wrong. Please try again, or email Franck directly." },
-      fr: { ok: "Merci — vous êtes inscrit·e. Surveillez votre boîte mail.", err: "Une erreur est survenue. Réessayez, ou écrivez directement à Franck." }
+      en: { ok: "Thanks — you're on the list. A welcome note is on its way to your inbox.", err: "Something went wrong. Please try again, or email Franck directly." },
+      fr: { ok: "Merci — vous êtes inscrit·e. Un mot de bienvenue arrive dans votre boîte mail.", err: "Une erreur est survenue. Réessayez, ou écrivez directement à Franck." }
     };
     const encode = (data) => Object.keys(data)
       .map((k) => encodeURIComponent(k) + '=' + encodeURIComponent(data[k])).join('&');
@@ -1675,18 +1676,24 @@
       if (btn) btn.disabled = true;
       msg.className = 'subscribe-msg';
       msg.textContent = '';
-      const body = {
-        'form-name': 'newsletter',
-        email: email,
-        lang: L,
-        'bot-field': (form.querySelector('[name="bot-field"]') || {}).value || ''
-      };
-      fetch('/', {
+      const hp = (form.querySelector('[name="bot-field"]') || {}).value || '';
+
+      // 1) Mailing list (Resend via Netlify function): adds the contact + sends the welcome email.
+      const viaList = () => fetch('/.netlify/functions/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: email, lang: L, 'bot-field': hp })
+      }).then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); });
+
+      // 2) Fallback: classic Netlify Forms submission (address kept under Netlify -> Forms).
+      const viaForms = () => fetch('/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: encode(body)
-      })
-        .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); form.reset(); msg.textContent = T[L].ok; msg.classList.add('ok'); })
+        body: encode({ 'form-name': 'newsletter', email: email, lang: L, 'bot-field': hp })
+      }).then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); });
+
+      viaList().catch(viaForms)
+        .then(() => { form.reset(); msg.textContent = T[L].ok; msg.classList.add('ok'); })
         .catch(() => { msg.textContent = T[L].err; msg.classList.add('bad'); })
         .finally(() => { if (btn) btn.disabled = false; });
     });

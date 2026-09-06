@@ -1,0 +1,50 @@
+name: Send Insights digest
+
+# Fires right after the weekly refresh pushes a new articles.json to main.
+# The script itself skips when the "updated" date did not change, so a push that
+# only reorders or corrects articles does not re-send the brief.
+
+on:
+  push:
+    branches: [main]
+    paths: [articles.json]
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Send even if the "updated" date did not change (re-send this week's brief)
+        type: boolean
+        default: false
+      lang:
+        description: Only one language (en or fr). Leave empty for both.
+        type: string
+        default: ''
+
+concurrency:
+  group: send-digest
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2   # the script compares articles.json with the previous commit
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Send the brief
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RESEND_AUDIENCE_EN: ${{ secrets.RESEND_AUDIENCE_EN }}
+          RESEND_AUDIENCE_FR: ${{ secrets.RESEND_AUDIENCE_FR }}
+          INSIGHTS_FROM: ${{ vars.INSIGHTS_FROM }}
+          INSIGHTS_REPLY_TO: ${{ vars.INSIGHTS_REPLY_TO }}
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: |
+          FLAGS=""
+          if [ "${{ inputs.force }}" = "true" ]; then FLAGS="$FLAGS --force"; fi
+          if [ -n "${{ inputs.lang }}" ]; then FLAGS="$FLAGS --lang=${{ inputs.lang }}"; fi
+          node scripts/send-digest.mjs $FLAGS
