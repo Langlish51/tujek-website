@@ -137,15 +137,15 @@ const COPY = {
     welcomePre: 'A short note from Franck, and what to expect from the brief.',
     welcome: [
       'Hi there,',
-      'Thanks for subscribing to the Insights brief. Roughly once a week, I send a short, hand-picked selection of what is worth reading on AI in HR and HRIS: five or six articles, each summarised in a few lines so you can decide in seconds what deserves your attention.',
+      'Thanks for subscribing to the Insights brief. Roughly once a week, I send a short, hand-picked selection of what is worth reading in HR technology: SAP SuccessFactors, Workday, AI in HR and the wider HRIS market. Five or six articles, each summarised in a few lines so you can decide in seconds what deserves your attention.',
       'No noise, no sales pitch. Just the pieces I would forward to a colleague.',
       'If something in a brief sparks a question or a project, hit reply. I read every message.',
     ],
-    digestSubject: (d) => `AI in HR — this week’s brief (${d})`,
+    digestSubject: (d) => `HR tech — this week’s brief (${d})`,
     digestPre: (n) => `${n} articles worth your time this week, each summarised in a few lines.`,
     digestIntro: [
       'Hi there,',
-      'Here is this week’s brief: the articles on AI in HR and HRIS that I found worth your time, each summarised in a few lines. Grab a coffee, this takes about three minutes.',
+      'Here is this week’s brief: the articles on HR technology that I found worth your time, from SuccessFactors and Workday to AI in HR and the wider HRIS market, each summarised in a few lines. Grab a coffee, this takes about three minutes.',
     ],
     digestOutro: [
       'That is it for this week. If one of these resonates with something you are working on, reply and tell me about it. I would love to hear how it plays out.',
@@ -164,15 +164,15 @@ const COPY = {
     welcomePre: 'Un petit mot de Franck, et ce que vous recevrez.',
     welcome: [
       'Bonjour,',
-      'Merci de vous être abonné·e à la synthèse Insights. Environ une fois par semaine, je vous envoie une sélection courte et choisie de ce qui mérite d’être lu sur l’IA dans les RH et les SIRH : cinq ou six articles, chacun résumé en quelques lignes pour décider en quelques secondes de ce qui vaut votre attention.',
+      'Merci de vous être abonné·e à la synthèse Insights. Environ une fois par semaine, je vous envoie une sélection courte et choisie de ce qui mérite d’être lu sur les technologies RH : SAP SuccessFactors, Workday, l’IA dans les RH et le marché des SIRH. Cinq ou six articles, chacun résumé en quelques lignes pour décider en quelques secondes de ce qui vaut votre attention.',
       'Sans bruit ni discours commercial. Uniquement les articles que je transmettrais à un collègue.',
       'Si une synthèse vous inspire une question ou un projet, répondez simplement à cet e-mail. Je lis chaque message.',
     ],
-    digestSubject: (d) => `L’IA dans les RH — la synthèse de la semaine (${d})`,
+    digestSubject: (d) => `Technologies RH — la synthèse de la semaine (${d})`,
     digestPre: (n) => `${n} articles qui méritent votre attention cette semaine, résumés en quelques lignes.`,
     digestIntro: [
       'Bonjour,',
-      'Voici la synthèse de la semaine : les articles sur l’IA dans les RH et les SIRH qui m’ont paru mériter votre temps, chacun résumé en quelques lignes. Prenez un café, cela prend environ trois minutes.',
+      'Voici la synthèse de la semaine : les articles sur les technologies RH qui m’ont paru mériter votre temps, de SuccessFactors et Workday à l’IA dans les RH et au marché des SIRH, chacun résumé en quelques lignes. Prenez un café, cela prend environ trois minutes.',
     ],
     digestOutro: [
       'C’est tout pour cette semaine. Si l’un de ces sujets fait écho à un projet en cours chez vous, répondez-moi et racontez. J’aimerais beaucoup savoir comment cela se passe.',

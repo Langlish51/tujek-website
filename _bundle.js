@@ -12,13 +12,13 @@
       "nav.cta": "Get in touch",
 
       "insights.kicker": "Insights",
-      "insights.title": "AI in HR — what I'm reading.",
-      "insights.sub": "A selection of the most relevant articles on AI across the HR and HRIS landscape, each summarised in a few lines.",
+      "insights.title": "HR technology — what I'm reading.",
+      "insights.sub": "A selection of the most relevant articles across the HR technology landscape — SAP SuccessFactors, Workday, AI in HR and the wider HRIS market — each summarised in a few lines.",
       "insights.loading": "Loading the latest articles…",
 
-      "hero.insightscta": "New — weekly AI-in-HR insights. Read & subscribe",
+      "hero.insightscta": "New — weekly HR tech insights. Read & subscribe",
       "subscribe.title": "Get the brief in your inbox",
-      "subscribe.sub": "A short, curated digest of what matters in AI for HR & HRIS. No noise — unsubscribe anytime.",
+      "subscribe.sub": "A short, curated digest of what matters in HR technology — SuccessFactors, Workday, AI and the wider HRIS market. No noise — unsubscribe anytime.",
       "subscribe.placeholder": "you@company.com",
       "subscribe.button": "Subscribe",
 
@@ -105,13 +105,13 @@
       "nav.cta": "Me contacter",
 
       "insights.kicker": "Analyses",
-      "insights.title": "L'IA dans les RH — mes lectures.",
-      "insights.sub": "Une sélection des articles les plus pertinents sur l'IA dans l'univers des RH et des SIRH, chacun résumé en quelques lignes.",
+      "insights.title": "Les technologies RH — mes lectures.",
+      "insights.sub": "Une sélection des articles les plus pertinents sur l'univers des technologies RH — SAP SuccessFactors, Workday, l'IA dans les RH et le marché des SIRH — chacun résumé en quelques lignes.",
       "insights.loading": "Chargement des derniers articles…",
 
-      "hero.insightscta": "Nouveau — l'essentiel hebdo de l'IA pour les RH. Lire & s'abonner",
+      "hero.insightscta": "Nouveau — les analyses HR tech de la semaine. Lire & s'abonner",
       "subscribe.title": "Recevez l'essentiel dans votre boîte mail",
-      "subscribe.sub": "Une synthèse courte et sélectionnée de l'actualité de l'IA pour les RH et les SIRH. Sans bruit — désabonnement à tout moment.",
+      "subscribe.sub": "Une synthèse courte et sélectionnée de l'actualité des technologies RH — SuccessFactors, Workday, l'IA et le marché des SIRH. Sans bruit — désabonnement à tout moment.",
       "subscribe.placeholder": "vous@entreprise.com",
       "subscribe.button": "S'abonner",
 
