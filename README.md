@@ -1,7 +1,24 @@
 # Tujek Consulting — website
 
-Live site: **https://langlish51.github.io/tujek-website/**
-Hosting: GitHub Pages (branch `main`, root folder). Push to `main` → it redeploys automatically (~1 min).
+Live site: **https://tujekconsulting.ai** and **https://tujekconsulting.com** (Netlify, project "Tujek Consulting").
+Secondary copy: https://langlish51.github.io/tujek-website/ (GitHub Pages, same branch).
+
+Push to `main` → Netlify redeploys both domains automatically (~1 min). GitHub Pages follows too.
+
+## The moving parts (where everything lives)
+
+| Piece | Where | Notes |
+|------|-------|-------|
+| Code, workflow, routine spec | this repo, branch `main` | Everything needed to work from any laptop is here. No secrets in the repo. |
+| Hosting + serverless functions | **Netlify** (app.netlify.com → Tujek Consulting) | Publish dir = repo root, no build. `netlify.toml` declares the functions and a deploy-skip rule. Env vars for Resend live here (Site configuration → Environment variables). |
+| DNS | **Squarespace** (account.squarespace.com → Domains → tujekconsulting.ai → DNS) | A/CNAME to Netlify, MX to Google Workspace, Resend's DKIM + `send`/`rsend` CNAMEs + `_dmarc`. |
+| Mailbox | Google Workspace | `Franck@Tujekconsulting.ai` — reply-to of every email the site sends. |
+| Mailing list + sending | **Resend** (resend.com, account francktujek) | Domain `tujekconsulting.ai` verified. Audience → Segments `Insights EN` / `Insights FR`. Broadcasts show delivery stats. |
+| Weekly article refresh | **Claude cloud routine** "Weekly HR-tech Insights refresh (tujekconsulting.ai) — KEEP" at https://claude.ai/code/routines | Thursday 22:15 UTC (Friday 08:15 Melbourne). Prompt mirrored in `routine/weekly-hr-tech-insights.md`. Runs without any laptop being on. |
+| Weekly email send | **GitHub Action** `.github/workflows/send-digest.yml` | Fires on every push that changes `articles.json`. Secrets in repo Settings → Secrets and variables → Actions. Manual re-send: Actions → *Send Insights digest* → Run workflow (force). |
+| Email capture fallback | Netlify → Forms → `newsletter` | Only used if the Resend function is unavailable. Owner gets a "Form submission" email each time. |
+
+**Netlify free plan = 300 credits/month, 15 per production deploy (≈20 deploys).** Batch site edits into as few pushes as you can. Commits touching only `.github/`, `scripts/`, `routine/`, `README.md` or `.gitignore` are skipped by the deploy-skip rule and cost nothing.
 
 ## Files
 
@@ -10,8 +27,13 @@ Hosting: GitHub Pages (branch `main`, root folder). Push to `main` → it redepl
 | `index.html` | The **published page**. It's a self-extracting bundle — the real page and assets are packed inside. **Don't hand-edit it**; run `build.ps1` instead. |
 | `_template_extracted.html` | The **editable page source**: HTML, CSS, and inline scripts. Edit this for layout / styling / text. |
 | `_bundle.js` | The **editable JS bundle**, including the EN/FR translation dictionary (`I18N`). Edit this for translations or behaviour. |
-| `articles.json` | The **Insights list** (title, url, source, date, EN + FR summaries). Refreshed weekly; can be hand-edited. |
-| `build.ps1` | Repacks `_template_extracted.html` + `_bundle.js` back into `index.html`. |
+| `articles.json` | The **Insights list** (title, url, source, date, EN + FR summaries). Refreshed weekly by the cloud routine; can be hand-edited. |
+| `build.ps1` | Repacks `_template_extracted.html` + `_bundle.js` back into `index.html` (PowerShell, Windows). |
+| `netlify.toml` | Netlify config: publish dir, functions dir, deploy-skip rule. |
+| `netlify/functions/*.mjs`, `netlify/lib/mail.mjs` | Subscribe / unsubscribe functions and the shared email copy + layout. |
+| `scripts/send-digest.mjs` | Builds and sends the weekly brief (run by the GitHub Action). |
+| `.github/workflows/send-digest.yml` | The Action that runs the script after each `articles.json` push. |
+| `routine/weekly-hr-tech-insights.md` | The prompt the cloud routine runs, kept in sync by hand. |
 | `index.backup.html` | Local pre-edit backup (gitignored — not in the repo). |
 
 ## Edit the page (layout, styles, text, translations)
@@ -30,7 +52,7 @@ git push
 
 ## Edit only the article list
 
-Edit `articles.json` directly (keep the schema — each `summary` has an `en` and `fr` array of 2–3 strings), then commit and push. **No build step needed** (the page fetches this file at runtime).
+Edit `articles.json` directly (keep the schema — each `summary` has an `en` and `fr` array of 2–3 strings), then commit and push. **No build step needed** (the page fetches this file at runtime). Note: a push that changes `articles.json` **emails the brief to subscribers** if the `updated` date changed; to fix a typo without re-sending, leave `updated` as it is.
 
 ```json
 {
@@ -80,4 +102,16 @@ git clone https://github.com/Langlish51/tujek-website.git
 cd tujek-website
 ```
 
-You need git authenticated to GitHub on that machine — either install the GitHub CLI and run `gh auth login`, or use a Personal Access Token. Then edit / `build.ps1` / push exactly as above.
+Needed on the machine:
+- **git** authenticated to GitHub (install the GitHub CLI and run `gh auth login`, or use a Personal Access Token). Push to `main` is the only thing that publishes.
+- **PowerShell** for `build.ps1` (Windows built-in) — only when editing the page itself.
+- **Node 20+** for `node scripts/send-digest.mjs --dry-run` (email previews) — optional.
+- **Nothing else.** No API keys are needed locally: Resend keys live in Netlify and GitHub, and the weekly routine runs in Claude's cloud. If you ever need to change a key, do it in the Resend / Netlify / GitHub web UIs listed in "The moving parts".
+
+Then edit / `build.ps1` / push exactly as above. If two laptops both have the clone, `git pull --ff-only` before editing.
+
+## Changing the wording or the focus
+
+- Site text (EN/FR): `_bundle.js` (`I18N` dictionary) and the defaults in `_template_extracted.html`, then `build.ps1`.
+- Welcome email and weekly brief text: the `COPY` block in `netlify/lib/mail.mjs`. Preview with `node scripts/send-digest.mjs --dry-run`.
+- What the routine curates (topics, mix, sources): edit the routine at https://claude.ai/code/routines (open it → edit prompt) **and** paste the same text into `routine/weekly-hr-tech-insights.md` so the repo stays the source of truth.
