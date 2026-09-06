@@ -1,7 +1,8 @@
 // Shared helpers for the Insights mailing list.
 // Used by the Netlify functions (subscribe / unsubscribe) and by scripts/send-digest.mjs.
-// Provider: Resend (https://resend.com) — audiences hold the subscribers (one per language),
-// broadcasts deliver the weekly brief with Resend's own per-recipient unsubscribe link.
+// Provider: Resend (https://resend.com) — one contact list per account; two SEGMENTS (EN, FR)
+// group the subscribers by language; broadcasts target a segment and carry Resend's own
+// per-recipient unsubscribe link. A contact's "unsubscribed" flag is global (all broadcasts).
 
 import { createHmac, timingSafeEqual } from 'node:crypto';
 
@@ -28,9 +29,10 @@ const P = {
 export function config(env = process.env) {
   return {
     apiKey: env.RESEND_API_KEY || '',
-    audiences: {
-      en: env.RESEND_AUDIENCE_EN || '',
-      fr: env.RESEND_AUDIENCE_FR || '',
+    // Segment IDs (Resend -> Audience -> Segments). The old *_AUDIENCE_* names still work.
+    segments: {
+      en: env.RESEND_SEGMENT_EN || env.RESEND_AUDIENCE_EN || '',
+      fr: env.RESEND_SEGMENT_FR || env.RESEND_AUDIENCE_FR || '',
     },
     from: env.INSIGHTS_FROM || `${SITE.owner} <insights@tujekconsulting.ai>`,
     replyTo: env.INSIGHTS_REPLY_TO || 'Franck@Tujekconsulting.ai',
@@ -41,7 +43,36 @@ export function config(env = process.env) {
 }
 
 export function isConfigured(c) {
-  return Boolean(c.apiKey && c.audiences.en && c.audiences.fr);
+  return Boolean(c.apiKey && c.segments.en && c.segments.fr);
+}
+
+// ---------- contacts ----------
+
+// Create the contact inside the language segment; if the address already exists
+// (came back after unsubscribing, or subscribed in the other language), re-activate it
+// and add it to the segment instead.
+export async function subscribeContact(c, email, lang) {
+  const segment = c.segments[lang];
+  try {
+    await resend(c, 'POST', '/contacts', { email, unsubscribed: false, segments: [{ id: segment }] });
+    return 'created';
+  } catch (err) {
+    if (err.status === 401 || err.status === 403 || err.status >= 500) throw err;
+    try {
+      await resend(c, 'PATCH', `/contacts/${encodeURIComponent(email)}`, { unsubscribed: false });
+      await resend(c, 'POST', `/contacts/${encodeURIComponent(email)}/segments/${segment}`);
+      return 'reactivated';
+    } catch (err2) {
+      // Report the original failure: it is the more informative one.
+      err.message += ` (fallback also failed: ${err2.message})`;
+      throw err;
+    }
+  }
+}
+
+// Global opt-out: the contact stops receiving every broadcast.
+export async function unsubscribeContact(c, email) {
+  await resend(c, 'PATCH', `/contacts/${encodeURIComponent(email)}`, { unsubscribed: true });
 }
 
 // ---------- Resend API ----------

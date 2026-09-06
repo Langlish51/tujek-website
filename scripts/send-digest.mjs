@@ -8,7 +8,7 @@
 //   node scripts/send-digest.mjs --dry-run  # no API calls: writes scripts/preview/digest-{en,fr}.html
 //   node scripts/send-digest.mjs --lang=fr  # only one language
 //
-// Env: RESEND_API_KEY, RESEND_AUDIENCE_EN, RESEND_AUDIENCE_FR (required to send),
+// Env: RESEND_API_KEY, RESEND_SEGMENT_EN, RESEND_SEGMENT_FR (required to send),
 //      INSIGHTS_FROM, INSIGHTS_REPLY_TO, SITE_URL (optional overrides).
 
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
@@ -65,32 +65,33 @@ if (dryRun) {
 }
 
 if (!isConfigured(c)) {
-  warn('Resend is not configured (RESEND_API_KEY, RESEND_AUDIENCE_EN, RESEND_AUDIENCE_FR). Nothing sent.');
+  warn('Resend is not configured (RESEND_API_KEY, RESEND_SEGMENT_EN, RESEND_SEGMENT_FR). Nothing sent.');
   process.exit(0);
 }
 
 let failures = 0;
 for (const lang of langs) {
-  const audience = c.audiences[lang];
+  const segment = c.segments[lang];
   const mail = digestEmail({ lang, data, unsubscribeUrl: UNSUB, siteUrl: c.siteUrl });
   try {
+    // One call: create the broadcast for the language segment and send it right away.
     const created = await resend(c, 'POST', '/broadcasts', {
-      audience_id: audience,
+      segment_id: segment,
       from: c.from,
       reply_to: c.replyTo,
       subject: mail.subject,
       html: mail.html,
       text: mail.text,
       name: `Insights ${lang.toUpperCase()} ${data.updated}`,
+      send: true,
     });
     const id = created && created.id;
     if (!id) throw new Error('broadcast created without an id: ' + JSON.stringify(created));
-    await resend(c, 'POST', `/broadcasts/${id}/send`, {});
     log(`${lang}: sent broadcast ${id} — "${mail.subject}" (${data.articles.length} articles)`);
   } catch (err) {
     const msg = String(err.message || err);
     if (/no contacts|empty|has no subscribers/i.test(msg)) {
-      warn(`${lang}: audience has no subscribers yet — skipped.`);
+      warn(`${lang}: segment has no subscribers yet — skipped.`);
       continue;
     }
     failures++;

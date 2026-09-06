@@ -1,9 +1,9 @@
 // GET /.netlify/functions/unsubscribe?e=<email>&l=<en|fr>&t=<signature>
 // Signed link placed in the welcome email. Marks the contact unsubscribed in Resend and
 // shows a small confirmation page. (The weekly digest itself uses Resend's own
-// per-recipient unsubscribe link, which lands in the same audience state.)
+// per-recipient unsubscribe link, which flips the same global flag on the contact.)
 
-import { config, isConfigured, resend, normEmail, normLang, validEmail, tokenOk } from '../lib/mail.mjs';
+import { config, isConfigured, normEmail, normLang, validEmail, tokenOk, unsubscribeContact } from '../lib/mail.mjs';
 
 const PAGES = {
   en: {
@@ -57,21 +57,16 @@ export default async (req) => {
     return page(lang, t.errTitle, t.errBody, c.siteUrl, 503);
   }
 
-  // Unsubscribe from the language audience they signed up with, and quietly from the other one too.
-  const order = lang === 'fr' ? ['fr', 'en'] : ['en', 'fr'];
-  let primaryOk = false;
-  for (const l of order) {
-    try {
-      await resend(c, 'PATCH', `/audiences/${c.audiences[l]}/contacts/${encodeURIComponent(email)}`, { unsubscribed: true });
-      if (l === lang) primaryOk = true;
-    } catch (err) {
-      // 404 = not in that audience, which is fine.
-      if (err.status === 404) { if (l === lang) primaryOk = true; continue; }
-      console.error('unsubscribe: failed for audience', l, err.message);
-      if (l === lang) return page(lang, t.errTitle, t.errBody, c.siteUrl, 502);
+  // Global opt-out on the contact: covers both language segments at once.
+  try {
+    await unsubscribeContact(c, email);
+  } catch (err) {
+    // 404 = not a contact any more, which is the same outcome.
+    if (err.status !== 404) {
+      console.error('unsubscribe: failed', err.message);
+      return page(lang, t.errTitle, t.errBody, c.siteUrl, 502);
     }
   }
-  if (!primaryOk) return page(lang, t.errTitle, t.errBody, c.siteUrl, 502);
 
   return page(lang, t.okTitle, t.okBody(email), c.siteUrl);
 };

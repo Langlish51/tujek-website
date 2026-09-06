@@ -38,8 +38,8 @@ jobs:
       - name: Send the brief
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          RESEND_AUDIENCE_EN: ${{ secrets.RESEND_AUDIENCE_EN }}
-          RESEND_AUDIENCE_FR: ${{ secrets.RESEND_AUDIENCE_FR }}
+          RESEND_SEGMENT_EN: ${{ secrets.RESEND_SEGMENT_EN }}
+          RESEND_SEGMENT_FR: ${{ secrets.RESEND_SEGMENT_FR }}
           INSIGHTS_FROM: ${{ vars.INSIGHTS_FROM }}
           INSIGHTS_REPLY_TO: ${{ vars.INSIGHTS_REPLY_TO }}
           SITE_URL: ${{ vars.SITE_URL }}

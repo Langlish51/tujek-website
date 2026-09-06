@@ -1,12 +1,12 @@
 // POST /.netlify/functions/subscribe   body: { email, lang: "en"|"fr", "bot-field": "" }
-// Adds the address to the Resend audience for that language and sends the welcome email.
+// Adds the address to the Resend segment for that language and sends the welcome email.
 // The site's form falls back to Netlify Forms if this returns an error, so nothing is lost
 // while Resend is not configured yet.
 
 import {
   config, isConfigured, resend,
   normEmail, normLang, validEmail,
-  unsubLink, welcomeEmail,
+  subscribeContact, unsubLink, welcomeEmail,
 } from '../lib/mail.mjs';
 
 const json = (obj, status = 200) =>
@@ -31,13 +31,12 @@ export default async (req) => {
 
   const c = config();
   if (!isConfigured(c)) {
-    console.warn('subscribe: Resend not configured (RESEND_API_KEY / RESEND_AUDIENCE_EN / RESEND_AUDIENCE_FR)');
+    console.warn('subscribe: Resend not configured (RESEND_API_KEY / RESEND_SEGMENT_EN / RESEND_SEGMENT_FR)');
     return json({ error: 'mailing list not configured' }, 503);
   }
 
-  const audience = c.audiences[lang];
   try {
-    await addOrReactivate(c, audience, email);
+    await subscribeContact(c, email, lang);
   } catch (err) {
     console.error('subscribe: could not add contact', err.message);
     return json({ error: 'could not subscribe' }, 502);
@@ -45,7 +44,8 @@ export default async (req) => {
 
   // The welcome note is a courtesy: if it fails the subscription still stands.
   try {
-    const mail = welcomeEmail({ lang, unsubscribeUrl: unsubLink(c, email, lang), siteUrl: c.siteUrl });
+    const link = unsubLink(c, email, lang);
+    const mail = welcomeEmail({ lang, unsubscribeUrl: link, siteUrl: c.siteUrl });
     await resend(c, 'POST', '/emails', {
       from: c.from,
       to: [email],
@@ -53,7 +53,7 @@ export default async (req) => {
       subject: mail.subject,
       html: mail.html,
       text: mail.text,
-      headers: { 'List-Unsubscribe': `<${unsubLink(c, email, lang)}>` },
+      headers: { 'List-Unsubscribe': `<${link}>` },
     });
   } catch (err) {
     console.error('subscribe: welcome email failed', err.message);
@@ -61,18 +61,3 @@ export default async (req) => {
 
   return json({ ok: true, lang });
 };
-
-async function addOrReactivate(c, audience, email) {
-  try {
-    await resend(c, 'POST', `/audiences/${audience}/contacts`, { email, unsubscribed: false });
-    return;
-  } catch (err) {
-    // Already in the audience (possibly unsubscribed earlier): flip it back on.
-    const msg = String(err.message || '').toLowerCase();
-    if (err.status === 409 || msg.includes('already') || msg.includes('exists')) {
-      await resend(c, 'PATCH', `/audiences/${audience}/contacts/${encodeURIComponent(email)}`, { unsubscribed: false });
-      return;
-    }
-    throw err;
-  }
-}
