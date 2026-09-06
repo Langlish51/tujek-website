@@ -1,93 +1,111 @@
 {
-  "updated": "2026-09-03",
+  "updated": "2026-09-06",
   "articles": [
     {
-      "title": "Why HR departments run with AI agents will still require humans",
-      "url": "https://www.hrdive.com/news/why-hr-departments-run-with-ai-agents-will-still-require-humans/829048/",
-      "source": "HR Dive",
-      "date": "2026-08-28",
-      "summary": {
-        "en": [
-          "Despite headlines predicting HR's disappearance, HR Dive reports companies are not eliminating HR departments even as they roll out AI agents -- The Josh Bersin Co. projects headcount could still shrink 30-50% by 2030, but strategy and oversight remain human-led.",
-          "Someone still has to instruct, train, and manage the AI agents for them to be effective, meaning HR's role is shifting toward orchestration rather than disappearing.",
-          "Employee trust in AI-driven decisions hinges on transparency; the piece flags unease over models that weigh factors like sick days, age, and tenure in workforce-reduction decisions -- a governance issue HR leaders should get ahead of."
-        ],
-        "fr": [
-          "Malgré les titres annonçant la disparition de la RH, HR Dive rapporte que les entreprises ne suppriment pas leurs services RH en déployant des agents IA -- The Josh Bersin Co. prévoit que les effectifs pourraient tout de même se réduire de 30 à 50 % d'ici 2030, mais la stratégie et la supervision restent pilotées par des humains.",
-          "Quelqu'un doit encore instruire, former et gérer les agents IA pour qu'ils soient efficaces, ce qui signifie que le rôle de la RH évolue vers l'orchestration plutôt que vers la disparition.",
-          "La confiance des salariés dans les décisions pilotées par l'IA dépend de la transparence ; l'article pointe un malaise face à des modèles qui pondèrent des facteurs comme les arrêts maladie, l'âge ou l'ancienneté dans les décisions de réduction d'effectifs -- un enjeu de gouvernance que les DRH devraient anticiper."
-        ]
-      }
-    },
-    {
-      "title": "The Great Decoupling: How Workers Became Disconnected From Companies And AI Will Accelerate This Trend",
-      "url": "https://joshbersin.com/2026/08/the-great-decoupling-how-workers-became-disconnected-from-companies-and-ai-will-accelerate-this-trend/",
-      "source": "Josh Bersin",
-      "date": "2026-08-27",
-      "summary": {
-        "en": [
-          "Josh Bersin argues employers now feel far less obligated to invest in workers' long-term financial health, and employees respond by changing jobs 3-4 times more often than in the 1970s.",
-          "Layoffs frequently boost stock prices because financial markets still treat labor as a cost rather than an investment, while wage stagnation -- the federal minimum wage has lost 49% of its purchasing power since 2009 -- deepens the divide.",
-          "Bersin warns that AI-driven restructuring will accelerate this employer-employee 'decoupling' unless HR leaders actively counter it with genuine investment in people."
-        ],
-        "fr": [
-          "Josh Bersin soutient que les employeurs se sentent aujourd'hui beaucoup moins tenus d'investir dans la santé financière à long terme de leurs salariés, qui réagissent en changeant d'emploi 3 à 4 fois plus souvent que dans les années 1970.",
-          "Les plans de licenciement font souvent grimper le cours de l'action car les marchés financiers continuent de considérer le travail comme un coût plutôt qu'un investissement, tandis que la stagnation des salaires -- le salaire minimum fédéral a perdu 49 % de son pouvoir d'achat depuis 2009 -- creuse encore l'écart.",
-          "Bersin avertit que les restructurations pilotées par l'IA vont accélérer ce « découplage » entre employeurs et salariés, à moins que les DRH n'y répondent activement par un investissement réel dans les personnes."
-        ]
-      }
-    },
-    {
-      "title": "SAP Brings SAP SuccessFactors and Joule to NTT DATA's Global People and Culture Transformation",
-      "url": "https://news.sap.com/2026/08/ntt-data-inc-accelerates-ai-driven-people-transformation/",
+      "title": "SAP Recognized as a Leader in the Gartner® Magic Quadrant™ for HCM Suites for 1,000+ Employees for the 11th Consecutive Time",
+      "url": "https://news.sap.com/2026/09/sap-leader-gartner-magic-quadrant-hcm-suites-1000-employees/",
       "source": "SAP News Center",
-      "date": "2026-08-19",
+      "date": "2026-09-04",
       "summary": {
         "en": [
-          "NTT DATA has selected SAP SuccessFactors together with SAP Business Data Cloud, integrated with Joule as its AI orchestrator, to power its global people and culture transformation.",
-          "SuccessFactors remains the system of record for people and talent data, while Business Data Cloud connects that data with insights from finance and other business functions, letting Joule agents act across domains rather than in silos.",
-          "The deal is a concrete, large-scale example of agentic AI moving from HRIS-vendor roadmap slides into a live enterprise deployment -- worth watching as a template for how HR data platforms and AI agents get stitched together in practice."
+          "Gartner has again placed SAP SuccessFactors in the Leaders quadrant of its Magic Quadrant for HCM Suites for 1,000+ employee enterprises, the 11th year running, citing SAP's global core, embedded AI and partner ecosystem.",
+          "The recognition lands the same week Workday and Dayforce also retained Leader status, underscoring how tightly matched the top of the large-enterprise HCM market has become.",
+          "For programme sponsors benchmarking vendors or defending a SuccessFactors investment to the board, the report is a useful reference point -- but with all three incumbents now rated Leaders, differentiation in practice will come down to execution and configuration choices, not headline analyst placement."
         ],
         "fr": [
-          "NTT DATA a choisi SAP SuccessFactors associé à SAP Business Data Cloud, intégré à Joule comme orchestrateur IA, pour porter sa transformation RH et culture d'entreprise à l'échelle mondiale.",
-          "SuccessFactors reste le référentiel des données RH et talents, tandis que Business Data Cloud relie ces données aux informations issues de la finance et d'autres fonctions de l'entreprise, permettant aux agents Joule d'agir de façon transversale plutôt qu'en silos.",
-          "Cet accord illustre concrètement, à grande échelle, le passage de l'IA agentique des feuilles de route des éditeurs SIRH à un déploiement réel en entreprise -- un exemple à suivre pour comprendre comment plateformes de données RH et agents IA s'articulent en pratique."
+          "Gartner a de nouveau positionné SAP SuccessFactors dans le quadrant des leaders de son Magic Quadrant pour les suites HCM des entreprises de plus de 1 000 salariés, pour la 11e année consécutive, en citant le socle mondial de SAP, l'IA intégrée et son écosystème de partenaires.",
+          "Cette reconnaissance intervient la même semaine où Workday et Dayforce ont eux aussi conservé leur statut de leader, signe que le haut du marché HCM grande entreprise est désormais très disputé.",
+          "Pour les sponsors de programme qui comparent des éditeurs ou doivent justifier un investissement SuccessFactors auprès de leur comité de direction, ce rapport reste une référence utile -- mais avec trois acteurs historiques désormais classés leaders, la différenciation se jouera sur l'exécution et les choix de configuration, pas sur le seul positionnement analyste."
         ]
       }
     },
     {
-      "title": "PwC: Agentic AI lies at the center of the future of work and HR leaders need to be in the driving seat",
-      "url": "https://www.unleash.ai/artificial-intelligence/interview/pwc-agentic-ai-lies-at-the-center-of-the-future-of-work-and-hr-leaders-need-to-be-in-the-driving-seat",
-      "source": "UNLEASH",
-      "date": "2026-08-18",
+      "title": "Workday Named a Leader in 2026 Gartner® Magic Quadrant™ for Cloud HCM Suites for 1,000+ Employee Enterprises for Eleventh Consecutive Year",
+      "url": "https://newsroom.workday.com/2026-09-02-Workday-Named-a-Leader-in-2026-Gartner-R-Magic-Quadrant-TM-for-Cloud-HCM-Suites-for-1,000-Employee-Enterprises-for-Eleventh-Consecutive-Year",
+      "source": "Workday Newsroom",
+      "date": "2026-09-02",
       "summary": {
         "en": [
-          "In this UNLEASH interview, PwC argues agentic AI is becoming the central force reshaping how work gets done, not a peripheral tool bolted onto existing processes.",
-          "The interview pushes HR leaders to actively own the redesign of workflows and governance around AI agents rather than ceding that ground to IT or individual business units.",
-          "The core message for senior HR audiences: waiting for agentic AI strategy to be handed down risks losing control over decisions that directly reshape jobs, skills, and organizational structure."
+          "Workday retained its Leader position in Gartner's 2026 Magic Quadrant for Cloud HCM Suites for the eleventh straight year, with general manager David Wachtel framing \"agentic HR\" as changing what organizations should expect from their HCM systems.",
+          "The company points to bringing HR data, business processes and AI agents onto one platform as the basis for the ranking, rather than any single new feature.",
+          "Coming alongside SAP's and Dayforce's own Leader placements in the same report, it confirms Workday remains a safe shortlist choice for large, complex HR transformations -- though programme teams should still press vendors on what \"agentic\" concretely delivers in production, not just on the roadmap."
         ],
         "fr": [
-          "Dans cet entretien accordé à UNLEASH, PwC soutient que l'IA agentique devient la force centrale qui redessine la manière dont le travail s'effectue, et non un simple outil périphérique greffé aux processus existants.",
-          "L'entretien appelle les DRH à s'approprier activement la refonte des flux de travail et de la gouvernance autour des agents IA, plutôt que de laisser ce terrain à l'IT ou aux directions métiers.",
-          "Le message clé pour les dirigeants RH : attendre qu'une stratégie d'IA agentique leur soit imposée risque de leur faire perdre la main sur des décisions qui redéfinissent directement les postes, les compétences et la structure organisationnelle."
+          "Workday a conservé sa place de leader dans le Magic Quadrant 2026 de Gartner pour les suites Cloud HCM, pour la onzième année consécutive, son directeur général David Wachtel affirmant que la « RH agentique » change ce que les organisations doivent attendre de leurs systèmes HCM.",
+          "L'éditeur justifie ce classement par la réunion des données RH, des processus métier et des agents IA sur une plateforme unique, plutôt que par une fonctionnalité isolée.",
+          "Ce maintien, concomitant avec les classements de leader obtenus par SAP et Dayforce dans le même rapport, confirme que Workday reste un choix de short-list sûr pour les transformations RH complexes à grande échelle -- les équipes de programme devront néanmoins continuer à interroger les éditeurs sur ce que l'« agentique » apporte concrètement en production, au-delà de la feuille de route."
         ]
       }
     },
     {
-      "title": "CHRO leaders most cautious C-suite execs about AI readiness",
-      "url": "https://www.hr-brew.com/stories/chro-most-cautious-ai-readiness-adoption",
-      "source": "HR Brew",
-      "date": "2026-08-17",
+      "title": "Dayforce Named a Leader in the 2026 Gartner® Magic Quadrant™ for HCM Suites for 1,000+ Employee Enterprises for Seventh Consecutive Year",
+      "url": "https://www.dayforce.com/resources/leader-2026-gartner-magic-quadrant-hcm-suites",
+      "source": "Dayforce",
+      "date": "2026-09-02",
       "summary": {
         "en": [
-          "A Protiviti survey cited by HR Brew finds CHROs are the most cautious C-suite executives on AI readiness: only 13% strongly agree their organization's jobs are ready for an AI redesign, versus 28% of the broader C-suite and 88% of IT leaders.",
-          "Just 14% of CHROs believe their organization's learning capabilities are AI-ready, compared with 36% of the C-suite and 96% of IT leaders -- a wide confidence gap between technology and people functions.",
-          "The survey's framing explains the caution: roughly 70% of AI transformation's value comes from how employees are retrained and how jobs are redesigned, not from the technology itself, putting HR squarely on the hook for outcomes it isn't yet confident in delivering."
+          "Dayforce was named a Leader in the same 2026 Gartner Magic Quadrant for the seventh consecutive year, with the vendor emphasizing that its single people platform consolidates an average of twelve separate systems for customers.",
+          "It now supports more than 7,000 customers across North America, Europe, the Middle East, Africa and Asia-Pacific, positioning it as a credible large-enterprise alternative alongside SAP and Workday.",
+          "For HR and IT leaders weighing consolidation of a fragmented HR/payroll/workforce-management stack, Dayforce's pitch on single-data-architecture simplicity is worth a look when scoping any platform re-tender."
         ],
         "fr": [
-          "Une enquête Protiviti citée par HR Brew montre que les DRH sont les dirigeants les plus prudents du comité exécutif quant à la préparation à l'IA : seuls 13 % estiment fermement que les postes de leur organisation sont prêts pour une refonte par l'IA, contre 28 % pour l'ensemble du comité exécutif et 88 % pour les responsables IT.",
-          "Seulement 14 % des DRH jugent que les capacités de formation de leur organisation sont prêtes pour l'IA, contre 36 % pour le comité exécutif et 96 % pour l'IT -- un écart de confiance important entre les fonctions technologiques et les fonctions RH.",
-          "Cette prudence s'explique par le constat de l'étude : environ 70 % de la valeur de la transformation par l'IA provient de la manière dont les salariés sont reformés et dont les postes sont repensés, et non de la technologie elle-même, plaçant la RH en première ligne sur des résultats qu'elle ne se sent pas encore capable de garantir."
+          "Dayforce a été nommé leader dans ce même Magic Quadrant 2026 de Gartner pour la septième année consécutive, l'éditeur mettant en avant sa plateforme RH unique qui consolide en moyenne douze systèmes distincts chez ses clients.",
+          "Il revendique désormais plus de 7 000 clients en Amérique du Nord, en Europe, au Moyen-Orient, en Afrique et en Asie-Pacifique, se positionnant comme une alternative crédible pour les grandes entreprises face à SAP et Workday.",
+          "Pour les DRH et DSI qui envisagent de consolider une pile RH/paie/gestion des effectifs fragmentée, l'argument de Dayforce sur la simplicité d'une architecture de données unique mérite d'être examiné lors d'un futur appel d'offres plateforme."
+        ]
+      }
+    },
+    {
+      "title": "Workday reimagines workflows with enterprise AI agents",
+      "url": "https://siliconangle.com/2026/08/31/workday-reimagines-workflows-enterprise-ai-agents-googlecloudaiagentsinaction/",
+      "source": "SiliconANGLE",
+      "date": "2026-08-31",
+      "summary": {
+        "en": [
+          "Workday and Google Cloud detailed an expanded partnership that plugs Workday's Agent System of Record and Illuminate agents into Google's Gemini Enterprise, letting employees ask HR and finance questions directly inside the Gemini chat interface with Workday's own permissions and policies applied.",
+          "The first concrete integration is the Sana Self-Service Agent, pulling personalized answers straight from Workday data rather than requiring a separate portal or system switch.",
+          "Workday CTO Gabe Monroy framed the challenge as pairing probabilistic AI with the deterministic guarantees ERP systems require -- a useful reminder for programme leads that agentic AI in HR still has to be built on top of rock-solid governance and access controls, not instead of them."
+        ],
+        "fr": [
+          "Workday et Google Cloud ont détaillé un partenariat élargi qui connecte l'Agent System of Record et les agents Illuminate de Workday à Gemini Enterprise de Google, permettant aux salariés de poser des questions RH et finance directement dans l'interface de chat Gemini, avec les permissions et politiques propres à Workday appliquées.",
+          "La première intégration concrète est le Sana Self-Service Agent, qui va chercher des réponses personnalisées directement dans les données Workday, sans portail séparé ni changement de système.",
+          "Le CTO de Workday, Gabe Monroy, a résumé l'enjeu comme la nécessité d'associer une IA probabiliste aux garanties déterministes qu'exigent les systèmes ERP -- un rappel utile pour les responsables de programme : l'IA agentique en RH doit s'appuyer sur une gouvernance et des contrôles d'accès solides, pas s'y substituer."
+        ]
+      }
+    },
+    {
+      "title": "CHRO Community Pulse on AI Adoption",
+      "url": "https://www.evanta.com/resources/chro/infographic/chro-community-pulse-on-ai-adoption",
+      "source": "Evanta (a Gartner company)",
+      "date": "2026-08-21",
+      "summary": {
+        "en": [
+          "A Gartner-affiliated Evanta survey of 250 CHROs (part of a broader 750 C-level poll) finds close to 90% hold a positive overall view of AI, yet CHROs are adopting more slowly than their C-suite peers: 60% are piloting or implementing AI versus roughly three-quarters of the wider C-suite.",
+          "The top CHRO strategy, cited by 40% of respondents, is integrating AI into existing workflows and processes rather than launching stand-alone AI initiatives.",
+          "The gap between optimism and actual deployment pace is a signal for HRIS leaders: expect continued board-level pressure to show tangible AI outcomes inside core HR systems like SuccessFactors and Workday, not just pilots running alongside them."
+        ],
+        "fr": [
+          "Une enquête Evanta, affiliée à Gartner, menée auprès de 250 DRH (dans le cadre d'un sondage plus large auprès de 750 dirigeants du comité exécutif) montre que près de 90 % ont une opinion globalement positive de l'IA, mais que les DRH l'adoptent plus lentement que leurs pairs du comité exécutif : 60 % pilotent ou déploient l'IA, contre environ trois quarts pour l'ensemble du comité exécutif.",
+          "La stratégie DRH la plus citée (40 % des répondants) consiste à intégrer l'IA dans les flux de travail et processus existants plutôt qu'à lancer des initiatives IA autonomes.",
+          "Cet écart entre optimisme et rythme réel de déploiement est un signal pour les responsables SIRH : la pression du comité de direction pour démontrer des résultats IA tangibles au sein même des systèmes RH centraux comme SuccessFactors ou Workday, et non plus seulement via des pilotes parallèles, va se maintenir."
+        ]
+      }
+    },
+    {
+      "title": "Oracle Adds New Fusion Agentic Applications and AI Agents to Help Organizations Improve Talent Management",
+      "url": "https://www.oracle.com/news/announcement/oracle-adds-new-fusion-agentic-applications-and-ai-agents-to-help-improve-talent-management-2026-08-11/",
+      "source": "Oracle",
+      "date": "2026-08-11",
+      "summary": {
+        "en": [
+          "Oracle added fourteen named AI agents to Fusion Cloud HCM, covering work architecture, learning, manager coaching, mobility and workforce planning -- including a Job Architect Agent for role design and an Intelligent Talent Profiles Agent that infers skills from actual work-system activity rather than self-reported data.",
+          "A Grow Coach agent turns employee development into guided, prioritized action plans rather than a static learning catalogue.",
+          "The release is a reminder that the \"skills inferred from real work data\" pattern is becoming a competitive baseline across HCM suites, not a SuccessFactors- or Workday-only differentiator -- useful context when evaluating any vendor's talent-intelligence claims."
+        ],
+        "fr": [
+          "Oracle a ajouté quatorze agents IA nommés à Fusion Cloud HCM, couvrant l'architecture des postes, la formation, le coaching managérial, la mobilité et la planification des effectifs -- dont un Job Architect Agent pour la conception des rôles et un Intelligent Talent Profiles Agent qui déduit les compétences de l'activité réelle dans les systèmes de travail plutôt que de données auto-déclarées.",
+          "Un agent Grow Coach transforme le développement des collaborateurs en plans d'action guidés et priorisés, plutôt qu'en un simple catalogue de formation statique.",
+          "Cette sortie rappelle que le principe des « compétences déduites du travail réel » devient un standard concurrentiel commun à toutes les suites HCM, et non un avantage propre à SuccessFactors ou Workday -- un élément de contexte utile pour évaluer les promesses de « talent intelligence » de n'importe quel éditeur."
         ]
       }
     }
