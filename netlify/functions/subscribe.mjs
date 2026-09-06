@@ -35,11 +35,28 @@ export default async (req) => {
     return json({ error: 'mailing list not configured' }, 503);
   }
 
+  let outcome;
   try {
-    await subscribeContact(c, email, lang);
+    outcome = await subscribeContact(c, email, lang);
   } catch (err) {
     console.error('subscribe: could not add contact', err.message);
     return json({ error: 'could not subscribe' }, 502);
+  }
+
+  // Heads-up to Franck. Best effort: never blocks the subscription.
+  if (c.notifyTo) {
+    try {
+      const when = new Date().toLocaleString('en-AU', { timeZone: 'Australia/Melbourne', dateStyle: 'medium', timeStyle: 'short' });
+      const label = outcome === 'reactivated' ? 'Returning subscriber' : 'New subscriber';
+      await resend(c, 'POST', '/emails', {
+        from: c.from,
+        to: [c.notifyTo],
+        subject: `${label} (${lang.toUpperCase()}): ${email}`,
+        text: `${label} on the Insights list.\n\nEmail: ${email}\nLanguage: ${lang}\nWhen: ${when} (Melbourne)\n\nFull list: https://resend.com/audience`,
+      });
+    } catch (err) {
+      console.error('subscribe: owner notification failed', err.message);
+    }
   }
 
   // The welcome note is a courtesy: if it fails the subscription still stands.

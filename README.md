@@ -90,6 +90,7 @@ Provider: **[Resend](https://resend.com)** (free tier: 3,000 emails/month; one c
 ### Day to day
 
 - Subscribers, unsubscribes and delivery stats live in the Resend dashboard (Audience → Contacts / Segments, and Broadcasts).
+- Every new (or returning) subscriber also triggers a short heads-up email to `Franck@Tujekconsulting.ai` ("New subscriber (EN): …"). Change the recipient with the Netlify env var `SUBSCRIBE_NOTIFY`; set it to an empty string to turn it off.
 - Preview the brief without sending: `node scripts/send-digest.mjs --dry-run` → opens as `scripts/preview/digest-en.html` / `digest-fr.html`.
 - Re-send a brief: *Actions → Send Insights digest → Run workflow* (force = true, optional `lang`).
 - Change the wording of the welcome note or the brief: edit the `COPY` block in `netlify/lib/mail.mjs`.

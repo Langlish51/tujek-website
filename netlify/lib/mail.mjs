@@ -36,6 +36,8 @@ export function config(env = process.env) {
     },
     from: env.INSIGHTS_FROM || `${SITE.owner} <insights@tujekconsulting.ai>`,
     replyTo: env.INSIGHTS_REPLY_TO || 'Franck@Tujekconsulting.ai',
+    // Where to send the "new subscriber" heads-up. Empty string disables it.
+    notifyTo: env.SUBSCRIBE_NOTIFY === undefined ? (env.INSIGHTS_REPLY_TO || 'Franck@Tujekconsulting.ai') : env.SUBSCRIBE_NOTIFY,
     siteUrl: (env.SITE_URL || SITE.url).replace(/\/+$/, ''),
     // Separate secret is best; falls back to the API key so one variable is enough to start.
     unsubSecret: env.UNSUBSCRIBE_SECRET || env.RESEND_API_KEY || '',
