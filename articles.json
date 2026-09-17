@@ -1,93 +1,93 @@
 {
-  "updated": "2026-09-10",
+  "updated": "2026-09-17",
   "articles": [
     {
-      "title": "Attitude by algorithm: Companies entrust AI to assess worker morale",
-      "url": "https://www.computerweekly.com/feature/Attitude-by-Algorithm-Companies-entrust-AI-to-assess-worker-morale",
-      "source": "Computer Weekly",
-      "date": "2026-09-10",
+      "title": "Dayforce Recognized as a Leader in the Inaugural Gartner® Magic Quadrant™ for Workforce Management Technology",
+      "url": "https://www.globenewswire.com/news-release/2026/09/17/3364269/0/en/dayforce-recognized-as-a-leader-in-the-inaugural-gartner-magic-quadrant-for-workforce-management-technology.html",
+      "source": "GlobeNewswire (Dayforce)",
+      "date": "2026-09-17",
       "summary": {
         "en": [
-          "A growing category of AI tools, from vendors such as MorphCast and HireVue, scans employees' faces, voices and messages to score sentiment, attention and engagement — a market projected to more than triple from $2.7bn in 2024 to $9bn by 2030.",
-          "Unions and civil-liberties groups, including Canada's CUPE, are pushing back, warning that algorithmic sentiment monitoring tilts power toward employers and can create a chilling effect where staff avoid voicing concerns for fear of being flagged.",
-          "So what: HR and IT leaders piloting AI-driven 'employee sentiment' agents, including those now offered inside SuccessFactors and Workday, should treat governance, transparency and opt-out rights as a design requirement, not an afterthought."
+          "Dayforce was named a Leader — and positioned highest for Ability to Execute — in Gartner's brand-new, standalone Magic Quadrant for Workforce Management Technology, separate from the established Cloud HCM Suites report.",
+          "The recognition centres on Dayforce's AI-powered scheduling, forecasting, compliance and fatigue-management capabilities, built on a single data model spanning payroll, time and HR.",
+          "So what: by carving out a dedicated workforce-management category, Gartner signals that frontline scheduling, compliance and fatigue management are now judged as a distinct capability set — worth factoring into SuccessFactors or Workday RFPs wherever deep WFM depth matters, since it's no longer folded entirely into the core HCM suite rating."
         ],
         "fr": [
-          "Une catégorie croissante d'outils d'IA, proposés par des éditeurs comme MorphCast ou HireVue, analyse le visage, la voix et les messages des salariés pour noter leur sentiment, leur attention et leur engagement — un marché appelé à plus que tripler, de 2,7 milliards de dollars en 2024 à 9 milliards en 2030.",
-          "Syndicats et défenseurs des libertés, dont le syndicat canadien CUPE, s'y opposent, alertant sur le risque que cette surveillance algorithmique déséquilibre le rapport de force en faveur de l'employeur et dissuade les salariés d'exprimer leurs préoccupations par crainte d'être « signalés ».",
-          "Point pratique : les directions RH et IT qui pilotent des agents IA de « sentiment des collaborateurs », y compris ceux désormais proposés dans SuccessFactors ou Workday, doivent traiter la gouvernance, la transparence et le droit de retrait comme des exigences de conception, et non comme un correctif après coup."
+          "Dayforce a été désigné Leader — et le mieux positionné en « capacité d'exécution » — dans le tout premier Magic Quadrant de Gartner consacré aux technologies de gestion des effectifs, un rapport distinct du Magic Quadrant historique des suites Cloud HCM.",
+          "Cette reconnaissance repose sur les capacités de Dayforce en planification, prévision, conformité et gestion de la fatigue pilotées par l'IA, appuyées sur un modèle de données unique couvrant paie, temps de travail et RH.",
+          "Point pratique : en isolant une catégorie dédiée à la gestion des effectifs, Gartner signale que la planification terrain, la conformité et la gestion de la fatigue sont désormais évaluées comme un ensemble de capacités à part entière — un point à intégrer dans les appels d'offres SuccessFactors ou Workday lorsque la profondeur fonctionnelle en gestion des effectifs (WFM) est déterminante, puisqu'elle n'est plus totalement absorbée par la notation de la suite HCM cœur."
         ]
       }
     },
     {
-      "title": "Work in the age of AI: 'We're all getting in the Waymo for the first time'",
-      "url": "https://www.hrdive.com/news/work-in-the-age-of-ai-were-all-getting-in-the-waymo-for-the-first-time/830088/",
-      "source": "HR Dive",
-      "date": "2026-09-10",
+      "title": "Lockheed Martin's SAP SuccessFactors Go-Live Shows Why HR Data Comes Before HR AI",
+      "url": "https://sapinsider.org/blogs/lockheed-martins-sap-successfactors-go-live-shows-why-hr-data-comes-before-hr-ai",
+      "source": "SAPinsider",
+      "date": "2026-09-16",
       "summary": {
         "en": [
-          "At Indeed's FutureWorks event, Indeed/Recruit Holdings CEO Deko Idekoba argued that companies are 'overestimating the ability of AI, and underestimating the ability of the human being,' while Salesforce leaders described a 'dramatic agentic transformation' of how people and AI agents will work side by side.",
-          "The panel used Waymo's robotaxis as a metaphor: adopting workplace AI agents feels unfamiliar today the way a first autonomous-vehicle ride does, but normalises quickly once trust builds.",
-          "So what: useful ammunition for change-management conversations — the message for managers and employees is that agentic AI is meant to remove repetitive tasks, not replace human judgement."
+          "Lockheed Martin, with 123,000 employees, went live on SAP SuccessFactors Employee Central, Employee Central Payroll, Recruiting and Onboarding, replacing legacy HR systems with a single cloud foundation and one source of truth for workforce data.",
+          "The programme deliberately sequenced data cleanup and consolidation before layering on AI — a 'data first, AI second' approach SAPinsider frames as the real lesson of the go-live.",
+          "So what: for SuccessFactors programme leaders under pressure to bolt on Joule or other AI features quickly, this is a credible, high-profile case for investing in clean Employee Central data architecture before scaling AI-driven HR processes."
         ],
         "fr": [
-          "Lors de l'événement FutureWorks d'Indeed, Deko Idekoba, PDG d'Indeed/Recruit Holdings, a estimé que les entreprises « surestiment les capacités de l'IA et sous-estiment celles de l'humain », tandis que des dirigeants de Salesforce évoquaient une « transformation agentique radicale » de la collaboration entre collaborateurs et agents IA.",
-          "Les intervenants ont comparé cette adoption à celle des robotaxis Waymo : un premier trajet autonome semble déroutant, avant de devenir la norme une fois la confiance installée — de même pour les agents IA au travail.",
-          "Point pratique : un argumentaire utile pour la conduite du changement — le message à faire passer aux managers et aux collaborateurs est que l'IA agentique vise à supprimer les tâches répétitives, pas à remplacer le jugement humain."
+          "Lockheed Martin, 123 000 collaborateurs, a basculé sur SAP SuccessFactors Employee Central, Employee Central Payroll, Recruiting et Onboarding, remplaçant ses systèmes RH historiques par un socle cloud unique et une source de vérité unique pour les données collaborateurs.",
+          "Le programme a délibérément séquencé le nettoyage et la consolidation des données avant d'y superposer l'IA — une approche « données d'abord, IA ensuite » que SAPinsider présente comme la vraie leçon de cette mise en service.",
+          "Point pratique : pour les responsables de programmes SuccessFactors sous pression pour déployer rapidement Joule ou d'autres fonctionnalités IA, un cas concret et de premier plan plaidant pour investir dans une architecture de données Employee Central propre avant de généraliser des processus RH pilotés par l'IA."
         ]
       }
     },
     {
-      "title": "Following an agentic cull, rising adoption is delivering ROI for Workday customers, says CEO Aneel Bhusri",
-      "url": "https://diginomica.com/following-agentic-cull-rising-adoption-delivering-roi-workday-customers-says-ceo-aneel-bhusri",
-      "source": "Diginomica",
-      "date": "2026-08-28",
+      "title": "HR Intelligence Goes Enterprise: The Galileo Jupiter Release",
+      "url": "https://joshbersin.com/2026/09/hr-intelligence-goes-enterprise-the-galileo-jupiter-release/",
+      "source": "Josh Bersin",
+      "date": "2026-09-15",
       "summary": {
         "en": [
-          "Six months back as CEO, Aneel Bhusri says Workday has deliberately 'culled' or merged many of its AI agents, choosing to focus on the ones that show real ROI rather than proliferating point agents.",
-          "More than a quarter of Workday's new annual contract value now comes from AI products, with over 5,500 customers actively running at least one agent — up 35% quarter on quarter.",
-          "For SuccessFactors and Workday programme owners alike, a signal to apply the same ROI discipline when scoping which agentic use cases to pilot first, rather than adopting every agent a vendor ships."
+          "The Josh Bersin Company's 'Jupiter' release makes its Galileo HR-intelligence engine platform-agnostic, embedding research-grounded answers on pay, skills and career topics directly into Microsoft Copilot, Workday, ServiceNow, HiBob, ChatGPT and Claude, and exposing it as an MCP server other enterprise agents can call.",
+          "Bersin's team reports Galileo's domain-specific answers are over twice as fast as, and far more accurate than, the general-purpose LLMs it tested, which hallucinated or erred on more than half of HR-specific queries.",
+          "So what: for HRIS leaders wary of employees getting confidently wrong answers from generic chatbots, this points to a pattern worth watching — grounding HR-specific AI agents, whether inside SuccessFactors, Workday or a layer like Galileo, in curated domain data rather than relying on general-purpose models alone."
         ],
         "fr": [
-          "Six mois après son retour à la tête de Workday, Aneel Bhusri explique avoir délibérément « élagué » ou fusionné une partie des agents IA de l'éditeur, pour ne conserver que ceux qui démontrent un réel retour sur investissement.",
-          "Plus d'un quart des nouveaux contrats annuels de Workday proviennent désormais de produits IA, et plus de 5 500 clients utilisent activement au moins un agent — en hausse de 35 % sur un trimestre.",
-          "Pour les responsables de programmes SuccessFactors comme Workday : un signal à retenir pour appliquer la même discipline de ROI lors du choix des cas d'usage agentiques à piloter en premier, plutôt que d'adopter systématiquement chaque nouvel agent proposé par l'éditeur."
+          "La version « Jupiter » de Galileo, le moteur d'intelligence RH de la Josh Bersin Company, devient agnostique vis-à-vis des plateformes : ses réponses documentées sur la rémunération, les compétences et la carrière s'intègrent désormais directement dans Microsoft Copilot, Workday, ServiceNow, HiBob, ChatGPT et Claude, et sont exposées via un serveur MCP que d'autres agents d'entreprise peuvent solliciter.",
+          "L'équipe de Bersin indique que les réponses spécialisées de Galileo sont plus de deux fois plus rapides, et nettement plus fiables, que les grands modèles de langage généralistes testés, lesquels se sont trompés ou ont halluciné sur plus de la moitié des questions RH posées.",
+          "Point pratique : pour les DRH et DSI RH préoccupés par des collaborateurs recevant des réponses erronées mais assurées d'un chatbot générique, une tendance à surveiller — ancrer les agents IA RH, qu'ils soient intégrés à SuccessFactors, à Workday ou à une couche comme Galileo, dans des données spécialisées vérifiées plutôt que de s'appuyer uniquement sur des modèles généralistes."
         ]
       }
     },
     {
-      "title": "Minova implements Workday in eight weeks, pilots Claude-based AI portal",
-      "url": "https://diginomica.com/minova-implements-workday-eight-weeks-pilots-claude-based-ai-portal",
-      "source": "Diginomica",
-      "date": "2026-08-27",
+      "title": "2026 Top HR Products recap: What this year's judging revealed about where the market is going",
+      "url": "https://hrexecutive.com/2026-top-hr-products-recap-what-years-judging-revealed-about-where-market-going/",
+      "source": "HR Executive",
+      "date": "2026-09-15",
       "summary": {
         "en": [
-          "Mining safety company Minova replaced an ageing SAP SuccessFactors system with Workday HCM in just eight weeks, and is now piloting an AI portal ('AURA') built on Anthropic's Claude that lets employees query Workday, Salesforce and other systems in natural language.",
-          "CIO Dean Newman frames the fast go-live and the AI layer as complementary: a clean, modern HR core made it far easier to plug in a conversational AI front end afterwards.",
-          "So what: a concrete data point for programme leaders weighing 'big-bang' versus phased Workday migrations, and an early example of a Claude-based assistant sitting on top of an HCM system rather than replacing it."
+          "HR Executive and HR Tech's 2026 Top HR Products of the Year named 14 winners spanning talent acquisition, workforce intelligence and agentic HR software, with judges — including Aptitude Research's Madeline Laurano — calling this the hardest evaluation year yet.",
+          "Despite only around 12% of companies reporting they actually run agentic AI in production, nearly every submitted product described itself as 'agentic,' suggesting the label has become table stakes in vendor marketing rather than a genuine adoption signal.",
+          "So what: a useful reality check for SuccessFactors and Workday programme owners evaluating point solutions or ecosystem add-ons — scrutinise vendor 'agentic' claims and ask for evidence of production use, not just roadmap slides."
         ],
         "fr": [
-          "L'entreprise de sécurité minière Minova a remplacé un système SAP SuccessFactors vieillissant par Workday HCM en seulement huit semaines, et pilote désormais un portail IA (« AURA ») fondé sur Claude d'Anthropic, permettant aux collaborateurs d'interroger en langage naturel Workday, Salesforce et d'autres systèmes.",
-          "Pour son DSI Dean Newman, cette mise en service rapide et la couche IA sont complémentaires : un socle RH propre et moderne a ensuite grandement facilité l'ajout d'une interface conversationnelle.",
-          "Point pratique : un exemple concret pour arbitrer entre migration Workday « big-bang » ou par étapes, et une illustration précoce d'un assistant fondé sur Claude venant se superposer à un SIRH plutôt que le remplacer."
+          "Les 2026 Top HR Products of the Year de HR Executive et HR Tech ont récompensé 14 lauréats couvrant l'acquisition de talents, l'intelligence RH et les logiciels RH agentiques, les juges — dont Madeline Laurano d'Aptitude Research — qualifiant cette édition de la plus difficile à évaluer à ce jour.",
+          "Alors que seulement environ 12 % des entreprises déclarent utiliser réellement l'IA agentique en production, la quasi-totalité des produits candidats se présentaient comme « agentiques », signe que ce terme est devenu un argument marketing incontournable plus qu'un véritable indicateur d'adoption du marché.",
+          "Point pratique : une piqûre de rappel utile pour les responsables de programmes SuccessFactors et Workday qui évaluent des solutions ponctuelles ou des compléments d'écosystème — examiner les promesses « agentiques » des éditeurs avec un regard critique et exiger des preuves d'usage en production, pas seulement des feuilles de route."
         ]
       }
     },
     {
-      "title": "SAP Brings SAP SuccessFactors and Joule to NTT DATA's Global People and Culture Transformation",
-      "url": "https://news.sap.com/2026/08/ntt-data-inc-accelerates-ai-driven-people-transformation/",
-      "source": "SAP News Center",
-      "date": "2026-08-19",
+      "title": "Workday Named a Leader in 2026 Gartner® Magic Quadrant™ for Cloud HCM Suites for 1,000+ Employee Enterprises for Eleventh Consecutive Year",
+      "url": "https://newsroom.workday.com/2026-09-02-Workday-Named-a-Leader-in-2026-Gartner-R-Magic-Quadrant-TM-for-Cloud-HCM-Suites-for-1,000-Employee-Enterprises-for-Eleventh-Consecutive-Year",
+      "source": "Workday Newsroom",
+      "date": "2026-09-02",
       "summary": {
         "en": [
-          "NTT DATA has selected SAP SuccessFactors together with SAP Business Data Cloud and Joule, SAP's AI orchestrator, to replace multiple legacy HR systems with one unified, AI-enabled people platform across its global operations.",
-          "The move targets stronger workforce planning, cleaner people data and a more consistent employee experience — a validation of SuccessFactors as the backbone for large, multi-country HR transformations.",
-          "For programme leaders: a useful reference case for sequencing a legacy-to-SuccessFactors migration alongside an AI and data-platform rollout rather than treating them as separate projects."
+          "Gartner named Workday a Leader in its 2026 Magic Quadrant for Cloud HCM Suites for 1,000+ employee enterprises for the eleventh consecutive year, alongside SAP, UKG and Dayforce.",
+          "Workday's David Wachtel, GM of core HR products, framed the recognition around 'agentic HR,' arguing the report reflects rising customer expectations that HCM systems combine HR data, business processes and AI agents on one platform.",
+          "So what: useful external validation for Workday programme sponsors building an investment business case, though leaders should read the underlying Gartner report rather than rely on vendor framing alone."
         ],
         "fr": [
-          "NTT DATA a choisi SAP SuccessFactors, associé à SAP Business Data Cloud et à Joule, l'orchestrateur IA de SAP, pour remplacer ses multiples systèmes RH historiques par une plateforme RH unifiée et dotée d'IA à l'échelle mondiale.",
-          "L'objectif : une planification des effectifs plus robuste, des données RH plus fiables et une expérience collaborateur plus cohérente — une validation de SuccessFactors comme socle des grandes transformations RH multi-pays.",
-          "Pour les directeurs de programme : un cas de référence utile pour séquencer une migration vers SuccessFactors en parallèle d'un déploiement IA et data, plutôt que de les traiter comme deux projets distincts."
+          "Gartner a désigné Workday comme Leader de son Magic Quadrant 2026 pour les suites Cloud HCM destinées aux entreprises de plus de 1 000 salariés, pour la onzième année consécutive, aux côtés de SAP, UKG et Dayforce.",
+          "David Wachtel, directeur général des produits RH cœur chez Workday, a présenté cette reconnaissance sous l'angle de la « RH agentique », estimant que le rapport traduit une attente croissante des clients : que les systèmes HCM réunissent données RH, processus métier et agents IA sur une seule plateforme.",
+          "Point pratique : un point de validation externe utile pour les sponsors de programmes Workday qui construisent leur argumentaire d'investissement, même s'il reste préférable de lire le rapport Gartner original plutôt que de s'appuyer uniquement sur la communication de l'éditeur."
         ]
       }
     }
