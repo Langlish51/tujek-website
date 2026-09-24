@@ -1,93 +1,111 @@
 {
-  "updated": "2026-09-17",
+  "updated": "2026-09-24",
   "articles": [
     {
-      "title": "Dayforce Recognized as a Leader in the Inaugural Gartner® Magic Quadrant™ for Workforce Management Technology",
-      "url": "https://www.globenewswire.com/news-release/2026/09/17/3364269/0/en/dayforce-recognized-as-a-leader-in-the-inaugural-gartner-magic-quadrant-for-workforce-management-technology.html",
-      "source": "GlobeNewswire (Dayforce)",
+      "title": "In the AI era, organizations must redesign work in real time, Gartner says",
+      "url": "https://www.hrdive.com/news/in-the-ai-era-organizations-must-redesign-work-in-real-time-gartner/831205/",
+      "source": "HR Dive",
+      "date": "2026-09-24",
+      "summary": {
+        "en": [
+          "Gartner's Caroline Hewings told HR Dive that companies succeeding with AI treat work redesign as a continuous capability, not a one-off project, rebuilding roles and processes as technology, priorities and workforce needs shift.",
+          "Most organizations still bolt AI onto existing workflows rather than rethinking the underlying process, which Gartner says limits the productivity gains leaders expect.",
+          "So what: for SuccessFactors and Workday programme owners, this reinforces that Joule/Illuminate rollouts pay off only when paired with deliberate process and role redesign, not treated as a like-for-like automation swap."
+        ],
+        "fr": [
+          "Selon Caroline Hewings, analyste chez Gartner citée par HR Dive, les entreprises qui réussissent avec l'IA traitent la refonte du travail comme une capacité continue et non comme un projet ponctuel, en remodelant rôles et processus au fil de l'évolution de la technologie, des priorités et des besoins RH.",
+          "La plupart des organisations se contentent encore de greffer l'IA sur des flux de travail existants plutôt que de repenser le processus sous-jacent, ce qui, selon Gartner, limite les gains de productivité attendus par les dirigeants.",
+          "Point pratique : pour les responsables de programmes SuccessFactors et Workday, ce constat confirme que le déploiement de Joule ou d'Illuminate ne porte ses fruits que s'il s'accompagne d'une refonte délibérée des processus et des rôles, plutôt que d'être traité comme une simple automatisation à l'identique."
+        ]
+      }
+    },
+    {
+      "title": "Employees report performative AI use amid role changes",
+      "url": "https://www.hrdive.com/news/employees-performative-AI-pressure/831236/",
+      "source": "HR Dive",
+      "date": "2026-09-24",
+      "summary": {
+        "en": [
+          "A Visier study cited by HR Dive found 48% of employees admit exaggerating their AI use or expertise to colleagues and managers, and 54% say their role has significantly changed due to AI in the past two years.",
+          "Pressure to appear AI-fluent spans the enterprise, but many employees remain unsure how leadership plans to address the resulting skills and role changes.",
+          "So what: for HRIS leaders rolling out AI agents in SuccessFactors or Workday, self-reported adoption metrics may overstate real proficiency — a case for pairing go-lives with genuine skills assessment and change communication, not just usage dashboards."
+        ],
+        "fr": [
+          "Une étude Visier citée par HR Dive révèle que 48 % des salariés admettent avoir exagéré leur usage ou leur expertise de l'IA auprès de collègues et de managers, et 54 % déclarent que leur poste a significativement changé à cause de l'IA au cours des deux dernières années.",
+          "La pression à paraître « à l'aise avec l'IA » touche l'ensemble de l'entreprise, mais de nombreux salariés ignorent encore comment la direction compte traiter les changements de compétences et de postes qui en découlent.",
+          "Point pratique : pour les DRH et DSI RH qui déploient des agents IA dans SuccessFactors ou Workday, les indicateurs d'adoption autodéclarés peuvent surestimer la maîtrise réelle — une raison d'accompagner chaque mise en service d'une véritable évaluation des compétences et d'une communication de conduite du changement, pas seulement de tableaux de bord d'usage."
+        ]
+      }
+    },
+    {
+      "title": "Oracle Named a Leader in the 2026 Gartner® Magic Quadrant™ for HCM Suites for 1,000+ Employee Enterprises",
+      "url": "https://www.oracle.com/news/announcement/oracle-named-a-leader-in-2026-gartner-magic-quadrant-for-hcm-suites-2026-09-22/",
+      "source": "Oracle",
+      "date": "2026-09-22",
+      "summary": {
+        "en": [
+          "Gartner named Oracle a Leader in its 2026 Magic Quadrant for HCM Suites for the eleventh consecutive year, positioning it furthest right for Completeness of Vision for the ninth year running.",
+          "Oracle highlighted its new Fusion Agentic Applications for HCM, which it says move beyond surfacing insights to monitoring workforce conditions, reasoning about options and executing supported actions toward defined outcomes.",
+          "So what: another large HCM incumbent is racing toward 'agents that execute, not just advise' — useful competitive context for SuccessFactors and Workday programme sponsors benchmarking Joule and Illuminate maturity against the rest of the market."
+        ],
+        "fr": [
+          "Gartner a désigné Oracle Leader de son Magic Quadrant 2026 pour les suites HCM pour la onzième année consécutive, le positionnant le plus à droite en « exhaustivité de la vision » pour la neuvième année de suite.",
+          "Oracle met en avant ses nouvelles Fusion Agentic Applications pour le HCM, qui, selon l'éditeur, vont au-delà de la simple remontée d'informations pour surveiller les conditions de l'effectif, raisonner sur les options possibles et exécuter des actions validées vers des objectifs définis.",
+          "Point pratique : un autre grand acteur historique du HCM accélère vers des « agents qui exécutent, pas seulement qui conseillent » — un élément de contexte concurrentiel utile pour les sponsors de programmes SuccessFactors et Workday qui évaluent la maturité de Joule et d'Illuminate par rapport au reste du marché."
+        ]
+      }
+    },
+    {
+      "title": "AIHR's HR Trends 2027: AI Is Changing Work and Where HR Creates Value",
+      "url": "https://www.globenewswire.com/news-release/2026/09/22/3366746/0/en/aihr-s-hr-trends-2027-ai-is-changing-work-and-where-hr-creates-value.html",
+      "source": "AIHR (Academy to Innovate HR)",
+      "date": "2026-09-22",
+      "summary": {
+        "en": [
+          "AIHR's HR Trends 2027 report, based on US labour-market data covering over 162,000 active HR job postings and 3.88 million HR professionals, finds demand shifting sharply toward technology, analytics, organisational-effectiveness and change-management skills within HR.",
+          "Roles like Organization Effectiveness Specialist grew 65% and Change Management Specialist 22%, while transactional roles such as HR Administrators and Service Desk Agents declined 25-38%, and HR technologist talent remains scarce.",
+          "So what: for SuccessFactors and Workday programme leaders, the data is a concrete signal to invest in HRIS and change-management capability now — technologist and organisational-design skills are becoming the scarce resource that determines programme success, not headcount in transactional HR roles."
+        ],
+        "fr": [
+          "Le rapport HR Trends 2027 d'AIHR, fondé sur des données du marché du travail américain couvrant plus de 162 000 offres d'emploi RH actives et 3,88 millions de professionnels RH, montre un déplacement marqué de la demande vers les compétences technologiques, analytiques, d'efficacité organisationnelle et de conduite du changement au sein des fonctions RH.",
+          "Les postes de spécialiste en efficacité organisationnelle ont progressé de 65 % et ceux de spécialiste en conduite du changement de 22 %, tandis que les rôles transactionnels comme les administrateurs RH ou les agents de service desk ont reculé de 25 à 38 %, les profils de « technologistes RH » restant rares.",
+          "Point pratique : pour les responsables de programmes SuccessFactors et Workday, ces données incitent concrètement à investir dès maintenant dans les compétences HRIS et de conduite du changement — les compétences technologiques et de conception organisationnelle deviennent la ressource rare qui conditionne la réussite des programmes, davantage que les effectifs RH transactionnels."
+        ]
+      }
+    },
+    {
+      "title": "SAP a Strategic Leader in 2026 Fosway 9-Grid for Cloud HR",
+      "url": "https://news.sap.com/2026/09/sap-strategic-leader-2026-fosway-9-grid-cloud-hr/",
+      "source": "SAP News Center",
+      "date": "2026-09-18",
+      "summary": {
+        "en": [
+          "SAP was named a Strategic Leader in the 2026 Fosway 9-Grid for Cloud HR, with Fosway citing SAP SuccessFactors' accelerated AI feature rollout and deepening integration with AI agents as key factors behind the recognition.",
+          "The placement reflects both market performance and customer advocacy, alongside continued investment in core HCM capabilities rather than AI features alone.",
+          "So what: independent analyst validation like the Fosway 9-Grid is a useful reference point for SuccessFactors programme sponsors building investment cases, though it's worth reading Fosway's underlying methodology rather than relying on SAP's framing alone."
+        ],
+        "fr": [
+          "SAP a été désigné Strategic Leader dans le Fosway 9-Grid 2026 pour le Cloud HR, Fosway citant l'accélération du déploiement des fonctionnalités IA de SAP SuccessFactors et l'intégration croissante avec des agents IA comme facteurs clés de cette reconnaissance.",
+          "Ce positionnement reflète à la fois la performance sur le marché et la recommandation des clients, ainsi qu'un investissement continu dans les capacités HCM cœur et pas seulement dans les fonctionnalités IA.",
+          "Point pratique : une validation indépendante par un analyste comme le Fosway 9-Grid constitue un repère utile pour les sponsors de programmes SuccessFactors qui construisent leur dossier d'investissement, même s'il reste préférable de consulter la méthodologie de Fosway plutôt que de se fier uniquement à la communication de SAP."
+        ]
+      }
+    },
+    {
+      "title": "Frontline Worker Expectation Gap Exposes Workforce Tech Lag",
+      "url": "https://erp.today/frontline-worker-expectation-gap-workforce-technology",
+      "source": "ERP Today",
       "date": "2026-09-17",
       "summary": {
         "en": [
-          "Dayforce was named a Leader — and positioned highest for Ability to Execute — in Gartner's brand-new, standalone Magic Quadrant for Workforce Management Technology, separate from the established Cloud HCM Suites report.",
-          "The recognition centres on Dayforce's AI-powered scheduling, forecasting, compliance and fatigue-management capabilities, built on a single data model spanning payroll, time and HR.",
-          "So what: by carving out a dedicated workforce-management category, Gartner signals that frontline scheduling, compliance and fatigue management are now judged as a distinct capability set — worth factoring into SuccessFactors or Workday RFPs wherever deep WFM depth matters, since it's no longer folded entirely into the core HCM suite rating."
+          "New Workday and DailyPay research finds a widening gap between what frontline workers expect and what employers deliver: 72% want control over their schedule but only 51% are satisfied, and 88% want pay clarity but only 57% get it.",
+          "78% of frontline workers calculate commuting, childcare and other costs before accepting a shift, and 52% don't expect employers to close these gaps, pointing to real retention risk.",
+          "So what: for Workday programme owners running frontline or hourly populations, the research is a concrete business case for prioritising scheduling flexibility, pay transparency and mobile self-service in the rollout roadmap, not just back-office automation."
         ],
         "fr": [
-          "Dayforce a été désigné Leader — et le mieux positionné en « capacité d'exécution » — dans le tout premier Magic Quadrant de Gartner consacré aux technologies de gestion des effectifs, un rapport distinct du Magic Quadrant historique des suites Cloud HCM.",
-          "Cette reconnaissance repose sur les capacités de Dayforce en planification, prévision, conformité et gestion de la fatigue pilotées par l'IA, appuyées sur un modèle de données unique couvrant paie, temps de travail et RH.",
-          "Point pratique : en isolant une catégorie dédiée à la gestion des effectifs, Gartner signale que la planification terrain, la conformité et la gestion de la fatigue sont désormais évaluées comme un ensemble de capacités à part entière — un point à intégrer dans les appels d'offres SuccessFactors ou Workday lorsque la profondeur fonctionnelle en gestion des effectifs (WFM) est déterminante, puisqu'elle n'est plus totalement absorbée par la notation de la suite HCM cœur."
-        ]
-      }
-    },
-    {
-      "title": "Lockheed Martin's SAP SuccessFactors Go-Live Shows Why HR Data Comes Before HR AI",
-      "url": "https://sapinsider.org/blogs/lockheed-martins-sap-successfactors-go-live-shows-why-hr-data-comes-before-hr-ai",
-      "source": "SAPinsider",
-      "date": "2026-09-16",
-      "summary": {
-        "en": [
-          "Lockheed Martin, with 123,000 employees, went live on SAP SuccessFactors Employee Central, Employee Central Payroll, Recruiting and Onboarding, replacing legacy HR systems with a single cloud foundation and one source of truth for workforce data.",
-          "The programme deliberately sequenced data cleanup and consolidation before layering on AI — a 'data first, AI second' approach SAPinsider frames as the real lesson of the go-live.",
-          "So what: for SuccessFactors programme leaders under pressure to bolt on Joule or other AI features quickly, this is a credible, high-profile case for investing in clean Employee Central data architecture before scaling AI-driven HR processes."
-        ],
-        "fr": [
-          "Lockheed Martin, 123 000 collaborateurs, a basculé sur SAP SuccessFactors Employee Central, Employee Central Payroll, Recruiting et Onboarding, remplaçant ses systèmes RH historiques par un socle cloud unique et une source de vérité unique pour les données collaborateurs.",
-          "Le programme a délibérément séquencé le nettoyage et la consolidation des données avant d'y superposer l'IA — une approche « données d'abord, IA ensuite » que SAPinsider présente comme la vraie leçon de cette mise en service.",
-          "Point pratique : pour les responsables de programmes SuccessFactors sous pression pour déployer rapidement Joule ou d'autres fonctionnalités IA, un cas concret et de premier plan plaidant pour investir dans une architecture de données Employee Central propre avant de généraliser des processus RH pilotés par l'IA."
-        ]
-      }
-    },
-    {
-      "title": "HR Intelligence Goes Enterprise: The Galileo Jupiter Release",
-      "url": "https://joshbersin.com/2026/09/hr-intelligence-goes-enterprise-the-galileo-jupiter-release/",
-      "source": "Josh Bersin",
-      "date": "2026-09-15",
-      "summary": {
-        "en": [
-          "The Josh Bersin Company's 'Jupiter' release makes its Galileo HR-intelligence engine platform-agnostic, embedding research-grounded answers on pay, skills and career topics directly into Microsoft Copilot, Workday, ServiceNow, HiBob, ChatGPT and Claude, and exposing it as an MCP server other enterprise agents can call.",
-          "Bersin's team reports Galileo's domain-specific answers are over twice as fast as, and far more accurate than, the general-purpose LLMs it tested, which hallucinated or erred on more than half of HR-specific queries.",
-          "So what: for HRIS leaders wary of employees getting confidently wrong answers from generic chatbots, this points to a pattern worth watching — grounding HR-specific AI agents, whether inside SuccessFactors, Workday or a layer like Galileo, in curated domain data rather than relying on general-purpose models alone."
-        ],
-        "fr": [
-          "La version « Jupiter » de Galileo, le moteur d'intelligence RH de la Josh Bersin Company, devient agnostique vis-à-vis des plateformes : ses réponses documentées sur la rémunération, les compétences et la carrière s'intègrent désormais directement dans Microsoft Copilot, Workday, ServiceNow, HiBob, ChatGPT et Claude, et sont exposées via un serveur MCP que d'autres agents d'entreprise peuvent solliciter.",
-          "L'équipe de Bersin indique que les réponses spécialisées de Galileo sont plus de deux fois plus rapides, et nettement plus fiables, que les grands modèles de langage généralistes testés, lesquels se sont trompés ou ont halluciné sur plus de la moitié des questions RH posées.",
-          "Point pratique : pour les DRH et DSI RH préoccupés par des collaborateurs recevant des réponses erronées mais assurées d'un chatbot générique, une tendance à surveiller — ancrer les agents IA RH, qu'ils soient intégrés à SuccessFactors, à Workday ou à une couche comme Galileo, dans des données spécialisées vérifiées plutôt que de s'appuyer uniquement sur des modèles généralistes."
-        ]
-      }
-    },
-    {
-      "title": "2026 Top HR Products recap: What this year's judging revealed about where the market is going",
-      "url": "https://hrexecutive.com/2026-top-hr-products-recap-what-years-judging-revealed-about-where-market-going/",
-      "source": "HR Executive",
-      "date": "2026-09-15",
-      "summary": {
-        "en": [
-          "HR Executive and HR Tech's 2026 Top HR Products of the Year named 14 winners spanning talent acquisition, workforce intelligence and agentic HR software, with judges — including Aptitude Research's Madeline Laurano — calling this the hardest evaluation year yet.",
-          "Despite only around 12% of companies reporting they actually run agentic AI in production, nearly every submitted product described itself as 'agentic,' suggesting the label has become table stakes in vendor marketing rather than a genuine adoption signal.",
-          "So what: a useful reality check for SuccessFactors and Workday programme owners evaluating point solutions or ecosystem add-ons — scrutinise vendor 'agentic' claims and ask for evidence of production use, not just roadmap slides."
-        ],
-        "fr": [
-          "Les 2026 Top HR Products of the Year de HR Executive et HR Tech ont récompensé 14 lauréats couvrant l'acquisition de talents, l'intelligence RH et les logiciels RH agentiques, les juges — dont Madeline Laurano d'Aptitude Research — qualifiant cette édition de la plus difficile à évaluer à ce jour.",
-          "Alors que seulement environ 12 % des entreprises déclarent utiliser réellement l'IA agentique en production, la quasi-totalité des produits candidats se présentaient comme « agentiques », signe que ce terme est devenu un argument marketing incontournable plus qu'un véritable indicateur d'adoption du marché.",
-          "Point pratique : une piqûre de rappel utile pour les responsables de programmes SuccessFactors et Workday qui évaluent des solutions ponctuelles ou des compléments d'écosystème — examiner les promesses « agentiques » des éditeurs avec un regard critique et exiger des preuves d'usage en production, pas seulement des feuilles de route."
-        ]
-      }
-    },
-    {
-      "title": "Workday Named a Leader in 2026 Gartner® Magic Quadrant™ for Cloud HCM Suites for 1,000+ Employee Enterprises for Eleventh Consecutive Year",
-      "url": "https://newsroom.workday.com/2026-09-02-Workday-Named-a-Leader-in-2026-Gartner-R-Magic-Quadrant-TM-for-Cloud-HCM-Suites-for-1,000-Employee-Enterprises-for-Eleventh-Consecutive-Year",
-      "source": "Workday Newsroom",
-      "date": "2026-09-02",
-      "summary": {
-        "en": [
-          "Gartner named Workday a Leader in its 2026 Magic Quadrant for Cloud HCM Suites for 1,000+ employee enterprises for the eleventh consecutive year, alongside SAP, UKG and Dayforce.",
-          "Workday's David Wachtel, GM of core HR products, framed the recognition around 'agentic HR,' arguing the report reflects rising customer expectations that HCM systems combine HR data, business processes and AI agents on one platform.",
-          "So what: useful external validation for Workday programme sponsors building an investment business case, though leaders should read the underlying Gartner report rather than rely on vendor framing alone."
-        ],
-        "fr": [
-          "Gartner a désigné Workday comme Leader de son Magic Quadrant 2026 pour les suites Cloud HCM destinées aux entreprises de plus de 1 000 salariés, pour la onzième année consécutive, aux côtés de SAP, UKG et Dayforce.",
-          "David Wachtel, directeur général des produits RH cœur chez Workday, a présenté cette reconnaissance sous l'angle de la « RH agentique », estimant que le rapport traduit une attente croissante des clients : que les systèmes HCM réunissent données RH, processus métier et agents IA sur une seule plateforme.",
-          "Point pratique : un point de validation externe utile pour les sponsors de programmes Workday qui construisent leur argumentaire d'investissement, même s'il reste préférable de lire le rapport Gartner original plutôt que de s'appuyer uniquement sur la communication de l'éditeur."
+          "Une nouvelle étude Workday et DailyPay révèle un écart grandissant entre les attentes des travailleurs de première ligne et ce que proposent les employeurs : 72 % souhaitent avoir la main sur leurs horaires, mais seuls 51 % en sont satisfaits, et 88 % veulent de la clarté sur leur paie, contre seulement 57 % qui l'obtiennent.",
+          "78 % des travailleurs de première ligne calculent les frais de trajet, de garde d'enfants et autres avant d'accepter un créneau, et 52 % ne s'attendent pas à ce que leur employeur comble ces écarts, ce qui constitue un réel risque de rétention.",
+          "Point pratique : pour les responsables de programmes Workday gérant des populations de terrain ou horaires, cette étude constitue un argument concret pour prioriser la flexibilité des plannings, la transparence de la paie et le libre-service mobile dans la feuille de route du déploiement, au-delà de la seule automatisation back-office."
         ]
       }
     }
