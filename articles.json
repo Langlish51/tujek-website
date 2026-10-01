@@ -1,111 +1,111 @@
 {
-  "updated": "2026-09-24",
+  "updated": "2026-10-01",
   "articles": [
     {
-      "title": "In the AI era, organizations must redesign work in real time, Gartner says",
-      "url": "https://www.hrdive.com/news/in-the-ai-era-organizations-must-redesign-work-in-real-time-gartner/831205/",
-      "source": "HR Dive",
+      "title": "Oracle Fusion Claw the new grab for fully autonomous agentic AI in ERP",
+      "url": "https://www.techtarget.com/it-strategy/news/366651382/Oracle-Fusion-Claw-the-new-grab-for-fully-autonomous-agentic-AI-in-ERP",
+      "source": "TechTarget",
+      "date": "2026-09-29",
+      "summary": {
+        "en": [
+          "Oracle launched Fusion Claw, a governed execution runtime that lets 25 new \"Claw\" applications — including a Workforce Staffing agent — run longer, autonomous business processes rather than just suggesting actions, bringing the Fusion Agentic Applications portfolio to 75.",
+          "Each run is bounded by a customer-defined \"Enterprise Operating Envelope\" (objectives, policies, risk thresholds, authorisation rules) and logged in an auditable \"Outcome Receipt,\" Oracle's answer to the governance question raised by autonomous agents.",
+          "So what: another major HCM/ERP competitor is shipping auditable guardrails for autonomous execution, not just chat assistants — a useful benchmark for SuccessFactors and Workday programme sponsors assessing how mature Joule's and Sana's own governance and audit trails are by comparison."
+        ],
+        "fr": [
+          "Oracle a lancé Fusion Claw, un environnement d'exécution gouverné qui permet à 25 nouvelles applications « Claw » — dont un agent Workforce Staffing — de mener des processus métier autonomes de plus longue durée plutôt que de simplement suggérer des actions, portant le portefeuille Fusion Agentic Applications à 75 applications.",
+          "Chaque exécution est encadrée par un « Enterprise Operating Envelope » défini par le client (objectifs, politiques, seuils de risque, règles d'autorisation) et consignée dans un « Outcome Receipt » auditable — la réponse d'Oracle à la question de gouvernance posée par les agents autonomes.",
+          "Point pratique : un autre grand concurrent HCM/ERP livre des garde-fous auditables pour l'exécution autonome, et pas seulement des assistants conversationnels — un repère utile pour les sponsors de programmes SuccessFactors et Workday afin d'évaluer la maturité comparée de la gouvernance et des pistes d'audit de Joule et de Sana."
+        ]
+      }
+    },
+    {
+      "title": "ADP: what 77 years of payroll taught us about AI",
+      "url": "https://fortune.com/2026/09/29/payroll-ai-automation-human-resources/",
+      "source": "Fortune",
+      "date": "2026-09-29",
+      "summary": {
+        "en": [
+          "Fortune's look at ADP's AI strategy argues that automating a flawed payroll process doesn't remove errors, it scales them — a caution echoed by ADP's own Potential of Payroll 2026 research, where 75% of payroll leaders cite local regulatory complexity as a major challenge and 68% report compliance penalties once or twice a year.",
+          "69% of payroll leaders admit sometimes overpaying employees rather than risk a compliance violation, underlining how much of payroll AI's value still depends on human judgement to catch exceptions, not replace it.",
+          "So what: for SuccessFactors Employee Central Payroll or Workday Payroll programmes layering in AI, the piece is a useful counterweight to vendor hype — validate exception-handling and local compliance logic before trusting an agent to run unattended."
+        ],
+        "fr": [
+          "Cette analyse de Fortune sur la stratégie IA d'ADP rappelle qu'automatiser un processus de paie défaillant ne supprime pas les erreurs, il les démultiplie — un avertissement que confirme l'étude Potential of Payroll 2026 d'ADP, où 75 % des responsables paie citent la complexité réglementaire locale comme un défi majeur et 68 % déclarent avoir subi des pénalités de non-conformité une ou deux fois par an.",
+          "69 % des responsables paie admettent parfois sur-payer des salariés plutôt que de risquer un manquement de conformité, ce qui souligne à quel point la valeur de l'IA en paie dépend encore du jugement humain pour détecter les exceptions, et non pour s'y substituer.",
+          "Point pratique : pour les programmes de paie SuccessFactors Employee Central ou Workday Payroll qui intègrent de l'IA, cet article est un contrepoids utile au discours des éditeurs — valider la gestion des exceptions et la logique de conformité locale avant de laisser un agent fonctionner sans supervision."
+        ]
+      }
+    },
+    {
+      "title": "Workday Launches Total Benefits, Bringing Health, Wealth, and Wellbeing Support Together in One Place",
+      "url": "https://newsroom.workday.com/2026-09-24-Workday-Launches-Total-Benefits,-Bringing-Health,-Wealth,-and-Wellbeing-Support-Together-in-One-Place",
+      "source": "Workday Newsroom",
       "date": "2026-09-24",
       "summary": {
         "en": [
-          "Gartner's Caroline Hewings told HR Dive that companies succeeding with AI treat work redesign as a continuous capability, not a one-off project, rebuilding roles and processes as technology, priorities and workforce needs shift.",
-          "Most organizations still bolt AI onto existing workflows rather than rethinking the underlying process, which Gartner says limits the productivity gains leaders expect.",
-          "So what: for SuccessFactors and Workday programme owners, this reinforces that Joule/Illuminate rollouts pay off only when paired with deliberate process and role redesign, not treated as a like-for-like automation swap."
+          "Workday launched Total Benefits, pairing the now-generally-available Workday Wellness module with AI agents that help employees compare plans, understand eligibility and complete enrolment or life-event changes (such as \"I'm having a baby\") without opening a case.",
+          "The offering draws on data from more than 3,000 employers and 22 million workers already on Workday's Core Benefits module, positioning benefits as one of the first large-scale, data-rich agentic use cases in the suite.",
+          "So what: Workday customers running benefits in Workday should treat this as a near-term roadmap item — a case-volume reduction lever for HR service centres during open enrolment, worth testing before the next renewal cycle."
         ],
         "fr": [
-          "Selon Caroline Hewings, analyste chez Gartner citée par HR Dive, les entreprises qui réussissent avec l'IA traitent la refonte du travail comme une capacité continue et non comme un projet ponctuel, en remodelant rôles et processus au fil de l'évolution de la technologie, des priorités et des besoins RH.",
-          "La plupart des organisations se contentent encore de greffer l'IA sur des flux de travail existants plutôt que de repenser le processus sous-jacent, ce qui, selon Gartner, limite les gains de productivité attendus par les dirigeants.",
-          "Point pratique : pour les responsables de programmes SuccessFactors et Workday, ce constat confirme que le déploiement de Joule ou d'Illuminate ne porte ses fruits que s'il s'accompagne d'une refonte délibérée des processus et des rôles, plutôt que d'être traité comme une simple automatisation à l'identique."
+          "Workday a lancé Total Benefits, associant le module Workday Wellness désormais généralement disponible à des agents IA qui aident les salariés à comparer les régimes, comprendre leur éligibilité et finaliser une inscription ou un changement lié à un événement de vie (par exemple « j'attends un enfant ») sans ouvrir de ticket.",
+          "L'offre s'appuie sur les données de plus de 3 000 employeurs et 22 millions de salariés déjà présents sur le module Core Benefits de Workday, ce qui en fait l'un des premiers cas d'usage agentique à grande échelle et riche en données de la suite.",
+          "Point pratique : les clients Workday qui gèrent leurs avantages sociaux dans Workday devraient l'inscrire à court terme dans leur feuille de route — un levier de réduction du volume de tickets pour les centres de services RH pendant la période d'inscription annuelle, à tester avant le prochain cycle de renouvellement."
         ]
       }
     },
     {
-      "title": "Employees report performative AI use amid role changes",
-      "url": "https://www.hrdive.com/news/employees-performative-AI-pressure/831236/",
-      "source": "HR Dive",
-      "date": "2026-09-24",
+      "title": "HR Executive and HR Tech Reveal 2026 Top HR Products of the Year",
+      "url": "https://www.globenewswire.com/news-release/2026/09/15/3361894/0/en/hr-executive-and-hr-tech-reveal-2026-top-hr-products-of-the-year.html",
+      "source": "HR Executive",
+      "date": "2026-09-15",
       "summary": {
         "en": [
-          "A Visier study cited by HR Dive found 48% of employees admit exaggerating their AI use or expertise to colleagues and managers, and 54% say their role has significantly changed due to AI in the past two years.",
-          "Pressure to appear AI-fluent spans the enterprise, but many employees remain unsure how leadership plans to address the resulting skills and role changes.",
-          "So what: for HRIS leaders rolling out AI agents in SuccessFactors or Workday, self-reported adoption metrics may overstate real proficiency — a case for pairing go-lives with genuine skills assessment and change communication, not just usage dashboards."
+          "HR Executive named Sana from Workday a 2026 Top HR Product of the Year, recognising its ability to answer plain-language employee questions with cited sources and execute HR and finance workflows — more than 300 self-service skills spanning pay, time and absence.",
+          "The award sits alongside other winners across the HR tech market, giving buyers an independent, judge-reviewed signal distinct from vendor marketing claims about agentic AI maturity.",
+          "So what: for Workday customers evaluating whether to activate Sana, an independent product-of-the-year review is a useful external validation point to bring into the business case, alongside your own pilot results."
         ],
         "fr": [
-          "Une étude Visier citée par HR Dive révèle que 48 % des salariés admettent avoir exagéré leur usage ou leur expertise de l'IA auprès de collègues et de managers, et 54 % déclarent que leur poste a significativement changé à cause de l'IA au cours des deux dernières années.",
-          "La pression à paraître « à l'aise avec l'IA » touche l'ensemble de l'entreprise, mais de nombreux salariés ignorent encore comment la direction compte traiter les changements de compétences et de postes qui en découlent.",
-          "Point pratique : pour les DRH et DSI RH qui déploient des agents IA dans SuccessFactors ou Workday, les indicateurs d'adoption autodéclarés peuvent surestimer la maîtrise réelle — une raison d'accompagner chaque mise en service d'une véritable évaluation des compétences et d'une communication de conduite du changement, pas seulement de tableaux de bord d'usage."
+          "HR Executive a désigné Sana de Workday « 2026 Top HR Product of the Year », saluant sa capacité à répondre en langage naturel aux questions des salariés avec des sources citées et à exécuter des flux de travail RH et finance — plus de 300 compétences en self-service couvrant la paie, le temps et les absences.",
+          "Ce prix s'inscrit parmi d'autres lauréats du marché des technologies RH, offrant aux acheteurs un signal indépendant, évalué par un jury, distinct des arguments marketing des éditeurs sur la maturité de l'IA agentique.",
+          "Point pratique : pour les clients Workday qui évaluent l'activation de Sana, une récompense indépendante de type « produit de l'année » constitue un point de validation externe utile à intégrer au dossier d'investissement, en complément de vos propres résultats de pilote."
         ]
       }
     },
     {
-      "title": "Oracle Named a Leader in the 2026 Gartner® Magic Quadrant™ for HCM Suites for 1,000+ Employee Enterprises",
-      "url": "https://www.oracle.com/news/announcement/oracle-named-a-leader-in-2026-gartner-magic-quadrant-for-hcm-suites-2026-09-22/",
-      "source": "Oracle",
-      "date": "2026-09-22",
+      "title": "EY survey finds that autonomous AI implementation outpaces oversight, yielding an AI governance gap",
+      "url": "https://www.ey.com/en_us/newsroom/2026/09/ey-survey-finds-that-autonomous-ai-implementation-outpaces-oversight-yielding-an-ai-governance-gap",
+      "source": "EY",
+      "date": "2026-09-15",
       "summary": {
         "en": [
-          "Gartner named Oracle a Leader in its 2026 Magic Quadrant for HCM Suites for the eleventh consecutive year, positioning it furthest right for Completeness of Vision for the ninth year running.",
-          "Oracle highlighted its new Fusion Agentic Applications for HCM, which it says move beyond surfacing insights to monitoring workforce conditions, reasoning about options and executing supported actions toward defined outcomes.",
-          "So what: another large HCM incumbent is racing toward 'agents that execute, not just advise' — useful competitive context for SuccessFactors and Workday programme sponsors benchmarking Joule and Illuminate maturity against the rest of the market."
+          "EY surveyed 202 senior AI executives at organisations with at least $1B in revenue and found 98% have formal AI governance policies, yet 47% admit bypassing that process for urgent deployments, and 26% of agentic AI users can't detect unauthorised agents running internally.",
+          "36% of respondents report an AI incident with material negative impact, and about two-thirds flag a lack of internal expertise to design, implement or evolve governance controls — the policy exists more on paper than in practice.",
+          "So what: for SuccessFactors and Workday programme owners rolling out Joule or Sana agents, this is a reminder to pressure-test who can actually see and shut down an agent in production, not just whether a governance policy document exists."
         ],
         "fr": [
-          "Gartner a désigné Oracle Leader de son Magic Quadrant 2026 pour les suites HCM pour la onzième année consécutive, le positionnant le plus à droite en « exhaustivité de la vision » pour la neuvième année de suite.",
-          "Oracle met en avant ses nouvelles Fusion Agentic Applications pour le HCM, qui, selon l'éditeur, vont au-delà de la simple remontée d'informations pour surveiller les conditions de l'effectif, raisonner sur les options possibles et exécuter des actions validées vers des objectifs définis.",
-          "Point pratique : un autre grand acteur historique du HCM accélère vers des « agents qui exécutent, pas seulement qui conseillent » — un élément de contexte concurrentiel utile pour les sponsors de programmes SuccessFactors et Workday qui évaluent la maturité de Joule et d'Illuminate par rapport au reste du marché."
+          "EY a interrogé 202 cadres dirigeants IA d'organisations réalisant au moins 1 milliard de dollars de revenus : 98 % disposent d'une politique de gouvernance IA formelle, mais 47 % admettent l'avoir contournée pour des déploiements urgents, et 26 % des utilisateurs d'IA agentique sont incapables de détecter des agents non autorisés actifs en interne.",
+          "36 % des répondants signalent un incident IA ayant eu un impact négatif significatif, et environ deux tiers pointent un manque d'expertise interne pour concevoir, déployer ou faire évoluer les dispositifs de gouvernance — la politique existe davantage sur le papier que dans la pratique.",
+          "Point pratique : pour les responsables de programmes SuccessFactors ou Workday qui déploient des agents Joule ou Sana, ce constat rappelle qu'il faut vérifier concrètement qui peut voir et arrêter un agent en production, et pas seulement si un document de gouvernance existe."
         ]
       }
     },
     {
-      "title": "AIHR's HR Trends 2027: AI Is Changing Work and Where HR Creates Value",
-      "url": "https://www.globenewswire.com/news-release/2026/09/22/3366746/0/en/aihr-s-hr-trends-2027-ai-is-changing-work-and-where-hr-creates-value.html",
-      "source": "AIHR (Academy to Innovate HR)",
-      "date": "2026-09-22",
-      "summary": {
-        "en": [
-          "AIHR's HR Trends 2027 report, based on US labour-market data covering over 162,000 active HR job postings and 3.88 million HR professionals, finds demand shifting sharply toward technology, analytics, organisational-effectiveness and change-management skills within HR.",
-          "Roles like Organization Effectiveness Specialist grew 65% and Change Management Specialist 22%, while transactional roles such as HR Administrators and Service Desk Agents declined 25-38%, and HR technologist talent remains scarce.",
-          "So what: for SuccessFactors and Workday programme leaders, the data is a concrete signal to invest in HRIS and change-management capability now — technologist and organisational-design skills are becoming the scarce resource that determines programme success, not headcount in transactional HR roles."
-        ],
-        "fr": [
-          "Le rapport HR Trends 2027 d'AIHR, fondé sur des données du marché du travail américain couvrant plus de 162 000 offres d'emploi RH actives et 3,88 millions de professionnels RH, montre un déplacement marqué de la demande vers les compétences technologiques, analytiques, d'efficacité organisationnelle et de conduite du changement au sein des fonctions RH.",
-          "Les postes de spécialiste en efficacité organisationnelle ont progressé de 65 % et ceux de spécialiste en conduite du changement de 22 %, tandis que les rôles transactionnels comme les administrateurs RH ou les agents de service desk ont reculé de 25 à 38 %, les profils de « technologistes RH » restant rares.",
-          "Point pratique : pour les responsables de programmes SuccessFactors et Workday, ces données incitent concrètement à investir dès maintenant dans les compétences HRIS et de conduite du changement — les compétences technologiques et de conception organisationnelle deviennent la ressource rare qui conditionne la réussite des programmes, davantage que les effectifs RH transactionnels."
-        ]
-      }
-    },
-    {
-      "title": "SAP a Strategic Leader in 2026 Fosway 9-Grid for Cloud HR",
-      "url": "https://news.sap.com/2026/09/sap-strategic-leader-2026-fosway-9-grid-cloud-hr/",
+      "title": "SAP Brings SAP SuccessFactors and Joule to NTT DATA's Global People and Culture Transformation",
+      "url": "https://news.sap.com/africa/2026/09/sap-brings-sap-successfactors-and-joule-to-ntt-datas-global-people-and-culture-transformation/",
       "source": "SAP News Center",
-      "date": "2026-09-18",
+      "date": "2026-09-08",
       "summary": {
         "en": [
-          "SAP was named a Strategic Leader in the 2026 Fosway 9-Grid for Cloud HR, with Fosway citing SAP SuccessFactors' accelerated AI feature rollout and deepening integration with AI agents as key factors behind the recognition.",
-          "The placement reflects both market performance and customer advocacy, alongside continued investment in core HCM capabilities rather than AI features alone.",
-          "So what: independent analyst validation like the Fosway 9-Grid is a useful reference point for SuccessFactors programme sponsors building investment cases, though it's worth reading Fosway's underlying methodology rather than relying on SAP's framing alone."
+          "NTT DATA, a 36-year SAP platinum partner, is replacing multiple legacy HR systems worldwide with SAP SuccessFactors and SAP Business Data Cloud, with Joule embedded as the AI orchestration layer from the start rather than bolted on afterwards.",
+          "The 12-month internal rollout is being designed and run by NTT DATA's own SAP consultants, turning the implementation into a public reference case for combining SuccessFactors as system of record with Joule-driven decision support.",
+          "So what: for programme leaders, it's a concrete example of sequencing — build the SuccessFactors/Business Data Cloud data foundation first, then let Joule agents ride on top, rather than trying to retrofit AI onto fragmented legacy HR data."
         ],
         "fr": [
-          "SAP a été désigné Strategic Leader dans le Fosway 9-Grid 2026 pour le Cloud HR, Fosway citant l'accélération du déploiement des fonctionnalités IA de SAP SuccessFactors et l'intégration croissante avec des agents IA comme facteurs clés de cette reconnaissance.",
-          "Ce positionnement reflète à la fois la performance sur le marché et la recommandation des clients, ainsi qu'un investissement continu dans les capacités HCM cœur et pas seulement dans les fonctionnalités IA.",
-          "Point pratique : une validation indépendante par un analyste comme le Fosway 9-Grid constitue un repère utile pour les sponsors de programmes SuccessFactors qui construisent leur dossier d'investissement, même s'il reste préférable de consulter la méthodologie de Fosway plutôt que de se fier uniquement à la communication de SAP."
-        ]
-      }
-    },
-    {
-      "title": "Frontline Worker Expectation Gap Exposes Workforce Tech Lag",
-      "url": "https://erp.today/frontline-worker-expectation-gap-workforce-technology",
-      "source": "ERP Today",
-      "date": "2026-09-17",
-      "summary": {
-        "en": [
-          "New Workday and DailyPay research finds a widening gap between what frontline workers expect and what employers deliver: 72% want control over their schedule but only 51% are satisfied, and 88% want pay clarity but only 57% get it.",
-          "78% of frontline workers calculate commuting, childcare and other costs before accepting a shift, and 52% don't expect employers to close these gaps, pointing to real retention risk.",
-          "So what: for Workday programme owners running frontline or hourly populations, the research is a concrete business case for prioritising scheduling flexibility, pay transparency and mobile self-service in the rollout roadmap, not just back-office automation."
-        ],
-        "fr": [
-          "Une nouvelle étude Workday et DailyPay révèle un écart grandissant entre les attentes des travailleurs de première ligne et ce que proposent les employeurs : 72 % souhaitent avoir la main sur leurs horaires, mais seuls 51 % en sont satisfaits, et 88 % veulent de la clarté sur leur paie, contre seulement 57 % qui l'obtiennent.",
-          "78 % des travailleurs de première ligne calculent les frais de trajet, de garde d'enfants et autres avant d'accepter un créneau, et 52 % ne s'attendent pas à ce que leur employeur comble ces écarts, ce qui constitue un réel risque de rétention.",
-          "Point pratique : pour les responsables de programmes Workday gérant des populations de terrain ou horaires, cette étude constitue un argument concret pour prioriser la flexibilité des plannings, la transparence de la paie et le libre-service mobile dans la feuille de route du déploiement, au-delà de la seule automatisation back-office."
+          "NTT DATA, partenaire platine SAP depuis 36 ans, remplace ses multiples systèmes RH historiques dans le monde par SAP SuccessFactors et SAP Business Data Cloud, avec Joule intégré comme couche d'orchestration IA dès la conception plutôt qu'ajouté après coup.",
+          "Ce déploiement interne de 12 mois est conçu et piloté par les propres consultants SAP de NTT DATA, ce qui transforme le projet en cas de référence public pour associer SuccessFactors comme système de référence et Joule comme aide à la décision.",
+          "Point pratique : pour les responsables de programme, c'est un exemple concret de séquencement — bâtir d'abord le socle de données SuccessFactors/Business Data Cloud, puis laisser les agents Joule s'appuyer dessus, plutôt que de vouloir greffer l'IA sur des données RH historiques fragmentées."
         ]
       }
     }
