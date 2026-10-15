@@ -1,111 +1,111 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-15",
   "articles": [
     {
-      "title": "SAP advances its autonomous AI agenda with yet more Joule Assistants and agents",
-      "url": "https://www.cio.com/article/4231331/sap-advances-its-autonomous-ai-agenda-with-yet-more-joule-assistants-and-agents.html",
+      "title": "PwC warns companies risk losing AI-savvy talent as majority of workers fall behind",
+      "url": "https://cyprus-mail.com/2026/10/15/pwc-warns-companies-risk-losing-ai-savvy-talent-as-majority-of-workers-fall-behind",
+      "source": "Cyprus Mail (PwC 2026 Global Workforce Hopes and Fears Survey)",
+      "date": "2026-10-15",
+      "summary": {
+        "en": [
+          "PwC's 2026 Global Workforce Hopes and Fears survey, covering nearly 50,000 workers across 48 countries, finds a widening AI skills divide: only 51% of workers say they can access the learning and development they need, down from 59% a year earlier.",
+          "PwC warns organisations risk losing their most AI-savvy talent while the majority of the workforce falls further behind.",
+          "So what: an independent signal that learning and skills-development investment, not just AI tooling, is the real bottleneck — a relevant data point when building the business case for SuccessFactors or Workday learning and skills-intelligence modules."
+        ],
+        "fr": [
+          "L'enquête PwC 2026 Global Workforce Hopes and Fears, menée auprès de près de 50 000 travailleurs dans 48 pays, révèle un fossé de compétences IA qui se creuse : seuls 51 % des salariés déclarent pouvoir accéder à la formation dont ils ont besoin, contre 59 % un an plus tôt.",
+          "PwC avertit que les organisations risquent de perdre leurs talents les plus à l'aise avec l'IA, tandis que la majorité des effectifs prend du retard.",
+          "Point pratique : un signal indépendant confirmant que l'investissement en formation et en développement des compétences, et non le seul outillage IA, constitue le véritable goulot d'étranglement — un argument à intégrer dans le business case des modules learning et skills intelligence de SuccessFactors ou Workday."
+        ]
+      }
+    },
+    {
+      "title": "Agentic adoption: enterprise leaders are growing more confident, middle managers beg to differ",
+      "url": "https://diginomica.com/agentic-adoption-enterprise-leaders-are-growing-more-confident-middle-managers-beg-differ",
+      "source": "diginomica",
+      "date": "2026-10-14",
+      "summary": {
+        "en": [
+          "diginomica reports on a new TeamViewer/Sapeo Research survey of 4,200 workers across ten countries, finding senior executives notably more willing than middle managers to let AI agents act autonomously, especially on security-related decisions.",
+          "Overall, 61% of respondents want AI to take no independent action at all, and confidence drops further as agents are given more authority.",
+          "So what: the trust gap sits with middle managers, not the C-suite — agentic HR rollouts (Joule, Workday autopilot agents) need a change-management plan aimed squarely at that layer, not just executive sponsorship."
+        ],
+        "fr": [
+          "diginomica rend compte d'une nouvelle enquête TeamViewer/Sapeo Research menée auprès de 4 200 salariés dans dix pays, qui montre que les dirigeants sont nettement plus disposés que les managers intermédiaires à laisser les agents IA agir de façon autonome, notamment sur des décisions liées à la sécurité.",
+          "Au global, 61 % des répondants souhaitent que l'IA ne prenne aucune action indépendante, et la confiance diminue encore à mesure que l'on accorde plus d'autonomie aux agents.",
+          "Point pratique : l'écart de confiance se situe chez les managers intermédiaires, pas au comité de direction — les déploiements d'IA agentique en RH (Joule, agents autopilot de Workday) doivent prévoir un plan d'accompagnement du changement ciblant précisément ce niveau, et pas seulement le sponsor exécutif."
+        ]
+      }
+    },
+    {
+      "title": "Oyster's 2026 Global AI Talent Report Finds AI Skills Are Outpacing Job Definitions",
+      "url": "https://www.unite.ai/oyster-2026-global-ai-talent-report-skills-job-definitions/",
+      "source": "Unite.AI",
+      "date": "2026-10-14",
+      "summary": {
+        "en": [
+          "Oyster's 2026 Global AI Talent Report, combining analysis of over 15,000 job descriptions with a survey of more than 1,000 HR professionals, finds AI is mainly rewriting the skills requirements of ordinary jobs rather than creating a surge of dedicated \"AI\" job titles.",
+          "53% of HR respondents say their organisation prefers to reskill existing staff over external hiring when AI skills are missing.",
+          "So what: reinforces that skills-based internal mobility, not net-new AI hiring, is the dominant strategy — a useful benchmark when configuring skills-intelligence and talent-marketplace features in SuccessFactors or Workday."
+        ],
+        "fr": [
+          "Le Global AI Talent Report 2026 d'Oyster, qui combine l'analyse de plus de 15 000 descriptions de poste et une enquête auprès de plus de 1 000 professionnels RH, montre que l'IA redéfinit surtout les compétences requises pour des postes ordinaires, plutôt que de créer une vague d'intitulés de poste « IA » dédiés.",
+          "53 % des répondants RH indiquent que leur organisation privilégie la montée en compétences des équipes en place plutôt que le recrutement externe lorsque les compétences IA manquent.",
+          "Point pratique : cela confirme que la mobilité interne fondée sur les compétences, plutôt que le recrutement massif de profils IA, reste la stratégie dominante — un repère utile pour paramétrer les fonctionnalités de skills intelligence et de marketplace des talents dans SuccessFactors ou Workday."
+        ]
+      }
+    },
+    {
+      "title": "Workday launches Sana-based UI, autopilot agents, as it deepens its focus on AI",
+      "url": "https://www.cio.com/article/4234407/workday-launches-sana-based-ui-autopilot-agents-as-it-deepens-its-focus-on-ai.html",
       "source": "CIO.com",
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "summary": {
         "en": [
-          "At SAP Connect in Las Vegas, SAP unveiled new Joule Work capabilities and the SAP Autonomous Suite, repositioning Joule from a chat assistant into a single front end backed by domain agents across finance, HR and procurement.",
-          "SAP says Joule Work is already running with its own 110,000 employees and claims roughly 20% productivity gains, with early external customers including Novartis, Nestlé and PwC.",
-          "So what: SuccessFactors programme owners should treat these productivity claims as a benchmark to interrogate with their account team rather than take at face value, and start scoping pilot use cases for Joule Work ahead of the 2H 2026 release."
+          "At Workday Rising (13 October), Workday made Sana — the AI company it bought for $1.1bn in 2025 — the default home screen across the suite, introducing \"autopilot\" agents (starting with Talent Acquisition) that complete multi-step HR, finance and IT work without a user logging in.",
+          "Sana agents are also reachable from Microsoft 365 Copilot, Teams, Slack, Google Gemini Enterprise and, via a new partnership, Anthropic's Claude — with Workday's existing permissions and audit controls still applied; most autopilot capability is early access only, with general availability targeted for early 2027.",
+          "So what: this is an architecture shift, not just a UI refresh — HRIS and IT leaders should review how cross-tool agent access and the new Workday Data Cloud/MCP \"headless\" model affect data governance before switching anything on."
         ],
         "fr": [
-          "Lors de SAP Connect à Las Vegas, SAP a présenté de nouvelles capacités pour Joule Work ainsi que la SAP Autonomous Suite, repositionnant Joule d'un simple assistant conversationnel vers un point d'entrée unique appuyé par des agents spécialisés en finance, RH et achats.",
-          "SAP affirme que Joule Work est déjà déployé auprès de ses propres 110 000 employés et revendique environ 20 % de gains de productivité, avec des clients externes pilotes tels que Novartis, Nestlé et PwC.",
-          "Point pratique : les responsables de programmes SuccessFactors devraient considérer ces chiffres de productivité comme une base à challenger avec leur équipe compte SAP plutôt qu'à prendre pour argent comptant, et commencer à cadrer des cas d'usage pilotes pour Joule Work avant la release 2H 2026."
+          "Lors de Workday Rising (13 octobre), Workday a fait de Sana — la société d'IA rachetée 1,1 milliard de dollars en 2025 — l'écran d'accueil par défaut de toute la suite, en introduisant des agents « autopilot » (à commencer par l'agent de recrutement) capables de mener à bien des tâches RH, finance et IT en plusieurs étapes sans connexion utilisateur.",
+          "Les agents Sana sont également accessibles depuis Microsoft 365 Copilot, Teams, Slack, Google Gemini Enterprise et, via un nouveau partenariat, Claude d'Anthropic — les permissions et contrôles d'audit existants de Workday continuant à s'appliquer ; la majorité des capacités autopilot reste en accès anticipé, la disponibilité générale étant visée pour début 2027.",
+          "Point pratique : il s'agit d'un changement d'architecture, pas d'un simple relookage d'interface — les responsables SIRH et IT doivent évaluer l'impact de l'accès multi-outils des agents et du nouveau modèle « headless » Workday Data Cloud/MCP sur la gouvernance des données avant toute activation."
         ]
       }
     },
     {
-      "title": "SAP Acquires TechWolf to Feed More Context Into Its HR Agents",
-      "url": "https://thenewstack.io/sap-acquires-techwolf-skills",
-      "source": "The New Stack",
-      "date": "2026-10-06",
+      "title": "SAP SuccessFactors 2H 2026 Release: Delivering the Future of Human Capital Management",
+      "url": "https://news.sap.com/2026/10/sap-successfactors-2h-2026-release/",
+      "source": "SAP News",
+      "date": "2026-10-12",
       "summary": {
         "en": [
-          "At its SAP Connect event on 6 October 2026, SAP agreed to acquire Belgian AI company TechWolf, which maps the work people actually do and the skills they use, in a deal expected to close in Q4 2026 (terms undisclosed).",
-          "TechWolf's skills graph will feed SAP SuccessFactors and Joule as a grounding layer for questions about work and skills planning; SAP's Manoj Swaminathan says it also cuts the token usage — and therefore the cost — of running HR agents, and TechWolf will keep operating independently under co-founder and CEO Andreas De Neve, continuing to serve clients such as Booking.com, HSBC, MetLife, PayPal, AMD, Ericsson and GSK.",
-          "So what: SuccessFactors customers running Joule should ask their account team when and how TechWolf's skills graph will actually plug into their tenant, since better-grounded skills data is exactly what's needed to make skills-based hiring and role-redesign agents trustworthy rather than speculative."
+          "SAP's 2H 2026 SuccessFactors release enters preview on 12 October, with full production rollout on 13–14 November, continuing the shift to suite-wide \"Autonomous HCM\" and agentic Joule capabilities started in the 1H 2026 release.",
+          "Expect further rollout of Joule agents across performance and goals, career and talent development, people intelligence, HR service and payroll, most gated behind SAP's premium AI-unit licensing.",
+          "So what: programme owners should map the preview content against their own roadmap now and budget time to assess licensing and change impact before the mid-November production date."
         ],
         "fr": [
-          "Lors de son événement SAP Connect, le 6 octobre 2026, SAP a annoncé l'acquisition de la société belge TechWolf, qui cartographie le travail réel des collaborateurs et les compétences qu'ils mobilisent ; l'opération, dont les modalités financières ne sont pas divulguées, devrait se clôturer au quatrième trimestre 2026.",
-          "Le graphe de compétences de TechWolf viendra alimenter SAP SuccessFactors et Joule comme couche de contextualisation pour les questions liées au travail et à la planification des compétences ; selon Manoj Swaminathan (SAP), cela réduit aussi la consommation de tokens — et donc le coût — du fonctionnement des agents RH ; TechWolf continuera de fonctionner de façon indépendante sous la direction de son cofondateur et CEO Andreas De Neve, en conservant des clients tels que Booking.com, HSBC, MetLife, PayPal, AMD, Ericsson et GSK.",
-          "Point pratique : les clients SuccessFactors utilisant Joule devraient demander à leur équipe compte à quel horizon et selon quelles modalités le graphe de compétences de TechWolf sera réellement connecté à leur environnement, des données de compétences mieux contextualisées étant précisément ce qu'il faut pour rendre crédibles — plutôt que spéculatifs — les agents de recrutement par compétences et de refonte des rôles."
+          "La release 2H 2026 de SAP SuccessFactors entre en phase de prévisualisation le 12 octobre, avec une mise en production complète prévue les 13 et 14 novembre, poursuivant la bascule vers une « Autonomous HCM » et des capacités Joule agentiques amorcée lors de la release 1H 2026.",
+          "Il faut s'attendre à un déploiement élargi des agents Joule couvrant performance et objectifs, développement de carrière et des talents, people intelligence, service RH et paie, la plupart restant soumis à la licence premium en unités d'IA de SAP.",
+          "Point pratique : les responsables de programme ont intérêt à confronter dès maintenant le contenu de la prévisualisation à leur propre feuille de route, et à prévoir le temps nécessaire pour évaluer licences et impacts de changement avant la mise en production de mi-novembre."
         ]
       }
     },
     {
-      "title": "Workday CEO Aneel Bhusri refocuses AI agents on big, complex problems",
-      "url": "https://cloudwars.com/innovation-leadership/workday-ceo-aneel-bhusri-refocuses-ai-agents-on-big-complex-problems/",
-      "source": "Cloud Wars",
-      "date": "2026-09-08",
+      "title": "UKG Helps Organizations Close the Gap Between Enterprise AI Ambition and the Realities of Workforce Operations",
+      "url": "https://www.ukg.com/company/newsroom/ukg-helps-organizations-close-gap-between-enterprise-ai-ambition-and-realities-workforce-operations",
+      "source": "UKG Newsroom",
+      "date": "2026-10-12",
       "summary": {
         "en": [
-          "Since returning as CEO, Aneel Bhusri has pushed Workday to prune its AI agent portfolio, telling the Q2 FY2026 earnings call \"we killed a lot or we rolled them into bigger agents\" in favour of fewer agents tackling large, complex HR and finance processes.",
-          "Bhusri frames the test as ROI — \"we have to have agents that have real ROI, and that's been the lens we've been looking at it since I came back\" — positioning this discipline as how Workday means to differentiate from SAP, Oracle and AI-native challengers.",
-          "So what: Workday customers should expect some previously announced Illuminate agents to be merged or retired rather than shipped as originally scoped, so it's worth checking directly with Workday which agents on your roadmap survive this consolidation."
+          "On 12 October, UKG — whose Workforce Operating Platform serves over 80,000 organisations — outlined a vision for letting employees, managers and leaders start work from AI assistants they already use (Claude, Google Gemini, OpenAI, voice assistants), while UKG's platform stays the system of record that governs staffing, coverage and compliance risk.",
+          "CEO Jennifer Morgan links the push to frontline turnover costs, which UKG puts at $1 trillion a year in the US.",
+          "So what: this \"bring-your-own-AI-front-end, keep-the-system-of-record-as-governance-layer\" pattern mirrors what SAP and Workday are also building — worth comparing each vendor's agent-governance model before committing."
         ],
         "fr": [
-          "Depuis son retour à la tête de Workday, Aneel Bhusri a poussé l'entreprise à élaguer son portefeuille d'agents IA, déclarant lors de la conférence sur les résultats du deuxième trimestre de l'exercice 2026 : « nous en avons supprimé beaucoup, ou nous les avons fusionnés dans des agents plus larges », au profit d'un nombre réduit d'agents traitant des processus RH et financiers vastes et complexes.",
-          "Bhusri pose le retour sur investissement comme critère — « il faut des agents qui ont un vrai ROI, c'est le prisme que nous appliquons depuis mon retour » — positionnant cette discipline comme un facteur de différenciation face à SAP, Oracle et aux challengers nativement IA.",
-          "Point pratique : les clients Workday doivent s'attendre à ce que certains agents Illuminate déjà annoncés soient fusionnés ou abandonnés plutôt que livrés comme prévu initialement — mieux vaut vérifier directement avec Workday quels agents de votre feuille de route survivent à cette consolidation."
-        ]
-      }
-    },
-    {
-      "title": "isolved Debuts The Guardian, Company's First AI Agent Designed to Deliver Payroll Outcomes",
-      "url": "https://www.globenewswire.com/news-release/2026/08/04/3338359/0/en/isolved-Debuts-The-Guardian-Company-s-First-AI-Agent-Designed-to-Deliver-Payroll-Outcomes.html",
-      "source": "GlobeNewswire (isolved)",
-      "date": "2026-08-04",
-      "summary": {
-        "en": [
-          "isolved launched The Guardian, its first autonomous payroll AI agent, built on Anthropic's Claude and following June 2026's general availability of isolved's Connector for Claude.",
-          "The Guardian proactively flags payroll anomalies ranked by severity, proposes a fix, waits for administrator approval, then reports back and learns from each cycle; isolved cites its own research that 63% of employees have hit payroll errors and roughly half would consider job-hunting after repeated mistakes.",
-          "So what: for SuccessFactors Employee Central Payroll or Workday Payroll teams exploring agentic payroll, this is a useful reference point for how a competitor scopes human-in-the-loop controls and approval checkpoints before granting an agent autonomy."
-        ],
-        "fr": [
-          "isolved a lancé The Guardian, son premier agent IA autonome dédié à la paie, construit sur Claude d'Anthropic, dans la continuité de la disponibilité générale, en juin 2026, du Connector for Claude d'isolved.",
-          "The Guardian détecte de façon proactive les anomalies de paie classées par gravité, propose une correction, attend l'approbation d'un administrateur, puis rend compte et apprend à chaque cycle ; isolved cite sa propre étude selon laquelle 63 % des salariés ont déjà subi une erreur de paie et environ la moitié envisagerait de changer d'emploi après des erreurs répétées.",
-          "Point pratique : pour les équipes SuccessFactors Employee Central Payroll ou Workday Payroll qui explorent la paie agentique, ce lancement constitue une référence utile pour calibrer les contrôles humains et les points de validation avant de laisser un agent gagner en autonomie."
-        ]
-      }
-    },
-    {
-      "title": "Deel hits $1.5bn ARR and acquires AI security pioneer Clarity to combat deepfake fraud",
-      "url": "https://ffnews.com/news/deel-hits-15bn-arr-and-acquires-ai-security-pioneer-clarity-to-combat-deepfake-fraud",
-      "source": "FF News",
-      "date": "2026-08-03",
-      "summary": {
-        "en": [
-          "Deel said it passed $1.5 billion in annual recurring revenue during H1 2026, now valued at more than $17 billion, and announced its 15th acquisition: Israeli deepfake-detection and identity-verification startup Clarity.",
-          "The plan is to fold Clarity's identity checks into \"Deel IT,\" covering the whole employment pipeline from sourcing through onboarding and ongoing access management, with CEO Alex Bouaziz arguing organisations \"need more than point-in-time verification; they need continuous trust.\"",
-          "So what: as AI-generated identities and deepfake candidates become a real hiring risk, SuccessFactors and Workday recruiting teams should check what continuous identity-verification controls, if any, sit in their own ATS and onboarding flows."
-        ],
-        "fr": [
-          "Deel annonce avoir dépassé 1,5 milliard de dollars de revenus récurrents annuels au premier semestre 2026, pour une valorisation supérieure à 17 milliards de dollars, et dévoile sa 15e acquisition : la start-up israélienne Clarity, spécialisée dans la détection de deepfakes et la vérification d'identité.",
-          "L'objectif est d'intégrer les contrôles d'identité de Clarity dans « Deel IT », sur l'ensemble du parcours d'emploi, du sourcing à l'onboarding puis à la gestion continue des accès ; le PDG Alex Bouaziz estime que les organisations « ont besoin de plus qu'une vérification ponctuelle : il leur faut une confiance continue ».",
-          "Point pratique : alors que les identités générées par IA et les faux candidats deepfake deviennent un risque réel pour le recrutement, les équipes SuccessFactors et Workday devraient vérifier quels contrôles de vérification d'identité continue existent, ou non, dans leurs propres flux ATS et d'onboarding."
-        ]
-      }
-    },
-    {
-      "title": "Oracle integrates Google's Gemini AI models into enterprise apps",
-      "url": "https://www.itpro.com/technology/artificial-intelligence/oracle-integrates-googles-gemini-ai-models-into-enterprise-apps",
-      "source": "ITPro",
-      "date": "2026-07-30",
-      "summary": {
-        "en": [
-          "Oracle and Google Cloud expanded their partnership so Gemini models (including Gemini 3.1 Flash Lite and Gemini 3.5 Flash) become additional model options inside Oracle's AI Agent Studio, spanning Fusion Applications — including Fusion HCM — and NetSuite.",
-          "Agent Studio lets customers build and connect Oracle, partner and third-party agents across finance, HR, supply chain and customer-experience processes, adding to existing model choices from providers such as Cohere and Meta.",
-          "So what: SuccessFactors and Workday programme leads benchmarking against Oracle should note that model choice, not just agent catalogue breadth, is becoming a competitive axis in HCM — worth asking your own vendor which models sit behind their HR agents and what choice you actually have."
-        ],
-        "fr": [
-          "Oracle et Google Cloud ont étendu leur partenariat afin que les modèles Gemini (dont Gemini 3.1 Flash Lite et Gemini 3.5 Flash) deviennent des options supplémentaires au sein de l'AI Agent Studio d'Oracle, couvrant les Fusion Applications — y compris Fusion HCM — et NetSuite.",
-          "Agent Studio permet aux clients de construire et de connecter des agents Oracle, partenaires ou tiers sur les processus de finance, RH, supply chain et expérience client, en complément des modèles déjà proposés par des fournisseurs comme Cohere et Meta.",
-          "Point pratique : pour les responsables de programmes SuccessFactors et Workday qui se comparent à Oracle, le choix du modèle sous-jacent devient un axe concurrentiel aussi important que l'étendue du catalogue d'agents — à questionner auprès de son propre éditeur pour savoir quels modèles animent réellement ses agents RH, et avec quelle marge de choix."
+          "Le 12 octobre, UKG — dont la Workforce Operating Platform équipe plus de 80 000 organisations — a présenté une vision permettant aux salariés, managers et dirigeants de démarrer leur travail depuis les assistants IA qu'ils utilisent déjà (Claude, Google Gemini, OpenAI, assistants vocaux), la plateforme UKG restant le système de référence qui pilote les risques d'effectifs, de couverture et de conformité.",
+          "La directrice générale Jennifer Morgan relie cette initiative au coût du turnover en première ligne, chiffré par UKG à 1 000 milliards de dollars par an aux États-Unis.",
+          "Point pratique : ce schéma « apportez votre propre IA en façade, gardez le système de référence comme couche de gouvernance » se retrouve aussi chez SAP et Workday — il mérite d'être comparé entre éditeurs avant tout engagement."
         ]
       }
     }
