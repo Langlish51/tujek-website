@@ -1,111 +1,93 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-22",
   "articles": [
     {
-      "title": "PwC warns companies risk losing AI-savvy talent as majority of workers fall behind",
-      "url": "https://cyprus-mail.com/2026/10/15/pwc-warns-companies-risk-losing-ai-savvy-talent-as-majority-of-workers-fall-behind",
-      "source": "Cyprus Mail (PwC 2026 Global Workforce Hopes and Fears Survey)",
-      "date": "2026-10-15",
-      "summary": {
-        "en": [
-          "PwC's 2026 Global Workforce Hopes and Fears survey, covering nearly 50,000 workers across 48 countries, finds a widening AI skills divide: only 51% of workers say they can access the learning and development they need, down from 59% a year earlier.",
-          "PwC warns organisations risk losing their most AI-savvy talent while the majority of the workforce falls further behind.",
-          "So what: an independent signal that learning and skills-development investment, not just AI tooling, is the real bottleneck — a relevant data point when building the business case for SuccessFactors or Workday learning and skills-intelligence modules."
-        ],
-        "fr": [
-          "L'enquête PwC 2026 Global Workforce Hopes and Fears, menée auprès de près de 50 000 travailleurs dans 48 pays, révèle un fossé de compétences IA qui se creuse : seuls 51 % des salariés déclarent pouvoir accéder à la formation dont ils ont besoin, contre 59 % un an plus tôt.",
-          "PwC avertit que les organisations risquent de perdre leurs talents les plus à l'aise avec l'IA, tandis que la majorité des effectifs prend du retard.",
-          "Point pratique : un signal indépendant confirmant que l'investissement en formation et en développement des compétences, et non le seul outillage IA, constitue le véritable goulot d'étranglement — un argument à intégrer dans le business case des modules learning et skills intelligence de SuccessFactors ou Workday."
-        ]
-      }
-    },
-    {
-      "title": "Agentic adoption: enterprise leaders are growing more confident, middle managers beg to differ",
-      "url": "https://diginomica.com/agentic-adoption-enterprise-leaders-are-growing-more-confident-middle-managers-beg-differ",
-      "source": "diginomica",
+      "title": "UNLEASH 2026 Hits Record Growth in Paris as AI Triggers Major Investments in Work and HR",
+      "url": "https://www.placera.se/pressmeddelanden/unleash-2026-hits-record-growth-in-paris-as-ai-triggers-major-investments-in-work-and-hr-20261014",
+      "source": "UNLEASH (press release)",
       "date": "2026-10-14",
       "summary": {
         "en": [
-          "diginomica reports on a new TeamViewer/Sapeo Research survey of 4,200 workers across ten countries, finding senior executives notably more willing than middle managers to let AI agents act autonomously, especially on security-related decisions.",
-          "Overall, 61% of respondents want AI to take no independent action at all, and confidence drops further as agents are given more authority.",
-          "So what: the trust gap sits with middle managers, not the C-suite — agentic HR rollouts (Joule, Workday autopilot agents) need a change-management plan aimed squarely at that layer, not just executive sponsorship."
+          "UNLEASH said its Paris 2026 edition (20–22 October) drew a record turnout of more than 8,500 senior HR and business leaders from over 140 countries, with headline sponsors spanning Google Cloud, SAP SuccessFactors, Workday, ServiceNow, Eightfold, Personio, Docebo, Phenom, Radancy and Workhuman.",
+          "Organisers frame the growth as evidence that AI is triggering a new wave of investment in work and HR technology, with vendors increasingly positioning their platforms to redesign how enterprises hire, learn, reward, plan and deploy work across both people and AI agents, rather than automating a single HR function.",
+          "So what: the sheer breadth of vendors — including both SAP and Workday — competing for mindshare at one event is a reminder that HR tech buying is shifting from a single-suite decision to managing an ecosystem of specialist AI-agent vendors around the core platform, which argues for a clear integration and governance strategy before adding any of them."
         ],
         "fr": [
-          "diginomica rend compte d'une nouvelle enquête TeamViewer/Sapeo Research menée auprès de 4 200 salariés dans dix pays, qui montre que les dirigeants sont nettement plus disposés que les managers intermédiaires à laisser les agents IA agir de façon autonome, notamment sur des décisions liées à la sécurité.",
-          "Au global, 61 % des répondants souhaitent que l'IA ne prenne aucune action indépendante, et la confiance diminue encore à mesure que l'on accorde plus d'autonomie aux agents.",
-          "Point pratique : l'écart de confiance se situe chez les managers intermédiaires, pas au comité de direction — les déploiements d'IA agentique en RH (Joule, agents autopilot de Workday) doivent prévoir un plan d'accompagnement du changement ciblant précisément ce niveau, et pas seulement le sponsor exécutif."
+          "UNLEASH indique que son édition parisienne 2026 (20–22 octobre) a enregistré une fréquentation record de plus de 8 500 dirigeants RH et business venus de plus de 140 pays, avec des sponsors vedettes couvrant Google Cloud, SAP SuccessFactors, Workday, ServiceNow, Eightfold, Personio, Docebo, Phenom, Radancy et Workhuman.",
+          "Les organisateurs présentent cette croissance comme la preuve que l'IA déclenche une nouvelle vague d'investissement dans les technologies du travail et des RH, les éditeurs positionnant de plus en plus leurs plateformes pour repenser le recrutement, la formation, la rémunération, la planification et l'organisation du travail entre collaborateurs et agents IA, plutôt que de se limiter à automatiser une seule fonction RH.",
+          "Point pratique : l'ampleur des éditeurs — dont SAP et Workday — qui se disputent l'attention lors d'un même évènement rappelle que l'achat de technologies RH passe d'une décision « une seule suite » à la gestion d'un écosystème d'éditeurs d'agents IA spécialisés autour de la plateforme cœur, ce qui plaide pour une stratégie claire d'intégration et de gouvernance avant d'en ajouter un seul."
         ]
       }
     },
     {
-      "title": "Oyster's 2026 Global AI Talent Report Finds AI Skills Are Outpacing Job Definitions",
-      "url": "https://www.unite.ai/oyster-2026-global-ai-talent-report-skills-job-definitions/",
-      "source": "Unite.AI",
+      "title": "Workday Rising — the hot topics of enterprise AI come to a head: it's about pricing, context, and (giving up) UX control",
+      "url": "https://diginomica.com/workday-rising-hot-topics-enterprise-ai-come-head-its-about-pricing-context-and-giving-ux-control",
+      "source": "diginomica (Jon Reed)",
       "date": "2026-10-14",
       "summary": {
         "en": [
-          "Oyster's 2026 Global AI Talent Report, combining analysis of over 15,000 job descriptions with a survey of more than 1,000 HR professionals, finds AI is mainly rewriting the skills requirements of ordinary jobs rather than creating a surge of dedicated \"AI\" job titles.",
-          "53% of HR respondents say their organisation prefers to reskill existing staff over external hiring when AI skills are missing.",
-          "So what: reinforces that skills-based internal mobility, not net-new AI hiring, is the dominant strategy — a useful benchmark when configuring skills-intelligence and talent-marketplace features in SuccessFactors or Workday."
+          "diginomica's Jon Reed analyses four hot topics from Workday Rising 2026: assessing AI cost and ROI, context, guardrails, and what he calls the high-stakes skirmish for enterprise AI user-experience control as agentic front ends like Sana become the way employees reach their HR and finance data.",
+          "The piece highlights Workday's \"headless\" direction — exposing Workday data and workflows through Workday Data Cloud/MCP so third-party AI tools (Claude, Microsoft Copilot, Google Gemini Enterprise) can act on it, while governance and approvals stay anchored inside Workday.",
+          "So what: customers' own top concerns reported at the event were assessing AI cost/ROI, leadership skills gaps and which UX to standardise on — SuccessFactors and Workday programme owners evaluating agentic roadmaps should press vendors on usage-based pricing mechanics and data-governance boundaries before opening platform data to outside AI assistants."
         ],
         "fr": [
-          "Le Global AI Talent Report 2026 d'Oyster, qui combine l'analyse de plus de 15 000 descriptions de poste et une enquête auprès de plus de 1 000 professionnels RH, montre que l'IA redéfinit surtout les compétences requises pour des postes ordinaires, plutôt que de créer une vague d'intitulés de poste « IA » dédiés.",
-          "53 % des répondants RH indiquent que leur organisation privilégie la montée en compétences des équipes en place plutôt que le recrutement externe lorsque les compétences IA manquent.",
-          "Point pratique : cela confirme que la mobilité interne fondée sur les compétences, plutôt que le recrutement massif de profils IA, reste la stratégie dominante — un repère utile pour paramétrer les fonctionnalités de skills intelligence et de marketplace des talents dans SuccessFactors ou Workday."
+          "Jon Reed, de diginomica, analyse quatre sujets brûlants de Workday Rising 2026 : l'évaluation du coût et du retour sur investissement de l'IA, le contexte, les garde-fous, et ce qu'il appelle la bataille à enjeux élevés pour le contrôle de l'expérience utilisateur en entreprise, à mesure que des interfaces agentiques comme Sana deviennent le point d'accès des salariés à leurs données RH et finance.",
+          "L'article met en avant l'orientation « headless » de Workday, qui expose ses données et ses flux de travail via Workday Data Cloud/MCP afin que des outils IA tiers (Claude, Microsoft Copilot, Google Gemini Enterprise) puissent agir dessus, tout en conservant la gouvernance et les approbations à l'intérieur de Workday.",
+          "Point pratique : les principales préoccupations des clients rapportées lors de l'évènement portaient sur l'évaluation du coût/ROI de l'IA, le manque de compétences des dirigeants et le choix de l'interface à standardiser — les responsables de programmes SuccessFactors et Workday évaluant une feuille de route agentique doivent exiger des éditeurs des précisions sur la tarification à l'usage et les limites de gouvernance des données avant d'ouvrir leurs données à des assistants IA externes."
         ]
       }
     },
     {
-      "title": "Workday launches Sana-based UI, autopilot agents, as it deepens its focus on AI",
-      "url": "https://www.cio.com/article/4234407/workday-launches-sana-based-ui-autopilot-agents-as-it-deepens-its-focus-on-ai.html",
+      "title": "Workday Named as a Market Shaper in the 2026 Gartner® Emerging Market Quadrant for AI Agents in Human Resources – Established Vendors",
+      "url": "https://newsroom.workday.com/2026-10-08-Workday-Named-as-a-Market-Shaper-in-the-2026-Gartner-R-Emerging-Market-Quadrant-for-AI-Agents-in-Human-Resources-Established-Vendors",
+      "source": "Workday Newsroom",
+      "date": "2026-10-08",
+      "summary": {
+        "en": [
+          "Workday announced it was named a \"Market Shaper\" in Gartner's inaugural Emerging Market Quadrant (eMQ) for AI Agents in Human Resources – Established Vendors, a new research category Gartner published on 23 September 2026 to help CHROs navigate the fast-growing field of HR AI agents.",
+          "Gartner's eMQ framework advises buyers to weigh a vendor's functional scope and technology architecture, not just its category label, when assessing which AI-agent offering fits their own HR operating model.",
+          "So what: a dedicated Gartner quadrant for HR AI agents is itself a signal the category has matured enough to warrant formal analyst comparison — SuccessFactors and Workday evaluators should now ask every shortlisted vendor for its eMQ placement and the underlying rationale as part of RFPs, rather than relying on broader Magic Quadrant positioning alone."
+        ],
+        "fr": [
+          "Workday a annoncé avoir été désigné « Market Shaper » dans le premier Emerging Market Quadrant (eMQ) de Gartner consacré aux agents IA en ressources humaines – éditeurs établis, une nouvelle catégorie de recherche publiée par Gartner le 23 septembre 2026 pour aider les DRH à s'orienter dans le marché en forte croissance des agents IA RH.",
+          "Le cadre eMQ de Gartner recommande aux acheteurs d'évaluer le périmètre fonctionnel et l'architecture technologique d'un éditeur, et non uniquement son étiquette de catégorie, pour déterminer quelle offre d'agents IA correspond le mieux à leur propre modèle opérationnel RH.",
+          "Point pratique : l'existence d'un quadrant Gartner dédié aux agents IA RH est en soi un signal que la catégorie est désormais assez mature pour justifier une comparaison formelle par les analystes — les évaluateurs SuccessFactors et Workday devraient désormais demander à chaque éditeur présélectionné son positionnement dans l'eMQ et sa justification dans le cadre des appels d'offres, plutôt que de se fier uniquement au positionnement dans un Magic Quadrant plus large."
+        ]
+      }
+    },
+    {
+      "title": "SAP to acquire TechWolf to augment its SuccessFactors HCM platform",
+      "url": "https://www.cio.com/article/4231753/sap-to-acquire-techwolf-to-augment-its-successfactors-hcm-platform.html",
       "source": "CIO.com",
-      "date": "2026-10-13",
+      "date": "2026-10-07",
       "summary": {
         "en": [
-          "At Workday Rising (13 October), Workday made Sana — the AI company it bought for $1.1bn in 2025 — the default home screen across the suite, introducing \"autopilot\" agents (starting with Talent Acquisition) that complete multi-step HR, finance and IT work without a user logging in.",
-          "Sana agents are also reachable from Microsoft 365 Copilot, Teams, Slack, Google Gemini Enterprise and, via a new partnership, Anthropic's Claude — with Workday's existing permissions and audit controls still applied; most autopilot capability is early access only, with general availability targeted for early 2027.",
-          "So what: this is an architecture shift, not just a UI refresh — HRIS and IT leaders should review how cross-tool agent access and the new Workday Data Cloud/MCP \"headless\" model affect data governance before switching anything on."
+          "SAP has agreed to acquire TechWolf, a Ghent-based AI work-intelligence startup whose customers include HSBC, GSK, Ericsson, AMD, PayPal and Booking.com; the deal was announced on 6 October at SAP Connect in Las Vegas, with financial terms undisclosed and closing expected in Q4 2026 pending regulatory approval.",
+          "TechWolf's \"context graph for work\" is meant to serve as a grounding layer for SAP's Joule agents, feeding them live, continuously updated skills data to support skills-based hiring, workforce planning and role redesign inside SuccessFactors; reports differ on how quickly and tightly it will be folded into the core suite, and TechWolf is expected to keep serving its non-SAP customers for now.",
+          "So what: this is SAP doubling down on dynamic, real-world skills data rather than static job architectures as the foundation for Joule's HR agents — programme owners should track the integration timeline and watch for knock-on effects on SuccessFactors' skills-intelligence licensing and roadmap."
         ],
         "fr": [
-          "Lors de Workday Rising (13 octobre), Workday a fait de Sana — la société d'IA rachetée 1,1 milliard de dollars en 2025 — l'écran d'accueil par défaut de toute la suite, en introduisant des agents « autopilot » (à commencer par l'agent de recrutement) capables de mener à bien des tâches RH, finance et IT en plusieurs étapes sans connexion utilisateur.",
-          "Les agents Sana sont également accessibles depuis Microsoft 365 Copilot, Teams, Slack, Google Gemini Enterprise et, via un nouveau partenariat, Claude d'Anthropic — les permissions et contrôles d'audit existants de Workday continuant à s'appliquer ; la majorité des capacités autopilot reste en accès anticipé, la disponibilité générale étant visée pour début 2027.",
-          "Point pratique : il s'agit d'un changement d'architecture, pas d'un simple relookage d'interface — les responsables SIRH et IT doivent évaluer l'impact de l'accès multi-outils des agents et du nouveau modèle « headless » Workday Data Cloud/MCP sur la gouvernance des données avant toute activation."
+          "SAP a conclu un accord pour acquérir TechWolf, start-up gantoise spécialisée dans l'intelligence du travail par l'IA, dont les clients incluent HSBC, GSK, Ericsson, AMD, PayPal et Booking.com ; l'opération a été annoncée le 6 octobre lors de SAP Connect à Las Vegas, les conditions financières n'ayant pas été dévoilées et la clôture étant attendue au quatrième trimestre 2026 sous réserve des autorisations réglementaires.",
+          "Le « graphe de contexte du travail » de TechWolf doit servir de couche de référence pour les agents Joule de SAP, en leur fournissant des données de compétences actualisées en continu afin d'alimenter le recrutement par compétences, la planification des effectifs et la refonte des rôles au sein de SuccessFactors ; les sources divergent sur la rapidité et la profondeur de l'intégration au cœur de la suite, et TechWolf devrait pour l'instant continuer à servir ses clients hors écosystème SAP.",
+          "Point pratique : SAP mise ainsi sur des données de compétences dynamiques et ancrées dans la réalité du travail plutôt que sur des référentiels de postes statiques pour fonder les agents RH de Joule — les responsables de programme doivent suivre le calendrier d'intégration et surveiller les répercussions sur la tarification et la feuille de route de l'intelligence des compétences de SuccessFactors."
         ]
       }
     },
     {
-      "title": "SAP SuccessFactors 2H 2026 Release: Delivering the Future of Human Capital Management",
-      "url": "https://news.sap.com/2026/10/sap-successfactors-2h-2026-release/",
-      "source": "SAP News",
-      "date": "2026-10-12",
+      "title": "Accenture to slow hiring in FY27 despite plans to recruit more freshers",
+      "url": "https://www.sightsinplus.com/artificial-intelligence/accenture-to-slow-hiring-in-fy27-despite-plans-to-recruit-more-freshers/",
+      "source": "SightsinPlus",
+      "date": "2026-10-10",
       "summary": {
         "en": [
-          "SAP's 2H 2026 SuccessFactors release enters preview on 12 October, with full production rollout on 13–14 November, continuing the shift to suite-wide \"Autonomous HCM\" and agentic Joule capabilities started in the 1H 2026 release.",
-          "Expect further rollout of Joule agents across performance and goals, career and talent development, people intelligence, HR service and payroll, most gated behind SAP's premium AI-unit licensing.",
-          "So what: programme owners should map the preview content against their own roadmap now and budget time to assess licensing and change impact before the mid-November production date."
+          "On Accenture's fourth-quarter FY2026 earnings call, CEO Julie Sweet said headcount will keep growing in every market in fiscal 2027, but at a slower pace than in FY2026, as AI improves productivity and lifts revenue per employee.",
+          "Accenture plans to keep recruiting entry-level and graduate staff even as AI reshapes the nature of their work, while continuing to move on from employees whose skills cannot be reskilled for AI-enabled delivery.",
+          "So what: as one of the largest systems integrators delivering SAP SuccessFactors and Workday programmes, a major SI tightening its own hiring and workforce mix under AI pressure is an early signal for programme sponsors to watch SI staffing models, rate cards and the availability of experienced consultants on their own implementations."
         ],
         "fr": [
-          "La release 2H 2026 de SAP SuccessFactors entre en phase de prévisualisation le 12 octobre, avec une mise en production complète prévue les 13 et 14 novembre, poursuivant la bascule vers une « Autonomous HCM » et des capacités Joule agentiques amorcée lors de la release 1H 2026.",
-          "Il faut s'attendre à un déploiement élargi des agents Joule couvrant performance et objectifs, développement de carrière et des talents, people intelligence, service RH et paie, la plupart restant soumis à la licence premium en unités d'IA de SAP.",
-          "Point pratique : les responsables de programme ont intérêt à confronter dès maintenant le contenu de la prévisualisation à leur propre feuille de route, et à prévoir le temps nécessaire pour évaluer licences et impacts de changement avant la mise en production de mi-novembre."
-        ]
-      }
-    },
-    {
-      "title": "UKG Helps Organizations Close the Gap Between Enterprise AI Ambition and the Realities of Workforce Operations",
-      "url": "https://www.ukg.com/company/newsroom/ukg-helps-organizations-close-gap-between-enterprise-ai-ambition-and-realities-workforce-operations",
-      "source": "UKG Newsroom",
-      "date": "2026-10-12",
-      "summary": {
-        "en": [
-          "On 12 October, UKG — whose Workforce Operating Platform serves over 80,000 organisations — outlined a vision for letting employees, managers and leaders start work from AI assistants they already use (Claude, Google Gemini, OpenAI, voice assistants), while UKG's platform stays the system of record that governs staffing, coverage and compliance risk.",
-          "CEO Jennifer Morgan links the push to frontline turnover costs, which UKG puts at $1 trillion a year in the US.",
-          "So what: this \"bring-your-own-AI-front-end, keep-the-system-of-record-as-governance-layer\" pattern mirrors what SAP and Workday are also building — worth comparing each vendor's agent-governance model before committing."
-        ],
-        "fr": [
-          "Le 12 octobre, UKG — dont la Workforce Operating Platform équipe plus de 80 000 organisations — a présenté une vision permettant aux salariés, managers et dirigeants de démarrer leur travail depuis les assistants IA qu'ils utilisent déjà (Claude, Google Gemini, OpenAI, assistants vocaux), la plateforme UKG restant le système de référence qui pilote les risques d'effectifs, de couverture et de conformité.",
-          "La directrice générale Jennifer Morgan relie cette initiative au coût du turnover en première ligne, chiffré par UKG à 1 000 milliards de dollars par an aux États-Unis.",
-          "Point pratique : ce schéma « apportez votre propre IA en façade, gardez le système de référence comme couche de gouvernance » se retrouve aussi chez SAP et Workday — il mérite d'être comparé entre éditeurs avant tout engagement."
+          "Lors de la conférence sur les résultats du quatrième trimestre de l'exercice 2026 d'Accenture, la PDG Julie Sweet a indiqué que les effectifs continueraient de croître sur tous les marchés en 2027, mais à un rythme plus lent qu'en 2026, l'IA améliorant la productivité et augmentant le chiffre d'affaires par collaborateur.",
+          "Accenture prévoit de continuer à recruter des profils juniors et jeunes diplômés même si l'IA transforme la nature de leur travail, tout en poursuivant les départs des collaborateurs dont les compétences ne peuvent être reconverties pour une livraison assistée par l'IA.",
+          "Point pratique : Accenture étant l'un des plus grands intégrateurs déployant des programmes SAP SuccessFactors et Workday, ce resserrement de son propre recrutement et de sa pyramide de compétences sous la pression de l'IA est un signal précoce pour les sponsors de programmes, qui doivent surveiller les modèles de staffing, les grilles tarifaires et la disponibilité de consultants expérimentés sur leurs propres projets."
         ]
       }
     }
