@@ -1,93 +1,75 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-11-05",
   "articles": [
     {
-      "title": "Gartner Says C-Suite Capability Gaps Are Every Organization's Biggest Risk and CHROs Are the Best Positioned to Address It",
-      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-27-gartner-says-c-suite-capability-gaps-are-every-organizations-biggest-risk-and-chros-are-the-best-positioned-to-address-it",
+      "title": "HiBob Named Core Leader in 2026 Fosway 9-Grid for Cloud HR as European HCM Market Raises the Bar",
+      "url": "https://www.hibob.com/news/hibob-named-core-leader-in-2026-fosway-9-grid-for-cloud-hr-as-european-hcm-market-raises-the-bar/",
+      "source": "HiBob / Fosway Group",
+      "date": "2026-10-21",
+      "summary": {
+        "en": [
+          "Fosway Group named HiBob a Core Leader with an \"Excelling Trajectory\" in its 2026 9-Grid for Cloud HR, crediting it with the most live AI features of any Core Leader it assessed in a European cloud-HR market Fosway says is now being judged on AI actually delivered, not just roadmap promises.",
+          "The same 2026 grid also places SAP as a Strategic Leader with an Excelling Trajectory, alongside Personio and The Access Group as Core Leaders, underlining how crowded and fast-moving the European mid-market cloud-HR segment has become around AI.",
+          "So what: for SuccessFactors programme owners fielding \"why not a lighter European alternative\" questions from the business, Fosway's grid is a useful, vendor-neutral benchmark of how SAP's AI delivery is rated against mid-market European challengers on performance, cost of ownership and trajectory."
+        ],
+        "fr": [
+          "Le cabinet Fosway Group a désigné HiBob « Core Leader » avec une « trajectoire excellente » dans son 9-Grid 2026 pour le Cloud HR, lui attribuant le plus grand nombre de fonctionnalités IA réellement disponibles parmi les Core Leaders évalués, sur un marché européen du cloud HR que Fosway juge désormais jugé sur l'IA effectivement livrée, et non plus sur de simples promesses de feuille de route.",
+          "Cette même grille 2026 place également SAP en « Strategic Leader » avec une trajectoire excellente, aux côtés de Personio et de The Access Group classés Core Leaders, illustrant à quel point le segment européen du mid-market cloud HR est devenu dense et mouvant autour de l'IA.",
+          "Point pratique : pour les responsables de programmes SuccessFactors confrontés aux questions du métier sur d'éventuelles alternatives européennes plus légères, la grille de Fosway offre un repère neutre et indépendant pour comparer le positionnement IA de SAP face à ces challengers du mid-market, sur la performance, le coût total de possession et la trajectoire."
+        ]
+      }
+    },
+    {
+      "title": "UNLEASH 2026 Hits Record Growth in Paris as AI Triggers Major Investments in Work and HR",
+      "url": "https://www.placera.se/pressmeddelanden/unleash-2026-hits-record-growth-in-paris-as-ai-triggers-major-investments-in-work-and-hr-20261014",
+      "source": "UNLEASH",
+      "date": "2026-10-14",
+      "summary": {
+        "en": [
+          "UNLEASH's Paris 2026 edition (20-22 October) drew a record roughly 8,500 HR, work and technology leaders from 140 countries, with organisers framing the scale itself as evidence that AI is now driving \"major investments in work and HR,\" not just pilot budgets.",
+          "The programme's centrepiece was an exclusive Josh Bersin Company masterclass setting out an \"HR 2030\" blueprint for what an agentic HR function looks like, alongside headliners including L'Oréal CEO Nicolas Hieronimus, reflecting how mainstream agentic-AI planning has become for large employers.",
+          "So what: the record turnout and C-suite headliners are a market-momentum signal worth citing when building the business case for AI investment inside a SuccessFactors or Workday programme — budget holders are increasingly seeing peers commit at this scale, not just vendors promoting it."
+        ],
+        "fr": [
+          "L'édition parisienne d'UNLEASH 2026 (20-22 octobre) a réuni un nombre record d'environ 8 500 responsables RH, du travail et de la technologie venus de 140 pays, les organisateurs présentant cette ampleur elle-même comme la preuve que l'IA déclenche désormais des « investissements majeurs dans le travail et les RH », et non plus seulement des budgets pilotes.",
+          "Le temps fort du programme a été une masterclass exclusive de la Josh Bersin Company présentant un plan directeur « HR 2030 » décrivant ce à quoi ressemble une fonction RH agentique, aux côtés d'intervenants vedettes dont le PDG de L'Oréal Nicolas Hieronimus, signe que la planification de l'IA agentique est désormais un sujet grand public pour les grands employeurs.",
+          "Point pratique : cette affluence record et la présence de dirigeants de premier plan constituent un signal de dynamique de marché à citer pour construire le dossier d'investissement IA au sein d'un programme SuccessFactors ou Workday — les décideurs budgétaires voient désormais leurs pairs s'engager à cette échelle, et non plus seulement les éditeurs en faire la promotion."
+        ]
+      }
+    },
+    {
+      "title": "Second Half 2026 Release: What's New in SAP SuccessFactors HCM",
+      "url": "https://community.sap.com/t5/human-capital-management-blog-posts-by-sap/second-half-2026-release-what-s-new-in-sap-successfactors-hcm/ba-p/14509247",
+      "source": "SAP Community",
+      "date": "2026-10-12",
+      "summary": {
+        "en": [
+          "SAP's 2H 2026 SuccessFactors release, previewed from 12 October ahead of production go-live on 13-14 November, adds AI assistants across HR operations, payroll and learning, AI-assisted integration insights in Execution Manager, and a new Organizational Modeling capability in Employee Central that lets teams run structural-change simulations with role-based access.",
+          "The release also tightens operational detail that matters for admins: automatic shift assignment in Time Tracking, automated routing of internal hires from SmartRecruiters into Onboarding and Employee Central, and six changes to Role-Based Permissions that SAP flags for review before go-live, alongside new ISO 27701 and ISO 42001 certifications.",
+          "So what: with six RBP changes landing at once and a hard production date of 13-14 November, SuccessFactors programme teams have a narrow window to validate permission and security-role impacts in preview before go-live, rather than discovering access issues in production."
+        ],
+        "fr": [
+          "La release 2H 2026 de SAP SuccessFactors, disponible en prévisualisation depuis le 12 octobre avant sa mise en production le 13-14 novembre, ajoute des assistants IA pour les opérations RH, la paie et la formation, des informations d'intégration assistées par IA dans Execution Manager, ainsi qu'une nouvelle fonctionnalité de modélisation organisationnelle dans Employee Central permettant de simuler des changements structurels avec accès basé sur les rôles.",
+          "La release apporte aussi des évolutions opérationnelles concrètes pour les administrateurs : affectation automatique des plannings dans Time Tracking, routage automatisé des recrutements internes depuis SmartRecruiters vers Onboarding et Employee Central, et six changements des permissions basées sur les rôles (RBP) que SAP recommande de vérifier avant la mise en production, en plus de nouvelles certifications ISO 27701 et ISO 42001.",
+          "Point pratique : avec six changements de RBP qui arrivent simultanément et une date de production ferme au 13-14 novembre, les équipes de programme SuccessFactors disposent d'une fenêtre courte pour valider en prévisualisation l'impact sur les permissions et les rôles de sécurité, plutôt que de découvrir des problèmes d'accès une fois en production."
+        ]
+      }
+    },
+    {
+      "title": "Gartner Says CHROs' Top Priorities for 2027 Focus on Meeting CEOs' Expectations While Minimizing Organizational Risk",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-6-gartner-says-chros-top-priorities-for-2027-focus-on-meeting-ceos-expectations-while-minimizing-organizational-risk",
       "source": "Gartner",
-      "date": "2026-10-27",
+      "date": "2026-10-06",
       "summary": {
         "en": [
-          "At its HR Symposium/Xpo in Orlando, Gartner said capability gaps among C-suite leaders are now every organisation's biggest risk, and argued CHROs are best placed to close them given their cross-organisation view of the workforce.",
-          "Gartner reported that 77% of board members expect AI to deliver productivity gains and cost savings, yet only 3% of organisations are actually exceeding their cost-savings goals from AI-driven productivity, a gap analysts linked to rising AI spend after earlier Symposium sessions found almost 40% of companies already over budget on AI.",
-          "So what: with board expectations on AI ROI running well ahead of delivery, SuccessFactors and Workday programme sponsors should be ready to show board-level stakeholders a credible, measured link between AI-enabled HR capability and actual productivity or cost outcomes, not just adoption metrics."
+          "Speaking at Gartner's HR Symposium/Xpo in London, VP Analyst Mark Whittle framed CHROs' top priority for 2027 as balancing CEO expectations on AI-driven productivity against rising organisational risk, citing a Gartner survey of 297 CHROs taken in July 2026.",
+          "The standout finding: only 24% of leadership teams agree on who is actually accountable when an AI agent acts, a governance gap Gartner links directly to the pace at which organisations are handing agents real workflow authority.",
+          "So what: before extending agentic features further inside SuccessFactors or Workday, programme sponsors should be able to name, in writing, who on the leadership team owns accountability for each agent's actions — Gartner's data suggests three in four organisations currently can't."
         ],
         "fr": [
-          "Lors de son HR Symposium/Xpo à Orlando, Gartner a indiqué que les lacunes de compétences au sein des comités de direction constituent désormais le plus grand risque pour toute organisation, estimant que les DRH sont les mieux placés pour les combler grâce à leur vision transverse de l'ensemble des effectifs.",
-          "Gartner rapporte que 77 % des membres de conseils d'administration attendent de l'IA des gains de productivité et des économies de coûts, alors que seulement 3 % des organisations dépassent réellement leurs objectifs d'économies grâce à la productivité liée à l'IA — un écart que les analystes relient à la hausse des dépenses IA, des sessions antérieures du Symposium ayant déjà relevé que près de 40 % des entreprises dépassent leur budget IA.",
-          "Point pratique : les attentes des conseils d'administration sur le retour sur investissement de l'IA dépassant largement les résultats obtenus, les sponsors de programmes SuccessFactors et Workday doivent être prêts à présenter aux instances dirigeantes un lien crédible et mesuré entre les capacités RH activées par l'IA et des résultats réels de productivité ou de coûts, et non de simples indicateurs d'adoption."
-        ]
-      }
-    },
-    {
-      "title": "Highlights from Day 3 of HR Tech: Anthropic, Pitchfest and more",
-      "url": "https://hrexecutive.com/highlights-from-day-3-of-hr-tech-anthropic-pitchfest-and-more/",
-      "source": "Human Resource Executive",
-      "date": "2026-10-23",
-      "summary": {
-        "en": [
-          "Closing out HR Tech 2026 in Las Vegas, Anthropic's head of people products, Mike Boufford, told attendees that recruiting automation only pays off if HR teams redeploy the time it frees up, for example into more real conversations with candidates, rather than simply cutting headcount.",
-          "Boufford said existing HR platforms remain essential for records and compliance even as AI agents take on more process work, and confirmed Anthropic is building partnerships with Workday, Greenhouse and UKG to bring Claude into existing HR systems rather than replace them.",
-          "So what: for SuccessFactors and Workday programme owners, the signal is that AI vendors like Anthropic plan to sit on top of, not instead of, core HCM platforms, reinforcing the case for a clear integration and data-governance layer as more third-party AI assistants seek access to HR systems of record."
-        ],
-        "fr": [
-          "En clôture de HR Tech 2026 à Las Vegas, Mike Boufford, responsable des produits RH chez Anthropic, a expliqué que l'automatisation du recrutement n'est rentable que si les équipes RH réemploient le temps ainsi libéré — par exemple pour davantage d'échanges réels avec les candidats — plutôt que de simplement réduire les effectifs.",
-          "Boufford a indiqué que les plateformes RH existantes restent indispensables pour la gestion des dossiers et la conformité, même si les agents IA prennent en charge une part croissante des processus, et a confirmé qu'Anthropic construit des partenariats avec Workday, Greenhouse et UKG pour intégrer Claude aux systèmes RH existants plutôt que de les remplacer.",
-          "Point pratique : pour les responsables de programmes SuccessFactors et Workday, le signal est que des éditeurs d'IA comme Anthropic entendent se positionner au-dessus des plateformes HCM cœur plutôt qu'à leur place, ce qui renforce la nécessité d'une couche claire d'intégration et de gouvernance des données à mesure que davantage d'assistants IA tiers demandent l'accès aux systèmes RH de référence."
-        ]
-      }
-    },
-    {
-      "title": "Is HR Ready to Hand Over Workflows to AI Agents?",
-      "url": "https://www.shrm.org/in/topics-tools/news/blogs/is-hr-ready-to-hand-over-workflows-to-ai-agents-",
-      "source": "SHRM",
-      "date": "2026-10-23",
-      "summary": {
-        "en": [
-          "SHRM argues that AI agents are shifting HR's use of AI from supporting individual tasks to potentially taking over entire workflow segments, raising the stakes on deciding what can be safely delegated versus what needs a human in the loop.",
-          "The piece says governance has to extend well beyond the underlying AI model to cover permissions, data access, the specific actions an agent can take, escalation routes and audit trails, and that managers need enough AI literacy to understand how agent-run workflows change their teams' day-to-day work.",
-          "So what: before extending agentic features in SuccessFactors or Workday beyond pilot use, programme owners should be able to point to a documented permissions, escalation and audit-trail model for each workflow segment being handed to an agent, not just to the vendor's own governance claims."
-        ],
-        "fr": [
-          "SHRM estime que les agents IA font passer l'usage de l'IA en RH du simple soutien à des tâches isolées à une possible prise en charge de segments entiers de processus, ce qui accroît l'enjeu du choix de ce qui peut être délégué en toute sécurité et de ce qui nécessite un contrôle humain.",
-          "L'article souligne que la gouvernance doit dépasser largement le seul modèle d'IA sous-jacent pour couvrir les autorisations, l'accès aux données, les actions précises qu'un agent peut effectuer, les voies d'escalade et les pistes d'audit — et que les managers doivent disposer d'une culture IA suffisante pour comprendre comment ces flux pilotés par des agents transforment le travail quotidien de leurs équipes.",
-          "Point pratique : avant d'étendre les fonctionnalités agentiques de SuccessFactors ou Workday au-delà de pilotes, les responsables de programme doivent pouvoir présenter, pour chaque segment de processus confié à un agent, un modèle documenté d'autorisations, d'escalade et de piste d'audit, et non se contenter des seules garanties de gouvernance de l'éditeur."
-        ]
-      }
-    },
-    {
-      "title": "Workday Rising 2026: Bhusri buys C1.ai to govern AI agents as Sana takes over the home screen",
-      "url": "https://itwire.com/business-it-news/data/workday-rising-2026-bhusri-buys-c1-ai-to-govern-ai-agents-as-sana-takes-over-the-home-screen",
-      "source": "iTWire",
-      "date": "2026-10-13",
-      "summary": {
-        "en": [
-          "At Workday Rising 2026 (Las Vegas, 12-15 October), Workday positioned Sana as the new \"front door\" to the platform: Sana becomes Workday Home, where employees see outstanding approvals and tasks and ask in natural language for agents to complete HR and finance work.",
-          "Workday unveiled a \"headless\" Trusted Agent Platform and a new Workday Data Cloud that open the HR/finance system of record directly to AI agents, announced a partnership putting Sana inside Anthropic's Claude via the Model Context Protocol, and agreed to acquire C1.ai, an agentic-identity platform, to govern which agents and people can act and with what permissions.",
-          "So what: Workday said AI already accounts for more than a quarter of new annual contract value and that over 5,500 customers run a Workday-built agent; SuccessFactors and Workday programme owners should treat agent identity, permissions and audit trails, not just the agents themselves, as the next governance decision to get ahead of."
-        ],
-        "fr": [
-          "Lors de Workday Rising 2026 (Las Vegas, 12-15 octobre), Workday a positionné Sana comme la nouvelle « porte d'entrée » de la plateforme : Sana devient Workday Home, où les salariés voient leurs approbations et tâches en attente et peuvent demander en langage naturel à des agents d'exécuter des tâches RH et finance.",
-          "Workday a dévoilé une Trusted Agent Platform « headless » et un nouveau Workday Data Cloud ouvrant directement le system of record RH/finance aux agents IA, annoncé un partenariat intégrant Sana à Claude d'Anthropic via le Model Context Protocol, et conclu un accord pour acquérir C1.ai, une plateforme d'identité agentique, afin de définir quels agents et quelles personnes peuvent agir, et avec quelles autorisations.",
-          "Point pratique : Workday affirme que l'IA représente déjà plus d'un quart de la nouvelle valeur contractuelle annuelle et que plus de 5 500 clients utilisent un agent construit sur Workday — les responsables de programmes SuccessFactors et Workday doivent désormais traiter l'identité des agents, les permissions et les pistes d'audit, et non les seuls agents, comme le prochain enjeu de gouvernance à anticiper."
-        ]
-      }
-    },
-    {
-      "title": "SAP Rolls Out Joule Work and New Assistants, With Most Arriving by Early 2027",
-      "url": "https://erp.today/at-sap-connect-sap-expands-joule-across-every-line-of-business/",
-      "source": "ERP Today",
-      "date": "2026-10-07",
-      "summary": {
-        "en": [
-          "At SAP Connect in Las Vegas on 6 October, SAP framed its \"Autonomous Enterprise\" vision around a new Joule Work interface, additional role-based Joule Assistants and the SAP Business AI Platform; CEO Christian Klein said the next day that Joule Work itself would roll out to all customers that same month.",
-          "Most of the newly announced Joule Assistants and agents are scheduled to arrive in phases from October 2026 through the first quarter of 2027, with several finance-specific assistants initially limited to an Early Adopter Care programme rather than general availability.",
-          "So what: SAP says every Joule Assistant acts only within a customer's existing authorisations and audit trails, with autonomy levels set by the customer; SuccessFactors and S/4HANA programme owners should use this staggered rollout to pilot governance controls on lower-risk HR assistants before broader agentic features reach general availability."
-        ],
-        "fr": [
-          "Lors de SAP Connect à Las Vegas le 6 octobre, SAP a présenté sa vision de l'« entreprise autonome » autour d'une nouvelle interface Joule Work, d'assistants Joule supplémentaires basés sur les rôles et de la SAP Business AI Platform ; dès le lendemain, le PDG Christian Klein a annoncé que Joule Work serait déployé auprès de tous les clients dès ce même mois.",
-          "La plupart des nouveaux assistants et agents Joule annoncés doivent arriver par phases d'octobre 2026 au premier trimestre 2027, plusieurs assistants dédiés à la finance étant pour l'instant réservés à un programme d'adoption anticipée (Early Adopter Care) plutôt qu'à une disponibilité générale.",
-          "Point pratique : SAP indique que chaque assistant Joule n'agit que dans le cadre des autorisations et pistes d'audit existantes du client, le niveau d'autonomie étant défini par celui-ci — les responsables de programmes SuccessFactors et S/4HANA devraient profiter de ce déploiement échelonné pour tester les contrôles de gouvernance sur des assistants RH à moindre risque avant que des fonctionnalités agentiques plus larges n'atteignent la disponibilité générale."
+          "Lors du Gartner HR Symposium/Xpo de Londres, l'analyste VP Mark Whittle a présenté la priorité numéro un des DRH pour 2027 comme un équilibre entre les attentes des PDG en matière de productivité portée par l'IA et un risque organisationnel croissant, en s'appuyant sur une enquête Gartner menée en juillet 2026 auprès de 297 DRH.",
+          "Le résultat marquant : seuls 24 % des comités de direction s'accordent sur qui est réellement responsable lorsqu'un agent IA agit — un écart de gouvernance que Gartner relie directement à la rapidité avec laquelle les organisations délèguent une autorité réelle sur leurs processus à des agents.",
+          "Point pratique : avant d'étendre davantage les fonctionnalités agentiques au sein de SuccessFactors ou de Workday, les sponsors de programme devraient pouvoir désigner, par écrit, qui au sein du comité de direction porte la responsabilité des actions de chaque agent — les données de Gartner suggèrent que trois organisations sur quatre en sont aujourd'hui incapables."
         ]
       }
     }
